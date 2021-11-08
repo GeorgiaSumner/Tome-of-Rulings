@@ -854,127 +854,127 @@ const cardData = [
     name: "Red in the Ledger",
     ruling:
       "\nYou may only play Red in the Ledger in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n The affected player can still play and activate instant and reaction cards as they are not actions.\n\u203B\n Multiple action points do not get around this ability. The affected player may only play or activate 1 action even if they have additional action points.\n\u203B\n Actions played as though they were an instant still count as action cards. Playing an action as though it was an instant does not get around Red in the Ledgers ability.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+    cardImage: require("./images/RedInTheLedger.png"),
   },
   {
     name: "Ridge Rider Shot",
     ruling:
       "\nRidge Rider Shot must be placed into your arsenal face up, turning a face down Ridge Rider Shot in arsenal face up will not grant the bonus.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+    cardImage: require("./images/RidgeRiderShot.png"),
   },
   {
     name: "Salvage Shot",
     ruling:
       "\nSalvage Shot is still considered an attack that hit and a chain link on the combat chain even when it is put on the bottom of your deck.\n\u203B\n Putting Salvage Shot on the bottom of your deck is not optional.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+    cardImage: require("./images/SalvageShot.png"),
   },
   {
     name: "Searing Shot",
     ruling:
       "\nThe green symbol on Searing Shot is a hero's life.\n\u203B\n The loss of life cannot be defended or prevented.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+    cardImage: require("./images/SearingShot.png"),
   },
   {
     name: "Silver the Tip",
     ruling:
       "\nIf you have a card in arsenal, Silver the Tip can still be played, however it will not do anything beyond replenishing your action point from go again.\n\u203B\n You do not look at the top 2/3/4 cards if you have a card in arsenal.\n\u203B\n You do not have to put an arrow card into your arsenal.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+    cardImage: require("./images/SilverTheTip.png"),
   },
   {
     name: "Take Cover",
     ruling:
       "\nYou may still play Take Cover with an arsenal in play.\n\u203B\n If you play Take Cover from your arsenal, you may reload when Take Cover resolves.\n\u203B\n Take Cover’s reload happens before damage calculation so you may play the card you reloaded from arsenal before damage calculation. For example you may reload another defense reaction and play that to the same chain link you played Take Cover.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+    cardImage: require("./images/TakeCover.png"),
   },
   {
     name: "Three of a Kind",
     ruling:
       "\nYou still need to pay the cost and action points to play cards out of your arsenal.\n\u203B\n You cannot play any cards except cards from arsenal, this includes cards from hand, banished zone or deck.\n\u203B\n The restriction applies to all card types. You cannot play instants or attack reactions unless they are played from your arsenal.\n\u203B\n You may still activate cards, such as weapons, equipment, hero abilities, and items.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+    cardImage: require("./images/ThreeOfAKind.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Viserai",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nViserai's hero ability is not once per turn. You can create multiple Runechants in a single turn with his ability.\n\u203B\n The non-attack action card does not have to be a Runeblade card.\n\u203B\n The following are counted as Runeblade cards: Runeblade attack action, Runeblade action, Runeblade Instant, Runeblade attack reaction and Runeblade defense reaction.",
+    cardImage: require("./images/Viserai.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Nebula Blade",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nNebula Blade can only get the power bonus once per turn even if you played multiple ‘non-attack’ action cards.\n\u203B\n If you play a ‘non-attack’ action card after you’ve attacked with Nebula Blade but before it does damage, it will still get the power bonus.",
+    cardImage: require("./images/NebulaBlade.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Grasp of the Arknight",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nThe cost checks how many runechant tokens you have at the time you activate it, it does not include the runechant token you are about to make.\n\u203B\n You cannot use this ability if you cannot pay the required costs. (You cannot sink resources into this if you cannot pay the full cost)",
+    cardImage: require("./images/GraspOfTheArknight.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Crown of Dichotomy",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nThis requires an action point to activate. It does not have go again.\n\u203B\n You must have two legal targets in order to use this.\n\u203B\n If one of the targets becomes illegal before resolution, it will still put the other target on top of the deck.",
+    cardImage: require("./images/CrownOfDichotomy.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Arknight Ascendancy",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nYou may only play Arknight Ascendancy in your deck if your hero is Viserai, Rune Blood or Viserai (young hero).\n\u203B\n Dominate means the defending player cannot defend Arknight Ascendency with more than 1 card from their hand.",
+    cardImage: require("./images/ArknightAscendency.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Become the Arknight",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nYou choose the mode at the time you play the card.\n\u203B\n Discarding the card happens on resolution of the of the card. If you cannot or choose not to discard a card, the effect will not resolve.\n\u203B\n You may elect not to put a card into your hand. If you do, you still shuffle your deck.\n\u203B\n You may not discard a non-action card, such as an instant.\n\u203B\n You cannot discard more than one card.",
+    cardImage: require("./images/BecomeTheArknight.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Bloodspill Invocation",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nDamage from attacks and arcane damage both count as being dealt damage.\n\u203B\n If Bloodspill Invocation triggers but is destroyed before the resolution, it will still create the tokens. This is because the clause is not tied into being destroyed. (Not an “If you do”.)",
+    cardImage: require("./images/BloodspillInvocation.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Mordred Tide",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nAn additional one Runechant is created for the entire effect creating Runechants. For example if you were to make three Runechant tokens from a single effect, it would instead create four.\n\u203B\n Multiple Mordred Tide effects will result in that many additional Runechants being created.\n\u203B\n If playing Mordred Tide would trigger Viserai’s ability, it would not create an additional Runechant as Mordred Tide would not have resolved by the time Viserai’s ability has.",
+    cardImage: require("./images/MordredTide.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Oath of the Arknight",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nThis affects all types of Runeblade attacks including Runeblade Weapon attacks.",
+    cardImage: require("./images/OathOfTheArknight.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Read the Runes",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nRead the Runes is an action and requires an action point to play. It does not have go again.",
+    cardImage: require("./images/ReadTheRunes.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Reduce to Runechant",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nSince defense reactions can’t defend in the defending window and must be played in the reaction window, you must pay Reduce to Runechant’s cost to play it.\n\u203B\n The Runechant Reduce to Runechant creates is not counted when calculating the reduction.\n\u203B\n Effects that increase cost are applied first, then effects that reduce costs. If a card increases the cost of Reduce to Runechant, if you control enough Runechants the cost of Reduce to Runechant can still be 0.",
+    cardImage: require("./images/ReduceToRunechant.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Spellblade Assault",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nThe Runechant tokens created do not trigger or get destroyed by Spellblade Assault, as it is already played at the point the Runechant tokens are created.",
+    cardImage: require("./images/SpellbladeAssault.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Spellblade Strike",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nThe Runechant token created does not trigger or get destroyed by Spellblade Strike, as it's already played at the point the Runechant token is created.",
+    cardImage: require("./images/SpellbladeStrike.png"),
   },
   {
-    name: "Nock the Deathwhistle",
+    name: "Tome of the Arknight",
     ruling:
-      "\nYou may only play Nock the Deathwhistle in your deck if your hero is Azalea, Ace in the Hole or Azalea (young hero).\n\u203B\n You may elect not to put a card on the top of your deck, you still must shuffle your deck after.",
-    cardImage: require("./images/NockTheDeathWhistle.png"),
+      "\nIf the revealed cards do not meet the criteria, they are returned to the top of the deck in the same order.\n\u203B\n Instants, attack reactions, defense reactions and resources are not ‘non-attack’ action cards.",
+    cardImage: require("./images/TomeOfTheArknight.png"),
   },
 ];
 
