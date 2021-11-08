@@ -976,6 +976,96 @@ const cardData = [
       "\nIf the revealed cards do not meet the criteria, they are returned to the top of the deck in the same order.\n\u203B\n Instants, attack reactions, defense reactions and resources are not ‘non-attack’ action cards.",
     cardImage: require("./images/TomeOfTheArknight.png"),
   },
+  {
+    name: "Kano",
+    ruling:
+      "\nIf the card has go again you gain an action point when the card resolves. Note: You cannot gain an action point on an opponent's turn.\n\u203B\n The card is banished face up.\n\u203B\n You do not have to play the card immediately. You may play it anytime during the turn you banished it as long as you have priority.\n\u203B\n The card remains in the banished zone face up if it is not played before end of turn.",
+    cardImage: require("./images/Kano.png"),
+  },
+  {
+    name: "Crucible of Aetherweave",
+    ruling:
+      "\nYou cannot attack with this weapon.\n\u203B\n If the next card you play does not have an effect that deals arcane damage, it will not count and the next card with an effect that deals arcane damage will be affected still.\n\u203B\n You must activate this before playing the card in order for the card to gain the bonus.",
+    cardImage: require("./images/CrucibleOfAetherweave.png"),
+  },
+  {
+    name: "Storm Striders",
+    ruling:
+      "\nYou may have multiple instances of arcane barrier.\n\u203B\n You must pay {r}{r} to prevent arcane damage even if only one point of arcane damage would be prevented.\n\u203B\n The prevention does not carry over even if you only prevent one arcane damage.\n\u203B\n When this card is destroyed, it is sent to your graveyard.",
+    cardImage: require("./images/StormStriders.png"),
+  },
+  {
+    name: "Robe of Rapture",
+    ruling:
+      "\nThis requires an action to activate. This does not have go again.",
+    cardImage: require("./images/RobeOfRapture.png"),
+  },
+  {
+    name: "Absorb in Aether",
+    ruling:
+      "\nSince defense reactions can’t defend in the defending window and must be played in the reaction window, you must pay Absorb in Aether’s cost to play it.\n\u203B\n The card must be played during your opponent’s turn after Absorb in Aether resolves to gain the buff.\n\u203B\n You cannot play this card during your own turn or without an attack to defend during the reaction window.",
+    cardImage: require("./images/AbsorbInAether.png"),
+  },
+  {
+    name: "Aether Flare",
+    ruling:
+      "\nAether Flare does not have go again. The next card you play that benefits from this effect would require an action point or be played as an instant.\n\u203B\n If the next card you play does not have an effect that deals arcane damage, it will not gain this modifier however the next card played this turn that has an effect that deals arcane damage will still gain the bonus.",
+    cardImage: require("./images/AetherFlare.png"),
+  },
+  {
+    name: "Aether Spindle",
+    ruling:
+      "\nYou do not Opt if Aether Spindle does not deal arcane damage.\n\u203B\n You cannot respond to the ability after it has done damage but before the opt. This is because Aether Spindle does not create a trigger on dealing damage.",
+    cardImage: require("./images/AetherSpindle.png"),
+  },
+  {
+    name: "Blazing Aether",
+    ruling:
+      "\nYou may only play Blazing Aether in your deck if your hero is Kano, Dracai of Aether or Kano (young hero).",
+    cardImage: require("./images/BlazingAether.png"),
+  },
+  {
+    name: "Forked Lightning",
+    ruling:
+      "\nModifiers will affect both damage effects. For example if the next arcane damage would deal plus one, Forked Lightning would deal 3 arcane damage twice thus dealing 6 arcane damage total.\n\u203B\n Arcane barrier 1 can only stop one arcane damage from Forked Lightning, as it's considered a single source of damage.",
+    cardImage: require("./images/ForkedLightning.png"),
+  },
+  {
+    name: "Index",
+    ruling:
+      "\nYou must select one card to put on the top of your deck. (Provided there is at least one card to look at.)\n\u203B\n You can play this if there is less than the number of cards in your deck. You would look at as many as you can. For example if you only have 2 cards in deck, you would look at both of them and select one to put on the top of your deck.\n\u203B\n This is an action and requires an action point to play. Index does not have go again.",
+    cardImage: require("./images/Index.png"),
+  },
+  {
+    name: "Lesson in Lava",
+    ruling:
+      "\nYou may only play Lesson in Lava in your deck if your hero is Kano, Dracai of Aether or Kano (young hero).\n\u203B\n You must deal damage with Lesson in Lava to search your deck. You cannot search for a 0 cost if Lesson in Lava did not deal damage.\n\u203B\n You may elect not to put a card on top of your deck, you still must shuffle your deck after.\n\u203B\n The resource cost is located in the top right corner of a card.",
+    cardImage: require("./images/LessonInLava.png"),
+  },
+  {
+    name: "Reverberate",
+    ruling:
+      "\nIf you do not play the banished card, it stays in the banished zone.\n\u203B\n The resource cost is located in the top right corner of a card.",
+    cardImage: require("./images/Reverberate.png"),
+  },
+  {
+    name: "Sonic Boom",
+    ruling:
+      "\nIf you do not play the banished card, it stays in the banished zone.\n\u203B\n If the card is reduced by more than the card's resource cost, it will cost 0 to play. The cost cannot be negative.\n\u203B\n You cannot respond to the ability after it has done damage but before the rest of the card has resolved. This is because Sonic boom does not create a trigger on dealing damage.",
+    cardImage: require("./images/SonicBoom.png"),
+  },
+  {
+    name: "Stir the Aetherwinds",
+    ruling:
+      "\nThis affects the next wizard non-attack action then checks if it has an effect that deals arcane damage. Even if the next wizard non-attack action can’t do arcane damage, the damage modifier effect will not carry over.",
+    cardImage: require("./images/StirTheAetherwinds.png"),
+  },
+  {
+    name: "Tome of Aetherwind",
+    ruling:
+      "\nYou may choose the same mode more than once\n\u203B\n If you choose the first mode twice, the next card you play with an effect that deals arcane damage, instead deals that much arcane damage plus 2.\n\u203B\n Tome of Aetherwind is an action and requires an action point. It does not have go again.",
+    cardImage: require("./images/TomeOfAetherwind.png"),
+  },
 ];
 
 export default cardData;
