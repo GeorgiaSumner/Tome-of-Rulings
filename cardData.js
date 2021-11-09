@@ -1066,6 +1066,275 @@ const cardData = [
       "\nYou may choose the same mode more than once\n\u203B\n If you choose the first mode twice, the next card you play with an effect that deals arcane damage, instead deals that much arcane damage plus 2.\n\u203B\n Tome of Aetherwind is an action and requires an action point. It does not have go again.",
     cardImage: require("./images/TomeOfAetherwind.png"),
   },
+  {
+    name: "Benji",
+    ruling:
+      "\nBenji looks at the current power of the attack action, not the base power.\n\u203B\n If an attack reaction raises the power to beyond 2, the attack can then be defended by cards in hand, however since the defending window would already have been passed, the defending player would only be able to use defense reactions at this point.\n\u203B\n The +1{p} is not optional. It does affect weapon attacks.",
+    cardImage: require("./images/Benji.png"),
+  },
+  {
+    name: "Data Doll MKII",
+    ruling:
+      "\nData Doll has 3 intellect, that means you only draw up to 3 cards (instead of the more common 4) when you start the game and draw up to your intellect at the end of your turn.\n\u203B\n This is not a Once per Turn effect. Every mechanologist item with cost 2 or less that is put into your banished zone from your deck is put into the arena. This effect is not optional.",
+    cardImage: require("./images/DataDoll.png"),
+  },
+  {
+    name: "Ira",
+    ruling:
+      "\nIra, Crimson Haze now has the sub-type young. (Previous editions errata’d to “Ninja Hero - Young” [IRA001-P] [HER000-P])\n\u203B\n The second attack does not need to be in the same combat chain.\n\u203B\n The second attack can be a weapon or attack action.\n\u203B\n This ability is passive, there is no choice in the power bonus.",
+    cardImage: require("./images/Ira.png"),
+  },
+  {
+    name: "Kassai",
+    ruling:
+      "\nThis will trigger even if you only hit with one weapon attack as long as you attacked 2 or more times with weapons this turn.\n\u203B\n Attacking with the same weapon twice still counts as attacking 2 times with weapons.",
+    cardImage: require("./images/Kassai.png"),
+  },
+  {
+    name: "Kavdaen",
+    ruling:
+      "\nKavdeen is a Merchant Hero meaning his deck can only contain Merchant cards and generic cards.\n\u203B\n The green symbol on Kavdaen is life.\n\u203B\n The second clause of gaining life is checked after the first clause, therefore if the life loss causes both heroes to be the same life, then no life will be gained from the second part of the ability.",
+    cardImage: require("./images/Kavdaen.png"),
+  },
+  {
+    name: "Kayo",
+    ruling:
+      "\nThis ability is not optional.\n\u203B\n Base power is the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n The number is rounded down after being halved for example 7 becomes 3 and 9 becomes 4.",
+    cardImage: require("./images/Kayo.png"),
+  },
+  {
+    name: "Shiyana",
+    ruling:
+      "\nWhen Shiyana copies a hero, it does not change the amount of damage she has taken. For example, if Shiyana has taken 16 damage while at 20 life, then copies a hero that has 15 base life, she will lose the game due to having taken equal or more damage than her life.\n\u203B\n You may play the specialization cards regardless of what hero you are. You do not need to be Shiyana or the respective hero to play them. (Only to have them in your deck)\n\u203B\n This effect is mandatory. Shiyana must target a hero and become a copy of that hero. (Shiyana can target herself which would turn all her cards into Shapeshifter cards)\n\u203B\n Only Shapeshifter, Generic, and cards with the specialization keyword may be added to your deck if Shiyana is your hero.",
+    cardImage: require("./images/Shiyana.png"),
+  },
+  {
+    name: "Aether Conduit",
+    ruling:
+      "\nYou cannot attack with this weapon.\n\u203B\n You require an action point to use this action. It does not have go again.\n\u203B\n Modifiers that affect the next card you play do not effect this as Aether Conduit is an activated ability, not a card being played.",
+    cardImage: require("./images/AetherConduit.png"),
+  },
+  {
+    name: "Cintari Saber",
+    ruling:
+      "\nIf Cintari Saber is defended by multiple attack action cards it would still only gain +1{p}.\n\u203B\n You may start the game with up to two Cintari Sabers in play as they are 1H.\n\u203B\n When a card references its own card name it only affects the actual card. For example when an attack action card defends a Cintari Saber only the Cintari Saber that was defended gains +1{p] not all Cintari Sabers.",
+    cardImage: require("./images/CintariSaber.png"),
+  },
+  {
+    name: "Talishar, the Lost Prince",
+    ruling:
+      "\nYou reveal what weapon you are using at the same time you reveal equipment and present your deck. (After heroes are revealed and pre-game procedure is done).\n\u203B\n When this card is destroyed, it is sent to your graveyard.\n\u203B\n Putting the rust counter on Talishar is part of the cost.\n\u203B\n This is a Generic Weapon and any class can start with this weapon in play. (Provided it’s part of your 80 cards you submitted)",
+    cardImage: require("./images/Talishar.png"),
+  },
+  {
+    name: "Plasma Barrel Shot",
+    ruling:
+      "\nYou may use the second ability even if it already has one or more steam counters on it, however it will not put a steam counter on it.\n\u203B\n Non-attack actions such as putting a steam counter on Plasma Barrel Shot requires an empty combat chain. Note: It is recommended to put a steam counter on Plasma Barrel Shot before attacking with attack actions.",
+    cardImage: require("./images/PlasmaBarrelShot.png"),
+  },
+  {
+    name: "Reaping Blade",
+    ruling:
+      "\nThe green symbol on Reaping Blade is life.\n\u203B\n This applies to all players, including the controller of Reaping Blade.\n\u203B\n If player A is on 18 life and player B is on 17 life and tries to gain 3 life, they will gain the full 3 life even though it would put them above player A’s life.\n\u203B\n Players can still play cards and effects that gain life however life would not be gained if they have more {h} than any other hero.",
+    cardImage: require("./images/ReapingBlade.png"),
+  },
+  {
+    name: "Mandible Claw",
+    ruling:
+      "\nEffects that modify the power of “cards you control” are not applied to a card discarded from hand. (Cards you control are cards in the arena, on the chain, equipment, weapons, and hero.)\n\u203B\n You may start the game with up to two Mandible Claw in play as they are 1H.",
+    cardImage: require("./images/MandibleClaw.png"),
+  },
+  {
+    name: "Zephyr Needle",
+    ruling:
+      "\nThe ability triggers at the time a card defends. If the trigger resolves but later the power of Zephyr Needle is greater than the defense value of the defending card, Zephyr Needle would still be destroyed when the combat chain closes.\n\u203B\n If the triggered ability is responded to, e.g. with an attack reaction that will make Zephyr Needle’s power greater than the defense value of the defending card, then Zephyr Needle would not be destroyed when the combat chain closes. Note: You cannot play attack reactions during the defending window.\n\u203B\n You may start the game with up to two Zephyr Needle in play as they are 1H.",
+    cardImage: require("./images/ZephyrNeedle.png"),
+  },
+  {
+    name: "Copper",
+    ruling:
+      "\nCopper is a token and is not part of your deck.\n\u203B\n You can activate as many Copper as you want per turn.\n\u203B\n Copper stays in the arena until destroyed.\nDestroying Copper is part of it’s cost.\n\u203B\n A Copper token may be represented by a small object such as a card sleeve or coin if a Copper token card is not available.",
+    cardImage: require("./images/Copper.png"),
+  },
+  {
+    name: "Runechant",
+    ruling:
+      "\nEach Runechant is its own source and therefore arcane barrier 1 can prevent arcane damage that would be dealt from multiple Runechants, provided you have the resources to pay for the prevention.\n\u203B\n Runechant is a token and is not part of your deck.\n\u203B\n The Runechant token remains in play until destroyed.\n\u203B\n When you play an attack action or attack with a weapon, you must destroy your Runechant auras if the trigger becomes a layer on the chain. It is not optional.\n\u203B\n A Runechant token may be represented by a small object such as a card sleeve or coin if a Runchant aura token card is not available.",
+    cardImage: require("./images/Runechant.png"),
+  },
+  {
+    name: "Quicken",
+    ruling:
+      "\nQuicken is a token and is not part of your deck.\n\u203B\n Quicken stays in the arena until destroyed.\n\u203B\n When you attack with an attack action card or weapon you must destroy Quicken. It is not optional.\n\u203B\n A Quicken token may be represented by a small object such as a card sleeve or coin if a Quicken token card is not available.\n\u203B\n Multiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+    cardImage: require("./images/Quicken.png"),
+  },
+  {
+    name: "Zen State",
+    ruling:
+      "\nZen State is created by the card Find Center.\n\u203B\n Zen State is a token and is not part of your deck. (You can not put this in your deck.)\n\u203B\n Zen State prevents 1 damage each time any source would deal damage to your hero. Zen State can prevent damage from multiple different sources in the same turn.\n\u203B\n Removing a balance counter from Zen State is not optional.",
+    cardImage: require("./images/ZenState.png"),
+  },
+  {
+    name: "Gambler’s Gloves",
+    ruling:
+      "\nYou see the result of the die roll before deciding whether to use Glamber’s Gloves.\n\u203B\n If both players have a Gambler’s Gloves, the turn player decides the order of the triggers that are added to the chain.\n\u203B\n The hero that initially rolled the die is the one who rerolls it, regardless of who’s Gambler’s Gloves was used.\n\u203B\n Gambler’s Gloves can only be used to reroll a die when a card effect instructs a player to roll a 6 sided die. For example, Gambler’s Glove does not trigger if a player uses a 6 sided die to determine which card to randomly discard to Bloodrush Bellow.",
+    cardImage: require("./images/GamblersGloves.png"),
+  },
+  {
+    name: "Cash In",
+    ruling:
+      "\nYou cannot pay a portion of the alternate cost and a portion of resource cost.\n\u203B\n If you choose the alternative cost, you destroy the Coppers, Silvers or Gold as part of the cost and cannot respond to it.",
+    cardImage: require("./images/CashIn.png"),
+  },
+  {
+    name: "Coax a Commotion",
+    ruling:
+      "\nYou choose the modes after this has hit.\n\u203B\n You cannot choose the same mode twice.\n\u203B\n You may choose 0 modes.\n\u203B\n The green symbol on Coax a Commotion is life.",
+    cardImage: require("./images/CoaxACommotion.png"),
+  },
+  {
+    name: "Gorganian Tome",
+    ruling:
+      "\nYou cannot pitch Gorganian Tome as it does not have a pitch value.\n\u203B\n You cannot defend with Gorganian Tome as it does not have a defense value.\n\u203B\n Since Gorganian Tome is not in your graveyard at the time it resolves, it does not count itself.\n\u203B\n If another card’s effect needs to know Gorganian Tome's pitch value, such as Ravenous Rabble, Gorganian Tome is considered to have a pitch value of 0.",
+    cardImage: require("./images/GorganianTome.png"),
+  },
+  {
+    name: "Lunging Press",
+    ruling: "\nYou cannot target a weapon attack with Lunging Press.",
+    cardImage: require("./images/LungingPress.png"),
+  },
+  {
+    name: "Promise of Plenty",
+    ruling:
+      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
+    cardImage: require("./images/PromiseOfPlenty.png"),
+  },
+  {
+    name: "Reinforce the Line",
+    ruling:
+      "\nYou can only target an attack action card that is defending. Cards that defended previous chains on the combat chain are still considered to be defending cards.\n\u203B\n You can target a defending attack action card on a previous chain link. It would not reduce the damage dealt on a chain link that has already resolved.\n\u203B\n You cannot defend with Reinforce the Line as it does not have a defense value.\n\u203B\n You can only play Reinforce the Line if there is a legal target.",
+    cardImage: require("./images/ReinforceTheLine.png"),
+  },
+  {
+    name: "Snag",
+    ruling:
+      "\nYou cannot defend with Snag as it does not have a defense value.\n\u203B\n This does not affect -{p} effects as that is not gaining {p}.\n\u203B\n You may play this anytime you have priority including in response to playing an attack action but before it resolves and becomes attacking on the combat chain.",
+    cardImage: require("./images/Snag.png"),
+  },
+  {
+    name: "Skullhorn",
+    ruling:
+      "\nIf you have no cards in your hand when this ability resolves, you will discard the card you draw.\n\u203B\n There is no priority in between drawing and discarding the card.\n\u203B\n When this card is destroyed, it is sent to your graveyard.\n\u203B\n You must pay {r}{r} to prevent arcane damage even if only one point of arcane damage would be prevented.\n\u203B\n The prevention does not carry over even if you only prevent one arcane damage.",
+    cardImage: require("./images/Skullhorn.png"),
+  },
+  {
+    name: "Argh... Smash!",
+    ruling:
+      "\nYou choose the items after the die has been rolled.\n\u203B\n There is no priority between seeing what number is rolled and the items being destroyed. For example, a player cannot see the result of the dice then elect to use their potion’s instant effects. (Replacement effects that can impact the result of the dice still take place)\n\u203B\n If X is 0, no items would be destroyed. (As a result of rolling a 1)\n\u203B\n The number is rounded down after being halved for example 5 becomes 2 and 3 becomes 1.\n\u203B\n You can elect to destroy 0 items.",
+    cardImage: require("./images/ArghSmash.png"),
+  },
+  {
+    name: "Barraging Big Horn",
+    ruling:
+      "\nYou must have at least one other card in your hand to pay for the additional cost at the time you play Barraging Big Horn.",
+    cardImage: require("./images/BarragingBigHorn.png"),
+  },
+  {
+    name: "Beast Within",
+    ruling:
+      "\nThis effect is not optional.\n\u203B\n The green symbol on Beast Within is life.\n\u203B\n If there are no cards in your deck, you still lose 1{h} and the effect repeats itself. (Resulting in losing the game.)",
+    cardImage: require("./images/BeastWithin.png"),
+  },
+  {
+    name: "Massacre",
+    ruling:
+      "\nMassacre’s effect only works when it’s discarded to a Brute attack action card.\n\u203B\n If you’ve discarded more than one 6 or more {p} card this turn, the +2{p} bonus will only apply once.",
+    cardImage: require("./images/Massacre.png"),
+  },
+  {
+    name: "Swing Fist, Think Later",
+    ruling:
+      "\nYou must have at least one other card in your hand to pay for the additional cost at the time you play Swing Fist, Think Later.",
+    cardImage: require("./images/SwingFistThinkLater.png"),
+  },
+  {
+    name: "Crater Fist",
+    ruling:
+      "\nThis affects all attacks with crush not just the first.\n\u203B\n When this card is destroyed, it is sent to your graveyard.",
+    cardImage: require("./images/CraterFist.png"),
+  },
+  {
+    name: "Blessing of Serenity",
+    ruling:
+      "\nIf you have multiple damage preventions available, you choose which prevention to apply first.\n\u203B\n The prevention does not carry over, if this prevents an attack with {p} less than the amount of damage this would prevent there will be no leftover preventions.\n\u203B\n This effect is compulsory, you must prevent the next {p} damage that would be dealt to you this turn.\n\u203B\n This only affects {p} damage. Loss of life or arcane damage cannot be prevented.\n\u203B\n You cannot defend with Blessing of Serenity as it does not have a defense value.\n\u203B\n Blessing of Serenity is an instant. You may play it anytime you have priority, including during an opponent’s turn, and during the reaction window of either player’s turn.",
+    cardImage: require("./images/BlessingOfSerenity.png"),
+  },
+  {
+    name: "Crush the Weak",
+    ruling:
+      "\nThis looks at the base power of the attack. If there is a modifier, the attack still can’t be played unless the modifier specifically modifies base power.\n\u203B\n Base power is the printed {p} value on the card.\n\u203B\n Cards with 3 or less base {p} can still be pitched.",
+    cardImage: require("./images/CrushTheWeak.png"),
+  },
+  {
+    name: "Chokeslam",
+    ruling:
+      "\nIf an attack action card would gain {p} it instead gains 0{p}.\n\u203B\n You can still play power modifier cards. Attack action cards would just gain 0{p}.\n\u203B\n Attack action cards can still lose {p}.",
+    cardImage: require("./images/Chokeslam.png"),
+  },
+  {
+    name: "Emerging Dominance",
+    ruling:
+      "\nEmerging Dominance must be destroyed at the beginning of your action phase, it is not optional.\n\u203B\n Emerging Dominance does not affect weapon attacks.",
+    cardImage: require("./images/EmergingDominance.png"),
+  },
+  {
+    name: "Mangle",
+    ruling:
+      "\nIf a battleworn equipment with no counters defend this and the defending hero is crushed, you cannot target the equipment as it does not have the -1{d} counter yet\n\u203B\n If an equipment has multiple -1{d} counters on it, you can target it.\n\u203B\n You must destroy an equipment if there is a legal target.",
+    cardImage: require("./images/Mangle.png"),
+  },
+  {
+    name: "Righteous Cleansing",
+    ruling:
+      "\nIf there are less than 5 cards, look at all the cards.\n\u203B\n They can be different pitch costs as long as the card name is exactly the same.\n\u203B\n The defending hero does not get to look at the cards.",
+    cardImage: require("./images/RighteousCleansing.png"),
+  },
+  {
+    name: "Stamp Authority",
+    ruling:
+      "\nThis affects all attack action cards including your own.\n\u203B\n The blue symbol on Stamp Authority is intellect (hand size).\n\u203B\n You can only pitch cards to pay for a cost. You cannot pitch for no reason.\n\u203B\n You draw cards up to your hero’s intellect before end of turn effects wear off.",
+    cardImage: require("./images/StampAuthority.png"),
+  },
+  {
+    name: "Chokeslam",
+    ruling:
+      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
+    cardImage: require("./images/Chokeslam.png"),
+  },
+  {
+    name: "Chokeslam",
+    ruling:
+      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
+    cardImage: require("./images/Chokeslam.png"),
+  },
+  {
+    name: "Chokeslam",
+    ruling:
+      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
+    cardImage: require("./images/Chokeslam.png"),
+  },
+  {
+    name: "Chokeslam",
+    ruling:
+      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
+    cardImage: require("./images/Chokeslam.png"),
+  },
+  {
+    name: "Chokeslam",
+    ruling:
+      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
+    cardImage: require("./images/Chokeslam.png"),
+  },
 ];
 
 export default cardData;
