@@ -1306,34 +1306,268 @@ const cardData = [
     cardImage: require("./images/StampAuthority.png"),
   },
   {
-    name: "Chokeslam",
+    name: "Viziertronic Model i",
     ruling:
-      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
-    cardImage: require("./images/Chokeslam.png"),
+      "\nYou boost the top deck of your deck first, banishing it before drawing a card and putting one back on top.\n\u203B\n You still draw a card even if the boost did not hit a mechanologist card.\n\u203B\n You must pay {r}{r} to prevent arcane damage even if only one point of arcane damage would be prevented.\n\u203B\n The prevention does not carry over even if you only prevent one arcane damage.",
+    cardImage: require("./images/ViziertronicModeli.png"),
   },
   {
-    name: "Chokeslam",
+    name: "Absorption Dome",
     ruling:
-      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
-    cardImage: require("./images/Chokeslam.png"),
+      "\nAbsorption Dome requires an action point to play as it is an action card.\n\u203B\n If you have not boosted this turn, Absorption Dome enters the arena with no stream counters and would be immediately destroyed.\n\u203B\n If you have multiple damage preventions available, you choose which prevention to apply first.\n\u203B\n It is not optional, you cannot choose to take damage instead of removing steam counters and preventing the damage.\n\u203B\n This prevents all types of damage including arcane damage. This does not prevent loss of life.\n\u203B\n You cannot defend with Absorption Dome as it does not have a defense value.",
+    cardImage: require("./images/AbsorptionDome.png"),
   },
   {
-    name: "Chokeslam",
+    name: "Combustible Courier",
     ruling:
-      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
-    cardImage: require("./images/Chokeslam.png"),
+      "\nThe next attack must be on the same combat chain.\n\u203B\n It does not matter if the boost is successful or not.",
+    cardImage: require("./images/CombustibleCourier.png"),
   },
   {
-    name: "Chokeslam",
+    name: "High Speed Impact",
     ruling:
-      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
-    cardImage: require("./images/Chokeslam.png"),
+      "\nThe next attack must be on the same combat chain to gain dominate.\n\u203B\n It does not matter if the boost is successful or not.",
+    cardImage: require("./images/HighSpeedImpact.png"),
   },
   {
-    name: "Chokeslam",
+    name: "Meganetic Shockwave",
     ruling:
-      "\nYou can respond to the ability by playing the card from arsenal (e.g. an instant) to make the arsenal empty before it resolves.",
-    cardImage: require("./images/Chokeslam.png"),
+      "\nIf the defending hero has less than X equipment, they must defend with all the equipment they have that can defend.\n\u203B\n Players can defend with equipment with 0 defense.\n\u203B\n If an equipment is already on the combat chain defending another attack, it cannot also be forced to defend Meganetic Shockwave.",
+    cardImage: require("./images/MeganeticShockwave.png"),
+  },
+  {
+    name: "Plasma Purifier",
+    ruling:
+      "\nPlasma Purifier requires an action point to play as it is an action card.\n\u203B\n You cannot defend with Plasma Purifier as it does not have a defense value.\n\u203B\n You may use the action even if it already has one or more steam counters on it, however it will not put a steam counter on it.\n\u203B\n The pistol keeps the +1{p} until end of turn even if you attack with it multiple times.",
+    cardImage: require("./images/PlasmaPurifier.png"),
+  },
+  {
+    name: "Breeze Rider Boots",
+    ruling:
+      "\nIf you choose to use this, it will give the attack action you hit with go again if it has combo.\n\u203B\n Multiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.\n\u203B\n When this card is destroyed, it is sent to your graveyard.",
+    cardImage: require("./images/BreezeRiderBoots.png"),
+  },
+  {
+    name: "Crane Dance",
+    ruling:
+      "\nYou may defend with cards that aren’t attack action cards, as normal.\n\u203B\n Base power is the printed {p} value on a card. (Located at the bottom left corner of a card)",
+    cardImage: require("./images/CraneDance.png"),
+  },
+  {
+    name: "Find Center",
+    ruling:
+      "\nThe cost of a card is located at the top right corner of a card.\n\u203B\n If a card does not have a cost, such as equipment, Find Center considers its {r} cost to be 0.\n\u203B\n Zen State is an aura with “Zen State enters the arena with 1 balance counter on it. At the beginning of your action phase, destroy Zen State unless you remove a balance counter from it.\n\u203B\n Whenever your hero would be dealt damage, prevent 1 damage that source would deal.”",
+    cardImage: require("./images/FindCenter.png"),
+  },
+  {
+    name: "Flood of Force",
+    ruling:
+      "\nIf it’s not a card with combo, it stays on top of your deck and Flood of Force does not gain +3{p} or go again.\n\u203B\n You do not have to play the card put into your hand straight away. (Or at all, it can be pitched or just remain in your hand)",
+    cardImage: require("./images/FloodOfForce.png"),
+  },
+  {
+    name: "Heron's Flight",
+    ruling:
+      "\nYou choose at the time you play this card.\n\u203B\n Heron’s Flight cannot be defended by equipment, instants, or reaction cards.\n\u203B\n Defense reactions become a defending card when played. You cannot defend Heron’s Flight with defense reactions if Crane Dance was the last attack this combat chain. (You cannot play the defense reaction)",
+    cardImage: require("./images/HeronsFlight.png"),
+  },
+  {
+    name: "Rushing River",
+    ruling:
+      "\nThere is no priority in between drawing and putting cards back on top of the deck.",
+    cardImage: require("./images/RushingRiver.png"),
+  },
+  {
+    name: "Whirling Mist Blossom",
+    ruling:
+      "\nYou may only have Whirling Mist Blossom in your deck if your hero is Ira, Crimson Haze.\n\u203B\n Whirling Mist Blossom must be the second or higher chain link to hit in a row, meaning that previous attack must have also hit.",
+    cardImage: require("./images/WhirlingMistBlossom.png"),
+  },
+  {
+    name: "Perch Grapplers",
+    ruling:
+      "\nThe arrows must be face-up at the time you play them to gain go again.\n\u203B\n Arrow is a sub-type that exists on attack actions. This is located at the bottom center of the card.\n\u203B\n When this card is destroyed, it is sent to your graveyard.",
+    cardImage: require("./images/PerchGrapplers.png"),
+  },
+  {
+    name: "Feign Death",
+    ruling:
+      "\nYou cannot defend with Feign Death as it does not have a defense value.\n\u203B\n You cannot play this card if you have not been dealt damage this turn.\n\u203B\n Any form of damage such as {p} or arcane damage counts as damage dealt. Loss of life does not count as being dealt damage.\n\u203B\n If you have multiple damage preventions available, you choose which prevention to apply first.",
+    cardImage: require("./images/FeignDeath.png"),
+  },
+  {
+    name: "Increase the Tension",
+    ruling:
+      "\nThe attack can still be defended by defense reaction cards from arsenal and by non-defense reactions from hand.",
+    cardImage: require("./images/IncreaseTheTension.png"),
+  },
+  {
+    name: "Pitfall Trap",
+    ruling:
+      "\nThe attacking hero decides if they want to pay {r} at the time this resolves. (Before damage from the attack action is calculated)\n\u203B\n This damage cannot be defended.\n\u203B\n This damage can be prevented. This damage is not arcane damage. This must be prevented by cards that have a prevention effect.\n\u203B\n Trap cards cannot be played from hand.",
+    cardImage: require("./images/PitfallTrap.png"),
+  },
+  {
+    name: "Poison the Tips",
+    ruling:
+      "\nIf the arrow has multiple hit triggers, you pick which effect goes on the chain first when it hits.\n\u203B\n This effect is until the end of turn. You can trigger the hit effect on multiple arrows.\n\u203B\n You may elect to put no cards from your hand to your arsenal with Reload.\n\u203B\n Your arsenal must be empty to put a card into your arsenal with Reload.\n\u203B\n The defending hero selects the card to be discarded.",
+    cardImage: require("./images/PoisonTheTips.png"),
+  },
+  {
+    name: "Remorseless",
+    ruling:
+      "\nTurning a facedown card in arsenal face up does not count as putting it into your arsenal face up and therefore would not gain the effect.\n\u203B\n The green symbol on Remorseless is life.\n\u203B\n Action cards played as though they were an instant still count as playing an action card and would lose 1{h} if they were hit by Remorseless.\n\u203B\n Remorseless can still be defended by defense reactions from hand.",
+    cardImage: require("./images/Remorseless.png"),
+  },
+  {
+    name: "Rockslide Trap",
+    ruling:
+      "\nThe attacking hero decides if they want to pay {r} at the time this resolves. (Before damage from the attack action is calculated.)\n\u203B\n Trap cards cannot be played from hand.\n\u203B\n You can only target attacks with this, you cannot target a defending card that is an attack action.\n\u203B\n You can only target the attack on the current chain link. (You cannot target a defending attack action card as it’s not considered an attack).\n\u203B\n The ability is not optional, you must target an attack.",
+    cardImage: require("./images/RockslideTrap.png"),
+  },
+  {
+    name: "Sleep Dart",
+    ruling:
+      "\nThe hero loses all hero card effects and the hero loses all activated abilities, other cards with card effects or activated abilities are unaffected.",
+    cardImage: require("./images/SleepDart.png"),
+  },
+  {
+    name: "Tripwire Trap",
+    ruling:
+      "\nThe attacking hero decides if they want to pay {r} at the time this resolves. (Before damage from the attack action is calculated.)\n\u203B\n If the attacking hero does not pay {r}, Tripwire Trap prevents all effects that would trigger, including hero and equipment hit trigger effects.\n\u203B\n Trap cards cannot be played from hand.",
+    cardImage: require("./images/TripwireTrap.png"),
+  },
+  {
+    name: "Arknight Shard",
+    ruling:
+      '\nCreating a Runechant token is mandatory.\n\u203B\n You cannot defend with Arknight Shard as it does not have a defense value.\n\u203B\n You cannot pitch a card if you have no cost to pay.\n\u203B\n You may only have 1 Arknight Shard in your deck including cards in your registered 80-card pool in Classic Constructed tournaments and only 1 Arknight Shard in your deck in limited tournaments.\n\u203B\n Arknight Shard has no resource cost value.\n\u203B\n A Runechant is an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")\n\u203B\n If you pitch Arknight Shard to pay for an attack, the Runechant that it creates does not trigger from the attack (the Runechant is created after the attack action card has been played / weapon attack is activated).',
+    cardImage: require("./images/ArknightShard.png"),
+  },
+  {
+    name: "Bloodsheath Skeleta",
+    ruling:
+      '\nThe reduction is calculated at the time you play the card, not at the time Blood Skeleta’s ability resolves.\n\u203B\n When this card is destroyed, it is sent to your graveyard.\n\u203B\n You can play either attack action card or ‘non-attack’ action card in any order.\n\u203B\n Bloodsheath Skeleta’s activated ability is an instant. You may activate it anytime you have priority, including during an opponent’s turn, and during the reaction window of either player’s turn.\n\u203B\n If the card already has a cost reduction effect such as "This card costs {r} less to play for each Runechant you control.” the reduction effects will stack making it cost 2 less for each Runechant you control.',
+    cardImage: require("./images/BloodsheathSkeleta.png"),
+  },
+  {
+    name: "Consuming Volition",
+    ruling:
+      "\nIf this attack causes Runechant token(s) to deal arcane damage, this attack would gain the effect as arcane damage would have been dealt.\n\u203B\n The defending hero selects the card to be discarded.",
+    cardImage: require("./images/ConsumingVolition.png"),
+  },
+  {
+    name: "Dread Triptych",
+    ruling:
+      '\nThe Runechant token created does not trigger or get destroyed as Dread Triptych is already played at the point the Runechant token is created.\n\u203B\n If this attack causes Runechant token(s) to deal arcane damage, this attack would create a Runechant token from the second effect as arcane damage would have been dealt.\n\u203B\n Each instance of creating a Runechant token is separate. An effect that affects Runechant tokens being created, such as Modred Tide, will affect each effect of Dread Triptych .\n\u203B\n A Runechant is an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")',
+    cardImage: require("./images/DreadTriptych.png"),
+  },
+  {
+    name: "Meat and Greet",
+    ruling:
+      "\nIf this attack causes Runechant token(s) to deal arcane damage, this attack would gain the effect as arcane damage would have been dealt.",
+    cardImage: require("./images/MeatAndGreet.png"),
+  },
+  {
+    name: "Rattle Bones",
+    ruling:
+      "\nIf this is played as though it were an instant, it would not cost an action point but when it resolves you would gain an action point from go again (as long as it’s your action phase)\n\u203B\n If the attack action card is played, it would go to the graveyard afterwards (Unless an effect tells you otherwise).\n\u203B\n If the attack action is not played, it would remain in the banished zone.",
+    cardImage: require("./images/RattleBones.png"),
+  },
+  {
+    name: "Runeblood Barrier",
+    ruling:
+      '\nIf you have multiple damage preventions available, you choose which prevention to apply first.\n\u203B\n You must destroy Runechants when you would be dealt damage, you cannot choose to be dealt damage instead.\n\u203B\n If you control no Runechants, you are dealt damage as normal.\n\u203B\n A Runechant is an aura with "When you play an attack action card or attack with a weapon, destroy Runechant and deal 1 arcane damage to target opposing hero.")',
+    cardImage: require("./images/RunebloodBarrier.png"),
+  },
+  {
+    name: "Sutcliffe's Research Notes",
+    ruling:
+      "\nThe order of the cards put on top of your deck is not known to the opponent.",
+    cardImage: require("./images/SutcliffesResearchNotes.png"),
+  },
+  {
+    name: "Courage of Bladehold",
+    ruling:
+      "\nThis applies to all your sword attacks this turn, not just the first.\n\u203B\n A sword attack is an attack with a weapon with the subtype ‘Sword’. (Located at the bottom middle of the weapon card.)\n\u203B\n When this card is destroyed, it is sent to your graveyard.",
+    cardImage: require("./images/CourageOfBladehold.png"),
+  },
+  {
+    name: "Dauntless",
+    ruling:
+      "\nTo defend with a defense reaction, it must be played.\n\u203B\n The additional cost can be reduced by cost reduction effects.",
+    cardImage: require("./images/Dauntless.png"),
+  },
+  {
+    name: "Spoils of War",
+    ruling:
+      '\nThe second ability affects every weapon hit this turn, not just your next attack.\n\u203B\n A Copper token is an item with "Action- {r}{r}{r}{r}, destroy Copper: Draw a card. Go again"',
+    cardImage: require("./images/SpoilsOfWar.png"),
+  },
+  {
+    name: "Twinning Blade",
+    ruling:
+      "\nThis ability does not give the weapon attack go again. You are still required to have an action point to attack again. This ability bypasses the “Once per Turn Action - Attack” on the sword attack and allows an additional attack with the same weapon.\n\u203B\n The weapon must have the sub-type ‘Sword’. (Located at the bottom middle of the weapon card.)\n\u203B\n It does not need to target an attacking sword, but must be played during the reaction step as an attacking hero. (You can target a sword while attacking with an attack action.)",
+    cardImage: require("./images/TwinningBlade.png"),
+  },
+  {
+    name: "Out for Blood",
+    ruling:
+      "\nReprise cares about the current chain link not the whole combat chain. If a previous attack was defended by a card in hand, it will have no effect on reprise for the current chain link.\n\u203B\n Reprise is checked at the time you play the card. If a card with reprise is played then a defense reaction is played from hand, the effect will not apply retroactively.\n\u203B\n Equipment and cards from arsenal that defend an attack do not turn on reprise.\n\u203B\n The next attack can be any attack including attack action or a different weapon attack.",
+    cardImage: require("./images/OutForBlood.png"),
+  },
+  {
+    name: "Unified Decree",
+    ruling:
+      "\nReprise cares about the current chain link not the whole combat chain. If a previous attack was defended by a card in hand, it will have no effect on reprise for the current chain link.\n\u203B\n Reprise is checked at the time you play the card. If a card with reprise is played then a defense reaction is played from hand, the effect will not apply retroactively.\n\u203B\n Equipment and cards from arsenal that defend an attack do not turn on reprise.\n\u203B\n If you do not banish the card, it stays on top of the deck.\n\u203B\n When the banished card is played, it will go to the graveyard when it resolves as normal.\n\u203B\n If you banish the card and do not play it this combat chain, it remains in the banished zone.",
+    cardImage: require("./images/UnifiedDecree.png"),
+  },
+  {
+    name: "Metacarpus Node",
+    ruling:
+      "\nYou may use this ability only once per card. You may use this ability multiple times in a turn on different cards provided you pay {r} each time.\n\u203B\n When this card is destroyed, it is sent to your graveyard.",
+    cardImage: require("./images/MetacarpusNode.png"),
+  },
+  {
+    name: "Aetherize",
+    ruling:
+      "\nNegating an instant will prevent the card from resolving. The card will go to its owner’s graveyard and the effects of the card do not happen.\n\u203B\n Aetherize can only target instant cards, not instant activated abilities.\n\u203B\n You cannot defend with Aetherize as it does not have a defense value.",
+    cardImage: require("./images/Aetherize.png"),
+  },
+  {
+    name: "Chain Lightning",
+    ruling:
+      "\nEach defending hero decides if they want to defend the arcane damage they would take. They cannot defend the other arcane damage.\n\u203B\n Chain Lightning checks if you have played another Wizard ‘non-attack’ action card this turn at the time it resolves, not at the time you play the card.\n\u203B\n Chain Lightning counts as a card with an effect that deals arcane damage, regardless if you have played another wizard “non-attack” action card this turn or not. (e.g. if you activated Crucible of Aetherweave then play Chain Lightning, it would use up the Crucible of Aetherweave effect but deal no arcane damage.)",
+    cardImage: require("./images/ChainLightning.png"),
+  },
+  {
+    name: "Cindering Foresight",
+    ruling:
+      "\nIf the next card you play does not have an effect that deals arcane damage, it will not gain this modifier however the next card played this turn that has an effect that deals arcane damage will still gain the bonus.\n\u203B\n This card is always an action card, regardless of whether it’s your turn or not (e.g. for Kano’s hero ability.), or if it is being played as an instant.",
+    cardImage: require("./images/CinderingForesight.png"),
+  },
+  {
+    name: "Gaze the Ages",
+    ruling:
+      "\nYou cannot respond between opting and putting Gaze the Ages into your hand as you must finish resolving the card completely first.\n\u203B\n Gaze the Ages checks if you have played another Wizard ‘non-attack’ action card this turn at the time it resolves, not at the time you play the card.",
+    cardImage: require("./images/GazeTheAges.png"),
+  },
+  {
+    name: "Foreboding Bolt",
+    ruling:
+      "\nYou opt when the card resolves after damage is dealt (or prevented).",
+    cardImage: require("./images/ForebodingBolt.png"),
+  },
+  {
+    name: "Rousing Aether",
+    ruling:
+      "\nIf the next card you play does not have an effect that deals arcane damage, it will not gain this modifier however the next card played this turn that has an effect that deals arcane damage will still gain the bonus.",
+    cardImage: require("./images/RousingAether.png"),
+  },
+  {
+    name: "Snapback",
+    ruling:
+      "\nYou still pay Snapback’s resource costs as normal even when Snapback is played as though it were an instant.\n\u203B\n Snapback is still an action card when played as an instant. It just does not require an action point to play and can be played anytime you have priority, including during an opponent’s turn, and during the reaction window of either player’s turn.",
+    cardImage: require("./images/Snapback.png"),
   },
 ];
 
