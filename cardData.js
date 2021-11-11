@@ -1569,6 +1569,360 @@ const cardData = [
       "\nYou still pay Snapback’s resource costs as normal even when Snapback is played as though it were an instant.\n\u203B\n Snapback is still an action card when played as an instant. It just does not require an action point to play and can be played anytime you have priority, including during an opponent’s turn, and during the reaction window of either player’s turn.",
     cardImage: require("./images/Snapback.png"),
   },
+  {
+    name: "Boltyn",
+    ruling:
+      "\nBase power is the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n Putting a card into your hero’s soul does not count as charging. Only playing a card with the keyword charge and placing a card into your hero's soul this way counts as charging.\n\u203B\n All attacks you control gain +1{p} while defended by an attack action card. (This includes your weapon attacks)\n\u203B\n If the attack no longer has {p} greater than it’s base power when the ability resolves, it will not gain go again.\n\u203B\n You may use the second ability more than once per turn as it is not a Once per turn ability. You may also target the same attack more than once. Multiple instances of go again do not grant more than one action point.\n\u203B\n If the second ability has resolved, then the attack no longer has {p} greater than it’s base power, it will still have go again as it has already gained go again.",
+    cardImage: require("./images/Boltyn.png"),
+  },
+  {
+    name: "Chane",
+    ruling:
+      "\nYou may use this ability even if you are not planning to use a Runeblade or Shadow action afterwards.\n\u203B\n This affects your next action including weapon attacks, action cards and action activated abilities.\n\u203B\n The Soul Shackle token is created as a part of the cost.\n\u203B\n Soul Shackle tokens stay in the arena until they are destroyed. (Soul shackles do not get destroyed when the top card of your deck is banished)\n\u203B\n Multiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+    cardImage: require("./images/Chane.png"),
+  },
+  {
+    name: "Dread Scythe",
+    ruling:
+      "\nThe arcane damage is not dependent on the attack hitting.\n\u203B\n The defending player chooses if they are taking the arcane damage first before defending the attack.\n\u203B\n Both the attack and the arcane damage count as damage by Dread Scythe and either would cause the hero dealt damage to not gain {h} during their next action phase.\n\u203B\n If a hero dealt damage by Dread Scythe would gain {h} during their next action phase they instead gain 0. (They may still play the card or activate the ability that would gain {h})",
+    cardImage: require("./images/DreadScythe.png"),
+  },
+  {
+    name: "Galaxxi Black",
+    ruling:
+      "\nGalaxxi Black can only gain at most +2{p} from its ability even if you have played multiple cards from your banished zone.\n\u203B\n The ability of Galaxxi Black is continuously checking if you have played a card from your banished zone. If you play a card from the banished zone after Galaxxi Black has attacked, it gains +2{p}.",
+    cardImage: require("./images/GalaxxiBlack.png"),
+  },
+  {
+    name: "Hatchet of Body",
+    ruling:
+      "\nThe +1{p} lasts until end of turn. If you attack with this weapon again it will still have the +{p}. (It can also gain another instance of +1{p} if the criteria is met)",
+    cardImage: require("./images/HatchetOfBody.png"),
+  },
+  {
+    name: "Hatchet of Mind",
+    ruling:
+      "\nThe +1{p} lasts until end of turn. If you attack with this weapon again it will still have the +{p}. (It can also gain another instance of +1{p} if the criteria is met)",
+    cardImage: require("./images/HatchetOfMind.png"),
+  },
+  {
+    name: "Hexagore, the Death Hydra",
+    ruling:
+      "\nThe damage it deals to you cannot be defended. It is also not arcane damage so it cannot be prevented by spellvoid or arcane barrier. The damage can be prevented by prevention effects that prevent any kind of damage.\n\u203B\n If you have more than 6 blood debt cards in your banished zone it will do you 0 damage. Having more than 6 does not cause it to deal negative damage to you.\n\u203B\n This ability triggers when you attack and resolves before the attack deals damage.\n\u203B\n Face down cards in the banished zone have no traits.",
+    cardImage: require("./images/Hexagore.png"),
+  },
+  {
+    name: "Iris of Reality",
+    ruling:
+      "\nYou cannot attack with this weapon as it does not have an action that allows you to do so.\n\u203B\n You attack with the Illusionist aura, not this weapon. If you have multiple Illusionist auras you can attack with multiple in a turn provided you have the resources.",
+    cardImage: require("./images/IrisOfReality.png"),
+  },
+  {
+    name: "Levia",
+    ruling:
+      "\nIt doesn't matter where the card was from before it was put into your banish zone or if the card remains in the banish zone, as long as the criteria has been met this turn.\n\u203B\n The cards only lose blood debt during the end phase. They still have blood debt during the action phase.\n\u203B\n If a card has multiple instances of blood debt, they lose all instances during the end phase. (If the criteria is met)\n\u203B\n Levia checks the last known information of the attack action card before it is put into your banished zone. For example if a 5{p} card has +1{p} from attacking, then is put into the banished zone when it hits, Levia will see this attack action as 6{p} when it is put into the banished zone. Similarly if an attack that has 6{p} base has its power reduced, Levia would not see it as 6{p}+",
+    cardImage: require("./images/Levia.png"),
+  },
+  {
+    name: "Luminaris",
+    ruling:
+      "\nYou cannot attack with this weapon as it does not have an action that allows you to do so.\n\u203B\n You attack with the Illusionist aura, not this weapon. If you have multiple Illusionist auras you can attack with multiple in a turn provided you have the resources and action points.\n\u203B\n You can only pitch a card if there is a cost to be paid and there are not enough resources available to pay the cost.\n\u203B\n A yellow color strip is a card that pitches for two resources. The color strip is located at the top center of the card.",
+    cardImage: require("./images/Luminaris.png"),
+  },
+  {
+    name: "Prism",
+    ruling:
+      "\nOnce per Turn applies to the current turn not the turn cycle - You can use this ability on your opponent’s turn, then use it again on your own turn. (Provided you have the resources and cards in soul)",
+    cardImage: require("./images/Prism.png"),
+  },
+  {
+    name: "Ravenous Meataxe",
+    ruling:
+      "\nThere is no window to play cards or respond after drawing the card but before discarding the card. (If your hand is empty you will immediately discard the card you draw)\n\u203B\n This checks the base power of the discarded card. (The base power is located at the bottom left corner of the card)\n\u203B\n The effect triggers when you attack with Ravenous Meataxe. If this is attacking a card with Spectra you would not draw a card. Please see section 20.4 Attack Step of the comp rules for more details.",
+    cardImage: require("./images/RavenousMeataxe.png"),
+  },
+  {
+    name: "Raydn, Duskbane",
+    ruling:
+      "\nYou may attack with this even if it has 0 power. (Assuming you have the action points)\n\u203B\n Even if you have charged multiple times this turn, Raydn, Duskbane only gains +3{p}.",
+    cardImage: require("./images/Raydn.png"),
+  },
+  {
+    name: "Spectral Shield",
+    ruling:
+      "\nThis is not optional, if you would be dealt damage you must destroy Spectral Shield and prevent 1 damage that source would deal.\n\u203B\n If you have multiple Spectral Shields in play you choose which prevent effect to apply first. If you are taking multiple damage you must prevent all of it with Spectral Shields if able. (You would be dealt the excess damage)\n\u203B\n Loss of life is not being dealt damage and would not destroy Spectral Shield or prevent the 1 damage.",
+    cardImage: require("./images/SpectralShield.png"),
+  },
+  {
+    name: "Soul Shackle",
+    ruling:
+      "\nSoul Shackle stays in the arena until it is destroyed. Banishing the top card of your deck does not destroy Soul Shackle.\n\u203B\n The effect is not optional. You must banish the top card of your deck if able.\n\u203B\n Soul Shackle is a trigger that happens at the beginning of the action phase. Players can respond to it.\n\u203B\n If you have no cards in your deck, you do not lose the game. You would not be able to banish any cards from the top of your deck but the ability would still resolve.",
+    cardImage: require("./images/SoulShackle.png"),
+  },
+  {
+    name: "Adrenaline Rush",
+    ruling:
+      "\nThe green symbol on Adrenaline Rush is life.\n\u203B\n Adrenaline Rush checks if you have less life than an opponent at the time you play it. Changes after the card has been played does not cause Adrenaline Rush to gain nor lose +3{p}.",
+    cardImage: require("./images/AdrenalineRush.png"),
+  },
+  {
+    name: "Belittle",
+    ruling:
+      "\nYou may search for any pitch value Minnowism as long as the name of the card is “Minnowism”.\n\u203B\n You choose whether you want to pay the additional cost at the time you play the card.\n\u203B\n If you do pay the additional cost, the ability becomes a layer on the chain when the card is played. Players can still respond to this, e.g with instants.\n\u203B\n The attack action card you reveal must have a value. (0 is a value)",
+    cardImage: require("./images/Belittle.png"),
+  },
+  {
+    name: "Blood Drop Brocade",
+    ruling:
+      "\nYou can activate this anytime you have priority as long as the condition has been met. (You do not have priority during the start of turn or end phase)\n\u203B\n {p} damage is any damage done by an attack such as a weapon attack or attack action. Loss of life and arcane damage do not count as {p} damage.",
+    cardImage: require("./images/BloodDropBrocade.png"),
+  },
+  {
+    name: "Captain’s Call",
+    ruling:
+      "\nYou choose the mode at the time you play Captain’s Call not at the time you play the attack action card.\n\u203B\n It will apply to the next attack action card with cost 0/1/2 or less, if you play an attack action that doesn’t meet that criteria, then one that does, the bonus will still apply to the one applicable as it is still the next attack action card with cost 0/1/2 or less you play this turn.",
+    cardImage: require("./images/CaptainsCall.png"),
+  },
+  {
+    name: "Exude Confidence",
+    ruling:
+      "\nThe effect only applies when the attack is on the combat chain. Players can respond to Exude Confidence before it becomes a layer on the chain with instants.\n\u203B\n If Exude Confidence is on the combat chain and gains {p} from an effect that would then put it at greater power than the defending card(s) then the effect of Exude Confidence would become active.\n\u203B\n Exude Confidence is still considered attacking as long as it’s on the combat chain even if it’s not the current chain link. You may still use it’s instant ability as long as it’s on the combat chain.\n\u203B\n Exude Confidence does not stop defense reactions or instants that have already been played or activated. For example if there is a defense reaction defending an attack on a previous combat chain, playing Exude Confidence will not have any impact on that defense reaction.\n\u203B\n If Exude Confidence is not defended by any cards, the defending hero can’t play or activate instants or defense reactions this combat chain.\n\u203B\n You can activate Exude Confidence’s instant ability during the defending window before the defending player has a chance to use defense reactions.\n\u203B\n You may activate Exude Confidence’s instant ability as many times as you want provided you have the resources and Exude Confidence is attacking.",
+    cardImage: require("./images/ExudeConfidence.png"),
+  },
+  {
+    name: "Frontline Scout",
+    ruling:
+      "\nYou look at the defending hero’s hand when Frontline Scout effects resolves. (The ability goes on the chain when the card becomes an attack on the chain.)\n\u203B\n If this attack does not resolve (For example it is attacking an aura with spectra) then you do not look at the defending hero’s hand. (You would also not gain the action point from go again.)",
+    cardImage: require("./images/FrontlineScout.png"),
+  },
+  {
+    name: "Ironhide Helm",
+    ruling:
+      "\nThis does not have blade break or battleworn, it does not get destroyed unless you pay for it’s effect.\n\u203B\n You may defend with this card and elect to pay no resources, however it would not gain the +2{d}.\n\u203B\n Both players will have a chance to respond when the ability goes on the chain, however there is no priority after the resource is paid but before it gains the +2{d}.",
+    cardImage: require("./images/IronhideHelm.png"),
+  },
+  {
+    name: "Ironhide Plate",
+    ruling:
+      "\nThis does not have blade break or battleworn, it does not get destroyed unless you pay for it’s effect.\n\u203B\n You may defend with this card and elect to pay no resources, however it would not gain the +2{d}.\n\u203B\n Both players will have a chance to respond when the ability goes on the chain, however there is no priority after the resource is paid but before it gains the +2{d}.",
+    cardImage: require("./images/IronhidePlate.png"),
+  },
+  {
+    name: "Ironhide Gauntlet",
+    ruling:
+      "\nThis does not have blade break or battleworn, it does not get destroyed unless you pay for it’s effect.\n\u203B\n You may defend with this card and elect to pay no resources, however it would not gain the +2{d}.\n\u203B\n Both players will have a chance to respond when the ability goes on the chain, however there is no priority after the resource is paid but before it gains the +2{d}.",
+    cardImage: require("./images/IronhideGauntlet.png"),
+  },
+  {
+    name: "Ironhide Legs",
+    ruling:
+      "\nThis does not have blade break or battleworn, it does not get destroyed unless you pay for it’s effect.\n\u203B\n You may defend with this card and elect to pay no resources, however it would not gain the +2{d}.\n\u203B\n Both players will have a chance to respond when the ability goes on the chain, however there is no priority after the resource is paid but before it gains the +2{d}.",
+    cardImage: require("./images/IronhideLegs.png"),
+  },
+  {
+    name: "Memorial Ground",
+    ruling:
+      "\nYou cannot defend with Memorial Ground as it does not have a defense value.\n\u203B\n You must have a target in order to play this card.\n\u203B\n If the target is no longer in your graveyard when Memorial Ground resolves, it would not put the card on top of your deck.",
+    cardImage: require("./images/MemorialGround.png"),
+  },
+  {
+    name: "Minnowism",
+    ruling:
+      "\nBase power is the printed {p} value on a card. (Located at the bottom left corner of a card.)",
+    cardImage: require("./images/Minnowism.png"),
+  },
+  {
+    name: "Nourishing Emptiness",
+    ruling:
+      "\nThe blue symbol on Nourishing Emptiness is Intellect. At the end of your turn you draw up to your hero's intellect. (Before end of turn effects are gone)\n\u203B\n This does not count attack action cards on the combat chain such as itself as they are not in the graveyard yet.\n\u203B\n If dominate is gained while there are already 2 or more cards defending, the defending cards would not be affected. You would not be able to defend with future cards from hand.",
+    cardImage: require("./images/NourishingEmptiness.png"),
+  },
+  {
+    name: "Out Muscle",
+    ruling:
+      "\nIf Out Muscle is not defended by any cards, it has go again.\n\u203B\n Go again grants the action point on chain link resolution, so if the power is changed in a way for Out Muscle to gain or lose go again, it will only be relevant when the chain link resolves and go again would grant 1 action point.",
+    cardImage: require("./images/OutMuscle.png"),
+  },
+  {
+    name: "Pound for Pound",
+    ruling:
+      "\nThe green symbol on Pound for Pound is life.\n\u203B\n Pound for Pound checks if you have less life than your opponent at the time you play it. Changes after the card has been played does not cause Pound for Pound to gain or lose dominate.",
+    cardImage: require("./images/PoundForPound.png"),
+  },
+  {
+    name: "Rally the Rearguard",
+    ruling:
+      "\nYou can activate Rally the Rearguard anytime you have priority as long as it is defending.\n\u203B\n You cannot activate its effect if you have no cards in hand.",
+    cardImage: require("./images/RallyTheRearguard.png"),
+  },
+  {
+    name: "Rise Above",
+    ruling:
+      "\nYou cannot pay its alternative cost if you have no cards in hand.\n\u203B\n The alternative cost means you do not have to pay any resource cost for Rise Above. (It counts the whole cost not just {r})\n\u203B\n If there is an effect that increases the cost of Rise Above you must still pay it even if you use Rise Above’s alternative cost.",
+    cardImage: require("./images/RiseAbove.png"),
+  },
+  {
+    name: "Rouse the Ancients",
+    ruling:
+      "\nRevealing more than 13 total {p} does not increase the {p} of Rouse the Ancients any more than 7.\n\u203B\n You can attack with Rouse the Ancients without revealing any cards. It would not gain the +7{p} or go again.\n\u203B\n You cannot reveal Rouse the Ancients to itself.",
+    cardImage: require("./images/RouseTheAncients.png"),
+  },
+  {
+    name: "Seek Horizon",
+    ruling:
+      "\nYou cannot pay its additional cost if you have no cards in hand.\n\u203B\n You cannot pay its additional cost by putting Seek Horizon on top of your deck.\n\u203B\n You cannot put more than one card on top of your deck with its additional cost.",
+    cardImage: require("./images/SeekHorizon.png"),
+  },
+  {
+    name: "Stony Woottonhog",
+    ruling:
+      "\nThe effect is only active while it is attacking. Defending with Stony Woottonhog will not grant +1{p} nor will it have +1{p} in any zone other than the combat chain while attacking.",
+    cardImage: require("./images/StonyWoottonhog.png"),
+  },
+  {
+    name: "Stubby Hammerers",
+    ruling:
+      "\nBase power is the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n This does not grant the attack action cards go again. Stubby Hammerers action requires an action point and grants an action point after it resolves as its ability has go again.\n\u203B\n Stubby Hammerers does not give weapons with 3 or less power +1{p} as they are not attack action cards.",
+    cardImage: require("./images/StubbyHammerers.png"),
+  },
+  {
+    name: "Surging Militia",
+    ruling:
+      "\nThis includes defense reactions. Defense reactions become a defending card when played.",
+    cardImage: require("./images/SurgingMilitia.png"),
+  },
+  {
+    name: "Time Skippers",
+    ruling:
+      "\nAction points are not resource points.\n\u203B\n Time Skippers require an action point to activate. Upon resolution 2 action points are gained.",
+    cardImage: require("./images/TimeSkippers.png"),
+  },
+  {
+    name: "Tremor of iArathael",
+    ruling:
+      "\nTremor of iArathael can gain at most +2{p} from its effect even if you have had multiple cards put into your banished zone this turn.\n\u203B\n The effect is continuous, if a card is put into the banished zone even after the card is played, it would still gain the +2{p}.\n\u203B\n Unless otherwise specified, a defending card’s textbox is considered empty - When defending with Tremor of iArathael it does not gain +2{p} even if a card has been put into your banished zone this turn.",
+    cardImage: require("./images/TremorOfiArathael.png"),
+  },
+  {
+    name: "Warmonger’s Recital",
+    ruling:
+      "\nIf the attack is put to the bottom of your deck, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put to the bottom of your deck, the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes to the bottom of your deck, Last Known Information is used at the end of chain link resolution and you will still gain an action point.",
+    cardImage: require("./images/WarmongersRecital.png"),
+  },
+  {
+    name: "Yinti Yanti",
+    ruling:
+      "\nThe effect is continuously checking if the aura is in play. When you no longer control an aura, Yinti Yanti will not have the bonus. (This is most relevant for auras that destroy itself when you play an attack action)",
+    cardImage: require("./images/YintiYanti.png"),
+  },
+  {
+    name: "Zealous Belting",
+    ruling:
+      "\nBase power is the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n You can only pitch when there is a cost to pay.",
+    cardImage: require("./images/ZealousBelting.png"),
+  },
+  {
+    name: "Blood Tribute",
+    ruling:
+      "\nYou cannot defend with Blood Tribute as it does not have a defense value.\n\u203B\n Banishing the card is not optional.\n\u203B\n The number of cards you place on top and bottom of your deck is known to your opponent, the order of the cards are not.\n\u203B\n You may put all of the cards on the top or all of the cards on the bottom if you so wish.",
+    cardImage: require("./images/BloodTribute.png"),
+  },
+  {
+    name: "Carrion Husk",
+    ruling:
+      "\nPlayers do not have priority at the start of turns. Players cannot respond to Carrion Husk triggering to banish itself.\n\u203B\n The second ability checks at the start of your turn. If you fall below 13 life during your action phase, your end phase or your opponent’s turn, Carrion Husk would still stay in the arena.\n\u203B\n The green symbol on Carrion Husk is life.",
+    cardImage: require("./images/CarrionHusk.png"),
+  },
+  {
+    name: "Consuming Aftermath",
+    ruling:
+      "\nYou may elect to banish no cards from your hand.\n\u203B\n You may banish a non-Shadow card from your hand, Consuming Aftermath would not gain dominate if a non-Shadow card was banished this way.\n\u203B\n You choose additional costs at the time you play the card (Pay the costs at the same time you pay the resource cost).",
+    cardImage: require("./images/ConsumingAftermath.png"),
+  },
+  {
+    name: "Doomsday",
+    ruling:
+      "\nYou may only play Doomsday in your deck if your hero is Levia, Shadowborn or Levia (Young hero).\n\u203B\n You cannot defend with Doomsday as it does not have a defense value.\n\u203B\n You can only play Doomsday if there are 6 or more cards with blood debt in your banished zone. (You can still pitch Doomsday even if this criteria is not met.)\n\u203B\n Face-down cards in the banished zone have no traits and therefore do not count towards meeting the condition. Only face-up cards count.\n\u203B\n A Blasmophet, the Soul Harvester is a Token - Demon Ally.",
+    cardImage: require("./images/Doomsday.png"),
+  },
+  {
+    name: "Blasmophet, the Soul Harvester",
+    ruling:
+      "\nBlasmophet is a token and does not start in your deck.\n\u203B\n When a token is destroyed it is removed from the arena.\n\u203B\n You may still banish a Shadow card from your hand even if the defending hero does not have a soul.\n\u203B\n You select the card to be banished from the defending hero’s soul.",
+    cardImage: require("./images/Blasmophet.png"),
+  },
+  {
+    name: "Eclipse",
+    ruling:
+      "\nYou may only play Eclipse in your deck if your hero is Chane, Bound by Shadow or Chane (Young hero).\n\u203B\n You cannot defend with Eclipse as it does not have a defense value.\n\u203B\n You can only play Eclipse if you have played 6 or more cards with blood debt this turn. (You can still pitch Eclipse even if this criteria is not met.)\n\u203B\n You cannot play Eclipse from your banished zone if you have not met the criteria to do so.\n\u203B\n You can play Eclipse from your hand as long as you’ve met the criteria of playing 6 or more cards with blood debt this turn.\n\u203B\n An Ursur, the Soul Reaper is a Token - Demon Ally.",
+    cardImage: require("./images/Eclipse.png"),
+  },
+  {
+    name: "Ursur, the Soul Reaper",
+    ruling:
+      "\nUrsur is a token and does not start in your deck.\n\u203B\n When a token is destroyed it is removed from the arena.\n\u203B\n If the hero Ursur is attacking no longer has a soul when the chain link resolves, then Ursur would not have go again and the action point would not be gained.",
+    cardImage: require("./images/Ursur.png"),
+  },
+  {
+    name: "Ebon Fold",
+    ruling:
+      "\nYou may banish any card from your hand, even if it's not a shadow card. You only draw a card if the banished card is a shadow card.\n\u203B\n If you have no cards in your hand at the time the ability resolves, you will not be able to banish a card and therefore would not draw a card.\n\u203B\n If you use spellvoid 2 to prevent one arcane damage, there will be no leftover prevention.\n\u203B\n Spellvoid 2 can only prevent 2 arcane damage from a single source. It cannot prevent 2 sources of 1 arcane damage.\n\u203B\n When this card is destroyed, it is sent to your graveyard.",
+    cardImage: require("./images/EbonFold.png"),
+  },
+  {
+    name: "Eclipse Existence",
+    ruling:
+      "\nIf they do not have a card in soul, the attack would be unable to banish a card therefore they would not lose 1{h}.\n\u203B\n The green symbol on Eclipse Existence is life.\n\u203B\n They only lose 1{h} if a card is banished from their soul from Eclipse Existence’s effect. If a card if banished from their soul from another effect it will not cause them to lose 1{h}\n\u203B\n The second effect of Eclipse Existence happens as the card resolves. You must choose whether you want to banish an action card from your graveyard as soon as Eclipse Existence resolves.",
+    cardImage: require("./images/EclipseExistence.png"),
+  },
+  {
+    name: "Guardian of the Shadowrealm",
+    ruling:
+      "\nSince defense reactions can’t defend in the defending window and must be played in the reaction window, you must pay Guardian of the Shadowrealm’s cost (2) to play it.\n\u203B\n The action ability can only be used when Guardian of the Shadowrealm is in your banished zone.\n\u203B\n The action does not have go again and requires an action point.\n\u203B\n Guardian of the Shadowrealm goes into the graveyard when the combat chain closes after it is played.",
+    cardImage: require("./images/GuardianOfTheShadowrealm.png"),
+  },
+  {
+    name: "Howl from Beyond",
+    ruling:
+      "\nAction cards go into your graveyard after they resolve. (This is relevant for Shadow Brute attacks that banish cards from your graveyard as an additional cost)",
+    cardImage: require("./images/HowlFromBeyond.png"),
+  },
+  {
+    name: "Mutated Mass",
+    ruling:
+      "\nYou can attack or defend with Mutated Mass even if your pitch zone is empty. 0 is a value.\n\u203B\n Mutated Mass’s base power and defense is * even when it’s in a zone that’s not the combat chain. (For example it has 6{p} in your hand if you have 3 cards with different costs in your pitch zone)\n\u203B\n Cards with no pitch value will count as cost 0 for Mutated Mass. (This is because it requires a value to be returned. This is different from when looking at if a card has cost 0.)\n\u203B\n Cards with X in it’s pitch value will have it’s X counted as 0. For example a card with cost XX counts the same as having a cost 0 in your pitch zone.\n\u203B\n Mutated Mass’s is continuously checking the pitch zone. It does not start a chain or trigger.",
+    cardImage: require("./images/MutatedMass.png"),
+  },
+  {
+    name: "Lunartide Plunderer",
+    ruling:
+      "\nIf the attack is banished, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is banished, the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it is banished, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n You choose the card from their soul to banish.\n\u203B\n You still banish Lunartide Plunderer even if the hero has no soul or a card from their soul is not banished. (Since it does not target, even if the card in soul is removed when this effect resolves, Lunartide Plunderer will still be banished)\n\u203B\n Banishing Lunartide Plunderer is not optional.",
+    cardImage: require("./images/LunartidePlunderer.png"),
+  },
+  {
+    name: "Shadow Puppetry",
+    ruling:
+      "\nYou choose if you want to banish the card after looking at it.\n\u203B\n If you choose not to banish the card, it remains on top of your deck.\n\u203B\n If this is used on an attack that already has go again, you will only gain 1 action point upon resolution of the attack as multiple instances of go again do not stack.",
+    cardImage: require("./images/ShadowPuppetry.png"),
+  },
+  {
+    name: "Soul Harvest",
+    ruling:
+      "\nThe green symbol on Soul Harvest is life.\n\u203B\n You may only play Soul Harvest in your deck if your hero is Levia, Shadowborn Abomination, or Levia (Young hero).\n\u203B\n You may only have 1 Soul Harvest in your deck including cards in your registered 80-card pool in constructed tournaments and only 1 Soul Harvest in your deck in limited tournaments or blitz tournaments as it is Legendary.\n\u203B\n You must pay the resource cost. Soul Harvest has an additional cost not an alternative cost.\n\u203B\n You cannot banish more than 6 cards from your graveyard. You also cannot banish less than 6 cards from your graveyard.",
+    cardImage: require("./images/SoulHarvest.png"),
+  },
+  {
+    name: "Soul Reaping",
+    ruling:
+      "\nYou may only play Soul Reaping in your deck if your hero is Chane, Bound by Shadow or Chane (Young hero).\n\u203B\n You may only have 1 Soul Reaping in your deck including cards in your registered 80-card pool in constructed tournaments and only 1 Soul Reaping in your deck in limited tournaments or blitz tournaments as it is Legendary.\n\u203B\n You may banish any cards from your hand. You would only gain {r} for cards with blood debt.\n\u203B\n If the hero Soul Reaping is attacking no longer has a soul when the chain link resolves, Soul Reaping wouldn’t have go again and not grant 1 action point.\n\u203B\n The “If you do, [...]” effect is an on-play triggered ability which triggers if the additional cost is played. This means it can be responded to, and it resolves before Soul Reaping resolves and becomes attacking.",
+    cardImage: require("./images/SoulReaping.png"),
+  },
+  {
+    name: "Spew Shadow",
+    ruling:
+      "\nYou do not need to play the attack action straight away. You must still pay its resource costs and it will still require an action point.\n\u203B\n You can attack a non-Light hero with the attack action; it will just not gain +2{p}.\n\u203B\n If you attack a non-hero card such as an aura with Spectra or an Ally, the attack will not gain +2{p}.",
+    cardImage: require("./images/SpewShadow.png"),
+  },
 ];
 
 export default cardData;
