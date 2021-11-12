@@ -1923,6 +1923,432 @@ const cardData = [
       "\nYou do not need to play the attack action straight away. You must still pay its resource costs and it will still require an action point.\n\u203B\n You can attack a non-Light hero with the attack action; it will just not gain +2{p}.\n\u203B\n If you attack a non-hero card such as an aura with Spectra or an Ally, the attack will not gain +2{p}.",
     cardImage: require("./images/SpewShadow.png"),
   },
+  {
+    name: "Convulsions from the Bellows of Hell",
+    ruling:
+      "\nIf a card with 6 or more {p} is not banished this way this card would not affect the next attack action card you play in any way.\n\u203B\n The next attack can be any attack action card. This card does not affect weapon attacks.",
+    cardImage: require("./images/Convulsions.png"),
+  },
+  {
+    name: "Deadwood Rumbler",
+    ruling:
+      "\nYou cannot defend with Deadwood Rumbler as it does not have a defense value.\n\u203B\n Nobody has priority during the resolution of an ability. For example, you cannot play or activate an ability after drawing the card but before discarding. You also cannot see what card is discarded before responding to the banish of a card in a graveyard.\n\u203B\n Banishing a card from a graveyard is mandatory. (You may banish the card you discarded)\n\u203B\n You can banish a card from any player's graveyard.",
+    cardImage: require("./images/DeadwoodRumbler.png"),
+  },
+  {
+    name: "Deep Rooted Evil",
+    ruling:
+      "\nYou cannot defend with Deep Rooted Evil as it does not have a defense value.\n\u203B\n If Deep Root Evil is put into your banished zone this turn, it will count itself as it is a 6{p} card that is put into your banished zone this turn.",
+    cardImage: require("./images/DeepRootedEvil.png"),
+  },
+  {
+    name: "Graveling Growl",
+    ruling:
+      "\nEven if another card allows you to play this card i.e from your banished zone, the restriction of only being able to be played if a card with 6 or more {p} has been put into your banished zone this turn still applies.",
+    cardImage: require("./images/GravelingGrowl.png"),
+  },
+  {
+    name: "Hooves of the Shadowbeast",
+    ruling:
+      "\nYou choose if you want to use Hooves of the Shadowbeast’s ability at the time a card with 6 or more {p} is put into your banished zone.\n\u203B\n You can only gain action points during your action phase. (You can still use this effect during your opponent's turn, however you would not gain the action point.",
+    cardImage: require("./images/HoovesOfTheShadowBeast.png"),
+  },
+  {
+    name: "Lady Barthimont",
+    ruling:
+      "\nMentors do not have a pitch value or cost and cannot be pitched or played.\n\u203B\n Mentors have their effect active when they are face up in your arsenal.\n\u203B\n You cannot arsenal a card if there is not an empty arsenal zone.\n\u203B\n You do not have to find a specialization card from your deck, you may elect to not find a card. This is because it is looking for a specific type of card and it is a hidden zone. You still must shuffle your deck.",
+    cardImage: require("./images/LadyBarthimot.png"),
+  },
+  {
+    name: "Mark of the Beast",
+    ruling:
+      "\nAnywhere includes all possible zones, such as from hand, banished zone or deck. This is not limited to being put into the graveyard from the combat chain.\n\u203B\n This is a replacement effect. It does not create a trigger, the card does not enter the graveyard.",
+    cardImage: require("./images/MarkOfTheBeast.png"),
+  },
+  {
+    name: "Pulping",
+    ruling:
+      "\nYou cannot defend with Pulping as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n Nobody has priority during the resolution of an ability. For example, you cannot play or activate an ability after drawing the card but before discarding.\n\u203B\n Defended by 0 cards counts as being defended by less than 2 non-equipment cards.",
+    cardImage: require("./images/Pulping.png"),
+  },
+  {
+    name: "Shadow of Blasmophet",
+    ruling:
+      "\nYou cannot defend with Shadow of Blasmophet as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n Nobody has priority during the resolution of an ability. For example, you cannot play or activate an ability after drawing the card but before discarding nor can a player respond between you drawing and searching your deck. Players should respond before the ability resolves as you cannot do it during the resolution.\n\u203B\n The card this searched for must have the keyword blood debt. Cards that reference blood debt do not count unless they also have blood debt.\n\u203B\n You may elect to banish nothing, however the search is mandatory if a 6{p}+ card is discarded this way and therefore your deck must be shuffled.",
+    cardImage: require("./images/ShadowOfBlasmophet.png"),
+  },
+  {
+    name: "Smash with Big Tree",
+    ruling:
+      "\nYou cannot defend with Smash wth a Big Tree as it has no defense value. (This is different than if the defense value was 0.)",
+    cardImage: require("./images/SmashWithBigTree.png"),
+  },
+  {
+    name: "Tear Limb from Limb",
+    ruling:
+      "\nYou cannot defend with Tear Limb from Limb as it has no defense value.\n\u203B\n Base power is the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n The +X{p} gained is the base {p} of the next Brute attack action card you play this turn not the discarded card.\n\u203B\n Nobody has priority during the resolution of an ability. For example, you cannot play or activate an ability after drawing the card but before discarding.",
+    cardImage: require("./images/TearLimbFromLimb.png"),
+  },
+  {
+    name: "Aether Ironweave",
+    ruling:
+      "\nEquipments go to your graveyard when they are destroyed.\n\u203B\n The action cards do not need to be played from your hand. They can be played from your banished zone or other zones (Provided it is legal to play them from there).\n\u203B\n Even if you have played more than one of each attack action and non-attack action, it will still only gain {r}{r}.",
+    cardImage: require("./images/AetherIronweave.png"),
+  },
+  {
+    name: "Bounding Demigon",
+    ruling:
+      "\nYou may play this card from your hand even if you have not played a non-attack action card this turn. It would not gain the +1{p} if played from hand. (Even if you have played a non-attack action card this turn)",
+    cardImage: require("./images/BoundingDemigon.png"),
+  },
+  {
+    name: "Dimenxxional Crossroads",
+    ruling:
+      "\nDimenxxional Crossroads is a non-attack action card so if you play a non-attack action card from the banished zone the same turn you played Dimenxxional Crossroads, the effect won’t trigger.\n\u203B\n The ability just checks if you have played another card of that type this turn. It does not matter if that card was played from hand or banished zone.\n\u203B\n Damage causes loss of {h}. If you take any damage during your turn such as arcane damage or lose {h} due to blood debt, Dimenxxional Crossroads will be destroyed.\n\u203B\n Players do not have priority during the end of turn. If {h} is lost during the end of your turn i.e from blood debt, no player can respond to the destroying of Dimenxxional Crossroads as you cannot have priority during the end of turn.",
+    cardImage: require("./images/DimenxxionalCrossroads.png"),
+  },
+  {
+    name: "Dimenxxional Gateway",
+    ruling:
+      "\nIf it is a Shadow and a Runeblade card, you do both effects. If it is not a Shadow or a Runeblade card you do none of the effects.\n\u203B\n If there are no cards in your deck, you reveal nothing. No effects will trigger.\n\u203B\n Each opposing hero decides if they want to prevent the arcane damage they would take. They cannot prevent arcane damage that would be dealt to other heroes.\n\u203B\n In a multiplayer game, opposing heroes decide if they want to prevent arcane damage in clockwise order, starting with the player to the left of the controller of Dimenxxional Gateway. (This is for a multiplayer game only. Cards that deal damage to both players do not follow this rule in games of two players.)",
+    cardImage: require("./images/DimenxxionalGateway.png"),
+  },
+  {
+    name: "Invert Existence",
+    ruling:
+      "\nYou cannot defend with Invert Existence as it does not have a defense value.\n\u203B\n You may banish any cards from an opposing hero’s graveyard, not just action cards.\n\u203B\n You cannot banish 1 card from two different graveyards. They must all be from one opposing hero’s graveyard\n\u203B\n You do not choose targets. You pick the cards when Invert Existence resolves. There is no window for priority after the cards are picked but before they are banished. I.e if you want to play a card that prevents arcane damage or gains you life, do it in response to this card. Prevention and replacement effects such as spellvoid/arcane barrier do not need to be activated in response.",
+    cardImage: require("./images/InvertExistence.png"),
+  },
+  {
+    name: "Lord Sutcliffe",
+    ruling:
+      "\nMentors do not have a pitch value or cost and cannot be pitched or played.\n\u203B\n Mentors have their effect active when they are face up in your arsenal.\n\u203B\n You cannot arsenal a card if there is not an empty arsenal zone.\n\u203B\n You do not have to find a specialization card from your deck, you may elect to not find a card. This is because it is looking for a specific type of card and it is a hidden zone. You still must shuffle your deck.\n\u203B\n Lord Sutcliffe does arcane damage to all heroes, not just opposing.\n\u203B\n The turn player decides the order of replacement effects that would apply first. For example, if both players have arcane barrier, the turn player decides which replacement effect applies first and therefore who has to decide to prevent first.\n\u203B\n The triggered ability is not once per turn, if you play multiple non-attack action cards it would trigger each time.",
+    cardImage: require("./images/LordSutcliffe.png"),
+  },
+  {
+    name: "Piercing Shadow Vise",
+    ruling:
+      "\nPiercing Shadow Vise’s ability is continuously checking. If you deal arcane damage after Piercing Shadow Vise is already attacking it will still gain +2{p}. This includes if it is a previous chain link or have already dealt damage. (If Piercing Shadow Vise has already dealt damage, increasing it’s {p} won’t retroactively deal any more damage)",
+    cardImage: require("./images/PiercingShadowVise.png"),
+  },
+  {
+    name: "Rift Bind",
+    ruling:
+      "\nYou may still play Rift Bind from your hand. It would not gain the +X{p} if it is played from hand.\n\u203B\n You can play Rift Bind from your banished zone even if you have not played any ‘non-attack’ action cards that turn.",
+    cardImage: require("./images/RiftBind.png"),
+  },
+  {
+    name: "Rifted Torment",
+    ruling:
+      "\nYou may still play Rifted Torment from your hand. It would not deal the 1 arcane damage if it is played from your hand.\n\u203B\n You may target yourself with the arcane damage.",
+    cardImage: require("./images/RiftedTorment.png"),
+  },
+  {
+    name: "Rip Through Reality",
+    ruling:
+      "\nRip Through Reality is continuously checking. If you deal arcane damage while Rip Through Reality is attacking, it would still gain go again.",
+    cardImage: require("./images/RipThroughReality.png"),
+  },
+  {
+    name: "Seeds of Agony",
+    ruling:
+      '\nYou choose the target you want to deal 1 arcane damage to at the time you play an attack action card with cost 0/1/2 or less.\n\u203B\n The attack action is the card that does the arcane damage.\n\u203B\n With the release of the comprehensive rules on May 4th 2021, the card text of Seeds of Agony been errata’d to “The next attack action card with cost 0/1/2 or less you play this turn gains "When you attack with this, deal 1 arcane damage to target hero.”” (Seeds of Agony is the only card in Monarch that functionally changes with the release of the comprehensive rules. Other cards do have updated text but their functionality is not affected.) The errata to Seeds of Agony is effective immediately.\n\u203B\n If you play multiple Seeds of Agony followed by an attack action card, it will have multiple instances of “When you attack with this, deal 1 arcane damage to target hero.” It will be considered multiple triggers therefore each one is it’s own source. This is relevant for preventing damage from arcane barrier. For example if you have an attack action with 2 instances of “When this attacks, deal 1 arcane damage to target hero” it will require arcane barrier 1 and two resources to fully prevent this.\n\u203B\n If you play multiple Seeds of Agony followed by an attack action card, it will have multiple instances of “When you attack with this, deal 1 arcane damage to target hero.” It will be considered multiple triggers therefore each one is it’s own source. This is relevant for preventing damage from spellvoid. For example if you have an attack action with 2 instances of “When this attacks, deal 1 arcane damage to target hero” you will not be able to prevent both with spellvoid 2. (You can use two instances of spellvoid 1 to prevent both.)',
+    cardImage: require("./images/SeedsOfAgony.png"),
+  },
+  {
+    name: "Shadow of Ursur",
+    ruling:
+      "\nYou may pay the additional cost even when played from the banished zone.\n\u203B\n You may play this card without paying the additional cost. (It would not gain go again)\n\u203B\n A card must have the keyword blood debt to be banished from hand, not just reference blood debt.",
+    cardImage: require("./images/ShadowOfUrsur.png"),
+  },
+  {
+    name: "Sonata Arcanix",
+    ruling:
+      "\nYou choose what you want X to be before applying cost reductions then paying the costs.\n\u203B\n X can be 0.\n\u203B\n The value of each X in Sonata Arcanix’s cost must be the same.\n\u203B\n You must pay double the cost of X. For example if you want this card to reveal 2 + 3 cards. You need to pay 4 resources.\n\u203B\n If there are less cards in your deck than the amount of cards to be revealed, you reveal your whole deck.\n\u203B\n The arcane damage is a single source of damage. For example if Sonata does 2 arcane damage you would require arcane barrier 2 (or two arcane barrier 1) to fully prevent it.",
+    cardImage: require("./images/SonataArcanix.png"),
+  },
+  {
+    name: "Unhallowed Rites",
+    ruling:
+      "\nYou may still play this from your hand regardless if you’ve played a non-attack action card this turn or not.\n\u203B\n A card must have the keyword blood debt to be put on the bottom of your deck, not just reference blood debt.",
+    cardImage: require("./images/UnhallowedRites.png"),
+  },
+  {
+    name: "Blinding Beam",
+    ruling:
+      "\nYou cannot defend with Blinding Beam as it does not have a defense value.\n\u203B\n You announce targets before paying costs.\n\u203B\n If the power of an attack would become less than 0, it is considered to be 0. However if the attack then gets a positive power modifier, it will still be under the effect of the -{p} modifier.",
+    cardImage: require("./images/BlindingBeam.png"),
+  },
+  {
+    name: "Celestial Cataclysm",
+    ruling:
+      "\nYou cannot play this card if you don’t have at least 3 cards in your hero’s soul.",
+    cardImage: require("./images/CelestialCataclysm.png"),
+  },
+  {
+    name: "Glisten",
+    ruling:
+      "\nYou can only play instants when you have priority. You do not have priority during the start of turn or the end phase. (You cannot wait until end of turn to play Glisten)\n\u203B\n You may play this card during the reaction window as you have priority during that step. (You can also play it during the defending window if you so choose)\n\u203B\n You may put all the counters on a single weapon.\n\u203B\n You pick the weapons and how many counters each gets when Glisten resolves.\n\u203B\n You may pick zero weapons and distribute zero counters.\n\u203B\n Glisten will remove all +1{p} counters on weapons at the end phase, not just those created from Glisten.\n\u203B\n You may play this on an Illusionist aura if there is a card such as Iris of Reality that makes Illusionist auras weapons. If it is no longer a weapon when it is the end phase, the +1{p} counters will not be removed.",
+    cardImage: require("./images/Glisten.png"),
+  },
+  {
+    name: "Great Library of Solana",
+    ruling:
+      "\nYou may only have 1 Great Library of Solana in your deck as it is Legendary. This applies to all formats including booster draft and sealed deck.\n\u203B\n You cannot pitch Great Library of Solana, as it does not have a pitch value.\n\u203B\n Great Library of Solana uses an action point to play.\n\u203B\n Great Library of Solana is a Landmark. There can only be one Landmark in the arena at any given time. When a Landmark enters the arena while another is in the arena, the previous Landmark is destroyed and put into the graveyard.\n\u203B\n A Landmark stays on the arena after it is played. It remains in the arena until it is destroyed.\n\u203B\n The blue symbol on Great Library of Solana is intellect. At the end of your turn you draw up to your hero’s intellect. Having 2 or more cards with yellow color strips in your pitch zone in the end phase will allow you to draw up an additional card as your intellect is 1 higher.\n\u203B\n Any player can activate the action ability of Great Library of Solana, however you must pay its cost and have an action point (And have priority on your turn) to use it.\n\u203B\n The color strip is located at the top middle of a card. You can also check the top left for the pitch value. Pitch 2 = Yellow color strip.",
+    cardImage: require("./images/GreatLibraryOfSolana.png"),
+  },
+  {
+    name: "Halo of Illumination",
+    ruling:
+      "\nYou may put a non-Light card into your hero’s soul, you would however not draw a card when the ability resolves.\n\u203B\n If you do not have a card in hand when the ability resolves, you will not put a card from your hand into your soul and therefore not draw a card.\n\u203B\n If you use spellvoid 2 to prevent one arcane damage, there will be no leftover prevention.\n\u203B\n Spellvoid 2 can only prevent 2 arcane damage from a single source. It cannot prevent 2 sources of 1 arcane damage.\n\u203B\n When this card is destroyed, it is sent to your graveyard.",
+    cardImage: require("./images/HaloOfIllumination.png"),
+  },
+  {
+    name: "Impenetrable Belief",
+    ruling:
+      "\nIt does not matter when the cards were put into the banished zone this turn or if they were put in there at the same time as long as three have been put into the banished zone this turn. The cards also don’t need to still be in the banished zone.\n\u203B\n If cards are put into the banished zone that would cause Impenetrable belief to gain +2[d} after it is already defending, it would still gain the bonus as the effect is continuous and not a trigger\n\u203B\n Impenetrable Belief can only get +2{d} even if more than 3 cards is banished.",
+    cardImage: require("./images/ImpenetrableBelief.png"),
+  },
+  {
+    name: "Invigorating Light",
+    ruling:
+      "\nInvigorating Light checks if there is a card in your hero’s soul at the time you play it. Even if the number of cards in your soul changes before the combat chain closes, it won’t have an effect. For example, if there were no cards in your soul when you play Invigorating Light, then a card is placed into your soul before the combat chain closes, Invigorating Light would still be put into your hero’s soul when the combat chain closes.",
+    cardImage: require("./images/InvigoratingLight.png"),
+  },
+  {
+    name: "Ray of Hope",
+    ruling:
+      "\nYou can still play this card against a non-Shadow hero, however it will not do anything.\n\u203B\n This affects all attacks including weapon attacks (which include attacking with an aura that is a weapon) and attack action.\n\u203B\n Ray of Hope checks if you have less {h} than an opposing Shadow hero when it resolves.",
+    cardImage: require("./images/RayOfHope.png"),
+  },
+  {
+    name: "Seek Enlightenment",
+    ruling:
+      "\nIf the attack is put into your hero’s soul, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put into your hero’s soul, the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes into your soul, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n You must put the attack action card into your hero’s soul if it hits. It is not optional.",
+    cardImage: require("./images/SeekEnlightenment.png"),
+  },
+  {
+    name: "Soul Food",
+    ruling:
+      "\nIt is not optional, you cannot keep some cards in your hand.\n\u203B\n This does not put your arsenal into your hero’s soul as the arsenal is not part of your hand.\n\u203B\n Soul Food is an action and uses an action point to play.",
+    cardImage: require("./images/SoulFood.png"),
+  },
+  {
+    name: "Soul Shield",
+    ruling:
+      "\nSince defense reactions can’t defend in the defending window and must be played in the reaction window, you must pay Soul Shield’s cost to play it.\n\u203B\n Soul Shield only goes into your hero’s soul when the combat chain closes. The combat chain closes when the turn player either ends their turn, closes it to play a non-attack action or voluntarily closes the combat chain.\n\u203B\n If you defend with Soul Shield you must put it into your hero’s soul. It is not optional.",
+    cardImage: require("./images/SoulShield.png"),
+  },
+  {
+    name: "Tome of Divinity",
+    ruling:
+      "\nYou cannot defend with Tome of Divinity as it does not have a defense value.\n\u203B\n It does not matter how the card was put into your hero’s soul nor does it matter if the card is still in your hero’s soul.\n\u203B\n You cannot choose to draw only 2 cards if a card has been put into your hero’s soul this turn.\n\u203B\n This card checks on resolution not when it is played, if a card is put into your hero’s soul before this card resolves it would draw 3 cards.",
+    cardImage: require("./images/TomeOfDivinity.png"),
+  },
+  {
+    name: "Vestige of Sol",
+    ruling:
+      "\nYou still gain the resources the card you pitched generated, this card gains you an additional {r} (Provided a card has been put into your hero’s soul this turn).\n\u203B\n It does not matter how the card was put into your hero’s soul nor does it matter if the card is still in your hero’s soul.\n\u203B\n This is not a once per turn effect. Everytime you pitch a Light card this turn you would gain {r}. Provided a card has been put into your hero’s soul this turn)\n\u203B\n You cannot pitch a card if there is not a cost to be played. You cannot pitch a card for a cost if there are already sufficient resources available to you.\n\u203B\n You cannot pitch a card that has no pitch cost even if Vestige of Sol is active.\n\u203B\n ERRATA: This card text has been changed to “If a card has been put into your hero's soul this turn, whenever you pitch a Light card, instead gain that many {r} plus 1.” (This is to reflect the intentions of how the card is supposed to work). This errata is effective immediately.\n\u203B\n This is a replacement effect not a triggered effect.",
+    cardImage: require("./images/VestigeOfSol.png"),
+  },
+  {
+    name: "Arc Light Sentinel",
+    ruling:
+      "\nYou cannot defend with Arc Light Sentinel as it does not have a defense value.\nYou may only play Arc Light Sentinel in your deck if your hero is Prism, Sculptor of Arc Light, or Prism (Young hero).\n\u203B\n The turn player always has priority first and can start the turn playing a card assuming they are legally able to (For example he still needs to have the resources or needs an empty chain to play an action).\n\u203B\n If an attack is already announced and attacking, playing Arc Light Sentinel does not redirect the attack to Arc Light Sentinel.\n\u203B\n The opponent may elect not to attack, however if they choose to attack they must choose Arc Light Sentinel as the target of the attack.\n\u203B\n If there are multiple Arc Light Sentinel, you can choose which one to attack. You cannot attack another target that isn’t an Arc Light Sentinel.\n\u203B\n Arc Light Sentinel only forces attacks to target it. Action cards such as ones that deal damage cannot target Arc Light Sentinel.\n\u203B\n This includes all attacks including weapon attacks and attack action cards.\n\u203B\n In multiplayer (i.e UPF) or other formats where there's a restriction on who you can attack or target, if you are not able to normally attack the player controlling Arc Light Sentinel then you are not able to attack Arc Light Sentinel as they are out of your spell range (Attack range).",
+    cardImage: require("./images/ArcLightSentinel.png"),
+  },
+  {
+    name: "Dream Weavers",
+    ruling:
+      "\nOnce the card changes zone, for example, enters the graveyard after the combat chain closes, it will have phantasm again.",
+    cardImage: require("./images/DreamWeavers.png"),
+  },
+  {
+    name: "Genesis",
+    ruling:
+      "\nYou cannot defend with Genesis, as it does not have a defense value.\n\u203B\n Players do not have priority at the start of turns. Players cannot respond to Genesis’s effect at the start of turn as neither players have priority during the start of turn.\n\u203B\n If it is not an Illusionist or Light card, then no Spectral Shield is created nor is a card drawn.\n\u203B\n If it is a Light Illusionist card then a Spectral Shield is created and a card is drawn.",
+    cardImage: require("./images/Genesis.png"),
+  },
+  {
+    name: "Herald of Erudition",
+    ruling:
+      "\nIf the attack is put into your hero’s soul, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put into your hero’s soul, Phantasm is no longer functional as a triggered ability, and the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes into your soul, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n If this attack hits, you must put it into your hero's soul. This effect is not optional.",
+    cardImage: require("./images/HeraldOfErudition.png"),
+  },
+  {
+    name: "Herald of Judgment",
+    ruling:
+      "\nYou may only play Herald of Judgment in your deck if your hero is Prism, Sculptor of Arc Light or Prism (Young hero).\n\u203B\n If the attack is put into your hero’s soul, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put into your hero’s soul, Phantasm is no longer functional as a triggered ability, and the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes into your soul, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n If this attack hits, you must put it into your hero's soul. This effect is not optional.\n\u203B\n The defending hero can still play cards from their banished zone during your action phase.\n\u203B\n The defending hero can still activate actions on cards from their banished zone. For example a card in the banished zone with an action ability. This card only stops banished card from being played.\n\u203B\n The defending hero can still play cards from their hands.",
+    cardImage: require("./images/HeraldOfJudgement.png"),
+  },
+  {
+    name: "Herald of Protection",
+    ruling:
+      "\nIf the attack is put into your hero’s soul, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put into your hero’s soul, Phantasm is no longer functional as a triggered ability, and the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes into your soul, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n If this attack hits, you must put it into your hero's soul. This effect is not optional.",
+    cardImage: require("./images/HeraldOfProtection.png"),
+  },
+  {
+    name: "Herald of Ravages",
+    ruling:
+      "\nIf the attack is put into your hero’s soul, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put into your hero’s soul, Phantasm is no longer functional as a triggered ability, and the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes into your soul, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n You may target any hero with the 1 arcane damage, not just the defending hero.\n\u203B\n If this attack hits, you must put it into your hero's soul. This effect is not optional.",
+    cardImage: require("./images/HeraldOfRavages.png"),
+  },
+  {
+    name: "Herald of Rebirth",
+    ruling:
+      "\nIf the attack is put into your hero’s soul, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put into your hero’s soul, Phantasm is no longer functional as a triggered ability, and the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes into your soul, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n You can only put a card with the keyword phantasm from your graveyard on top of your deck, this does not include cards that only reference phantasm.\n\u203B\n Herald of Rebirth cannot put itself to the top of your deck as it is not in the graveyard when it hits.\n\u203B\n You do not have to put a card with phantasm from your graveyard on top of your deck. Even if you elect not to, you must still put Herald of Rebirth into your hero’s soul.\n\u203B\n If this attack hits, you must put it into your hero's soul. This effect is not optional.",
+    cardImage: require("./images/HeraldOfRebirth.png"),
+  },
+  {
+    name: "Herald of Tenacity",
+    ruling:
+      "\nIf the attack is put into your hero’s soul, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put into your hero’s soul, Phantasm is no longer functional as a triggered ability, and the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes into your soul, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n If this attack hits, you must put it into your hero's soul. This effect is not optional.",
+    cardImage: require("./images/HeraldOfTenacity.png"),
+  },
+  {
+    name: "Herald of Triumph",
+    ruling:
+      "\nIf the attack is put into your hero’s soul, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put into your hero’s soul, Phantasm is no longer functional as a triggered ability, and the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes into your soul, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n Reducing the {p} of a defending attack action card has no effect on its {d} value.\n\u203B\n If this attack hits, you must put it into your hero's soul. This effect is not optional.",
+    cardImage: require("./images/HeraldOfTriumph.png"),
+  },
+  {
+    name: "Parable of Humility",
+    ruling:
+      "\nYou cannot defend with Parable of Humility as it does not have a defense value.\n\u203B\n Reducing the {p} of a defending attack action card has no effect on its {d} value.\n\u203B\n This does not affect the base {p} of the attack action or affect the card when it is not attacking or defending.\n\u203B\n When a card enters a zone such as the graveyard and cares about the {p} of the card, it will use the last known information. In this case when an attack action card controlled by opposing hero enters the graveyard from the combat chain, it will count as having the -1{p}. (Only relevant for cards that care about the {p} of a card entering a zone)",
+    cardImage: require("./images/ParableOfHumility.png"),
+  },
+  {
+    name: "Merciful Retribution",
+    ruling:
+      "\nYou cannot defend with Merciful Retribution as it does not have a defense value.\n\u203B\n Token aura or attack action cards you control that are destroyed will also deal 1 arcane damage to target hero. Only non-token Light cards are put into your hero’s soul.\n\u203B\n An attack action card that is put into the graveyard from the combat chain is not considered to be destroyed. Discarding an aura or attack action card is also not considered to be destroyed.\n\u203B\n Merciful Retribution triggers itself. If Merciful Retribution is destroyed, it will deal 1 arcane damage to target hero and be put into your hero’s soul as it is a Light Illusionist Aura.",
+    cardImage: require("./images/MercifulRetribution.png"),
+  },
+  {
+    name: "Ode to Wrath",
+    ruling:
+      "\nYou cannot defend with Ode to Wrath as it does not have a defense value.\n\u203B\n The green symbol on Ode to Wrath is life.\n\u203B\n Loss of {h} does not count as dealing damage.\n\u203B\n A source you control includes damage from attacks such as weapon attack (Including attacking with an aura if applicable), attack action or dealing damage such as arcane damage.",
+    cardImage: require("./images/OdeToWrath.png"),
+  },
+  {
+    name: "Phantasmaclasm",
+    ruling:
+      "\nYou must select a card from their hand. It is not optional.\n\u203B\n If the defending hero’s hand is empty, they will still draw a card when Phantasmaclasm’s ability resolves.\n\u203B\n Phantasmaclasm’s ability happens before the defending player has a chance to defend or play defense reactions. (And thus before it can be destroyed by phantasm)\n\u203B\n If their deck is empty, Phantasmaclasm would put the chosen card on their deck and that player would immediately redraw the same card.\n\u203B\n If this is attacking an ally, you would not look at a hero’s hand as there is no defending hero and thus no one would draw a card.",
+    cardImage: require("./images/Phantasmaclasm.png"),
+  },
+  {
+    name: "Phantasmal Footsteps",
+    ruling:
+      "\nAn attack action card going into a graveyard from the combat chain is not the same as being destroyed.\n\u203B\n If you elect not to use it’s effect on the first Illusionist attack action card you control that is destroyed, you cannot use the effect for the rest of the turn.\n\u203B\n The Illusionist attack action card being destroyed does not need to be the one in the current chain link. For example if an illusionist attack action card in a previous chain link was destroyed (I.e by phantasm at a later point due to an instant or reaction) then Phantasmal Footsteps will still trigger.\n\u203B\n When you defend with Phantasmal Footsteps and pay {r} it’s defense becomes 1, even if you defend with it an additional time this turn and pay {r} it won’t add any additional {d}.\n\u203B\n Phantasmal Footsteps only changes it’s defense to 1{d}, it does not take into account or remove any -1{d} counters. If Phantasmal Footsteps has a -1{d} counter on it then its defense becomes 1{d}, it would have 0{d}.\n\u203B\n You can defend with an equipment as long as it's in the equipment zone. If the attacking player closes the chain, Phantasmal Footsteps would return to the equipment zone provided it was not destroyed by defending an attack with 6 or more {p} and thus you would be able to defend again.\n\u203B\n Phantasmal Footsteps does not have Battleworn. It will not gain a -1{d} counter from defending.\n\u203B\n Phantasmal Footsteps {d} becoming 1 lasts until end of turn. You do not have to pay {r} again if you defend with it a second time for it to have 1{d}.\n\u203B\n You cannot gain action points during your opponent’s turn. (You may still pay the {r} if an illusionist attack action is destroyed, you just would not gain the action point when it resolves)",
+    cardImage: require("./images/PhantasmalFootsteps.png"),
+  },
+  {
+    name: "Phantasmify",
+    ruling:
+      "\nWhen an attack has an effect when played that would become a layer on the chain, that effect will happen before the defending window and therefore even if the attack is destroyed, the effect has already happened.\n\u203B\n When an attack action is destroyed the rest of the card effects will not resolve such as go again which rely on the chain link resolving.",
+    cardImage: require("./images/Phantasmify.png"),
+  },
+  {
+    name: "Prismatic Shield",
+    ruling:
+      "\nYou cannot defend with Prismatic Shield as it does not have a defense value.",
+    cardImage: require("./images/PrismaticShield.png"),
+  },
+  {
+    name: "Spears of Surreality",
+    ruling:
+      "\nIf Spears of Surreality is destroyed, the attack will not resolve and therefore you will not gain an action point from go again.",
+    cardImage: require("./images/SpearsOfSurreality.png"),
+  },
+  {
+    name: "The Librarian",
+    ruling:
+      "\nMentors do not have a pitch value or cost and cannot be pitched or played.\n\u203B\n Mentors have their effect active when they are face up in your arsenal.\n\u203B\n You cannot arsenal a card if there is not an empty arsenal zone.\n\u203B\n You do not have to find a specialization card from your deck, you may elect to not find a card. This is because it is looking for a specific type of card and it is a hidden zone. You still must shuffle your deck.\n\u203B\n If you create multiple spectral shields at the same time you still only draw one card and put one lesson counter on The Librarian.",
+    cardImage: require("./images/TheLibrarian.png"),
+  },
+  {
+    name: "Wartune Herald",
+    ruling:
+      "\nIf the attack is put into your hero’s soul, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put into your hero’s soul, Phantasm is no longer functional as a triggered ability, and the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes into your soul, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n If this attack hits, you must put it into your hero's soul. This effect is not optional.",
+    cardImage: require("./images/WartuneHerald.png"),
+  },
+  {
+    name: "Beacon of Victory",
+    ruling:
+      "\nYou must have cards in your hero’s soul to banish in order to play Beacon of Victory.\n\u203B\n You can target any attack including weapon attacks and attack actions.\n\u203B\n You must have charged before this card resolves for the second effect of the card to happen. Charging after this card has resolved would not do anything.\n\u203B\n You do not have to play the card you search for straight away.",
+    cardImage: require("./images/BeaconOfVictory.png"),
+  },
+  {
+    name: "Bolt of Courage",
+    ruling:
+      "\nBolt of Courage does not need to be the card to have charged for it to gain its effect. If you have charged this turn due to another card, Bolt of Courage still gains its effect.",
+    cardImage: require("./images/BoltOfCourage.png"),
+  },
+  {
+    name: "Bolting Blade",
+    ruling:
+      "\nIf you’ve charged at least twice this turn, Bolting Blade will cost 0 to play.\n\u203B\n If there is an effect that increases the cost of Bolting Blade, it can be reduced by Bolting Blade’s effect. For example if there is an effect that causes Bolting Blade to cost {r}{r} more but you have charged three times, Bolting Blade will cost 0 to play.\n\u203B\n The cost of Bolting Blade is still four even if it’s cost is reduced and is played for 0 resources. This is important for cards that care about the attack action’s cost.",
+    cardImage: require("./images/BoltingBlade.png"),
+  },
+  {
+    name: "Courageous Steelhand",
+    ruling:
+      "\nYou can play this card even if you have not charged this turn. It would not have any target or effect even if you charge later in the turn.\n\u203B\n Even if you have charged multiple times, the attack only gains +1/2/3{p}. Additional times charged have no effect on this card.",
+    cardImage: require("./images/CourageousSteelhand.png"),
+  },
+  {
+    name: "Dusk Path Pilgrimage",
+    ruling:
+      "\nIf there are multiple effects that let your weapon attack an additional time you would be able to attack an additional time for each trigger.\n\u203B\n You must still pay resources and have the required action point to attack again. This simply bypasses the “Once per Turn” part of the attack for one attack.\n\u203B\n This only affects the next weapon attack. The +{p} does not affect or stay on the weapon.",
+    cardImage: require("./images/DuskPathPilgrimage.png"),
+  },
+  {
+    name: "Engulfing Light",
+    ruling:
+      "\nEngulfing Light does not need to be the card to have charged for it to gain its effect. If you have charged this turn due to another card, Engulfing Light still gains its effect.\n\u203B\n If the attack is put into your hero’s soul, the combat chain does not close and the chain link remains on the combat chain along with all of the defending cards and attack reactions.\n\u203B\n If the attack is put into your hero’s soul, the attack can not gain abilities such as “go again”.\n\u203B\n If the attack has had “go again” before it goes into your soul, Last Known Information is used at the end of chain link resolution and you will still gain an action point.\n\u203B\n If Engulfing Light hits while charged, it must go in your hero’s soul. It is not optional.",
+    cardImage: require("./images/EngulfingLight.png"),
+  },
+  {
+    name: "Minerva Themis",
+    ruling:
+      "\nMentors do not have a pitch value or cost and cannot be pitched or played.\n\u203B\n Mentors have their effect active when they are face up in your arsenal.\n\u203B\n You cannot arsenal a card if there is not an empty arsenal zone.\n\u203B\n You do not have to find a specialization card from your deck, you may elect to not find a card. This is because it is looking for a specific type of card and it is a hidden zone. You still must shuffle your deck.\n\u203B\n You can see if a weapon is 2H or 1H at the bottom middle of a card.\n\u203B\n The weapon hit does not need to be 1H for Minerva to get a counter.",
+    cardImage: require("./images/MinervaThemis.png"),
+  },
+  {
+    name: "Lumina Ascension",
+    ruling:
+      "\nYou may only play Lumina Ascension in your deck if your hero is Ser Boltyn, Breaker of Dawn or Boltyn (Young hero).\n\u203B\n All weapons you control gain +1{p}, this affects the weapon not just the next weapon attack.\n\u203B\n You must put the revealed card into your hero’s soul and gain 1{h} if it is a Light card. It is not optional. You must put the card on the bottom of your deck if it is not a Light card.",
+    cardImage: require("./images/LuminaAscension.png"),
+  },
+  {
+    name: "Plow Through",
+    ruling:
+      "\nThe first part of the card only affects your next weapon attack and the “if this weapon is defended by an attack action it gains +1{p} until end of turn” does not affect or stay on the weapon after you have attacked with it.\n\u203B\n The second part of the effect (If this weapon is defended by an attack action card) stays until end of turn as it gives the weapon +1{p} so if the weapon was to attack again it would still have it’s +1{p}. Note: That if it is defended again by another attack action card it would not gain an additional +1{p} as that effect was only to the weapon attack.",
+    cardImage: require("./images/PlowThrough.png"),
+  },
+  {
+    name: "Second Swing",
+    ruling:
+      "\nYou may still play this card even if you have not attacked with a weapon this turn. Your next attack will not gain the power bonus. (Even if you later attack with a weapon)\n\u203B\n Your next attack does not have to be a weapon attack. Second Swing is not specific to the type of attack.",
+    cardImage: require("./images/SecondSwing.png"),
+  },
+  {
+    name: "Spill Blood",
+    ruling:
+      "\nA weapon’s subtype is located at the bottom center of the card.\n\u203B\n This only affects axes. It affects both 1H and 2H axes.\n\u203B\n The effect stays on the weapon until end of turn. If you attack with the same axe multiple times in the turn, it would still maintain +2{p} and dominate.",
+    cardImage: require("./images/SpillBlood.png"),
+  },
+  {
+    name: "Take Flight",
+    ruling:
+      "\nTake Flight does not need to be the card to have charged for it to gain its effect. If you have charged this turn due to another card, Take Flight will have go again.",
+    cardImage: require("./images/TakeFlight.png"),
+  },
+  {
+    name: "V of the Vanguard",
+    ruling:
+      "\nYou may only play V of the Vanguard in your deck if your hero is Ser Boltyn, Breaker of Dawn or Boltyn (Young hero).\n\u203B\n You can charge any type of cards in your hand. Attacks will only get +1{p} for each Light card charged this way.\n\u203B\n Playing or using non-attack actions closes the combat chain. (They require an empty combat chain to be played)",
+    cardImage: require("./images/VOfTheVanguard.png"),
+  },
 ];
 
 export default cardData;
