@@ -50,7 +50,7 @@ export default function App() {
           style={styles.coverImage}
         />
         <View style={styles.disclaimerContainer}>
-          <Text style={styles.copyright}>©Georgia Sumner</Text>
+          <Text style={styles.copyright}>Tome Of Rulings © Georgia Sumner</Text>
           <Text style={styles.disclaimer}>
             Flesh and Blood™ and all associated images are copyright © Legend
             Story Studios.
@@ -117,6 +117,7 @@ const styles = StyleSheet.create({
   },
   list: {
     padding: 25,
+    margin: -5,
   },
   title: {
     marginLeft: 40,

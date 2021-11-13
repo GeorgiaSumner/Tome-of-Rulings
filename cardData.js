@@ -2349,6 +2349,646 @@ const cardData = [
       "\nYou may only play V of the Vanguard in your deck if your hero is Ser Boltyn, Breaker of Dawn or Boltyn (Young hero).\n\u203B\n You can charge any type of cards in your hand. Attacks will only get +1{p} for each Light card charged this way.\n\u203B\n Playing or using non-attack actions closes the combat chain. (They require an empty combat chain to be played)",
     cardImage: require("./images/VOfTheVanguard.png"),
   },
+  {
+    name: "Korshem, Crossroads of the Elements",
+    ruling:
+      '\nWhen playing official Flesh and Blood events, refer to the official card text.\n\u203B\n You may only have 1 Korshem, Crossroads of the Elements in your deck as it is Legendary. This applies to all formats including booster draft and sealed deck.\n\u203B\n You cannot pitch Korshem, Crossroads of the Elements, as it does not have a pitch value.\n\u203B\n Korshem, Crossroads of the Elements is an action card. It costs an action point to play it.\n\u203B\n Korshem, Crossroads of the Elements is a Landmark. There can only be one Landmark in the arena at any given time. When a Landmark enters the arena while another is in the arena, the previous Landmark is destroyed and put into the graveyard.\n\u203B\n A Landmark stays in the arena after it is played. It remains in the arena until it is destroyed.\n\u203B\n If a card is revealed as an additional cost to play an attack action card, for example fusion, and the mode selected from Korshem is "their next attack this turn gains +1{p}", the current attack would not gain +1{p}.\n\u203B\n If more than one card is revealed from an additional cost, such as from dual fusion, or from the resolution of an effect, Korshem triggers only once, and only one mode can be chosen.\n\u203B\n When 1 or more cards are revealed as an additional cost, Korshem will trigger. When 1 or more cards are revealed as part of the resolution of an effect (from a card, activated ability, or trigger), Korshem will trigger. If a card or activated ability both revealed a card as an additional cost, and again upon resolution, Korshem would trigger twice, once when the cost is paid, and again when the effect resolves.\n\u203B\n Gaining {r} from pitching a card does not prevent Korshem from being destroyed at the end of the turn, only gaining {r}, {h}, {p}, or {d} from card effects (such as resolution, triggered, activated, and static abilities) are relevant.\n\u203B\n If you have a continuous effect that increases {p} or {d} and then play/defend with a card that the effect applies to, this does not prevent Korshem from being destroyed at the end of the turn. This is because the card comes under your control with the effect applied, and therefore the {p} or {d} has not increased while it was under your control. If the continuous effect becomes active AFTER the card comes under your control, then the {p} or {d} may increase from the effect which would prevent Korshem from being destroyed at the end of the turn.',
+    cardImage: require("./images/Korshem.png"),
+  },
+  {
+    name: "Briar",
+    ruling:
+      "\nThe first ability includes hitting with the attack action as well as dealing damage or arcane damage.\n\u203B\n If there are multiple instances of damage on an attack action it would create multiple Embodiments of Earth. (I.e “Deal 1 arcane damage. Deal 1 arcane damage.)\n\u203B\n One instance of two damage would still only create one Embodiment of Earth. (I,e Deal 2 arcane damage.)\n\u203B\n Playing a ‘non-attack’ action card as though it was an instant still counts as playing a ‘non-attack’ action card.\n\u203B\n You still create an Embodiment of Lightning token when you play your second ‘non-attack’ action card each turn even if you already control one.\nAn Embodiment of Earth token is an Elemental aura with “‘Non-attack' action cards you control have +1{d} while defending. At the beginning of your action phase, destroy Embodiment of Earth.”\n\u203B\n An Embodiment of Lightning token is an Elemental aura with “When you play an attack action card, destroy Embodiment of Lightning and the attack gains go again.”",
+    cardImage: require("./images/Briar.png"),
+  },
+  {
+    name: "Duskblade",
+    ruling:
+      "\nA +1{p} counter is a permanent effect that increases the power of Duskblade (until the counter is removed).\n\u203B\n You do not have to attack with Duskblade to prevent the +1{p} counters from being removed. You just need to have played an attack action and a ‘non-attack’ action card.",
+    cardImage: require("./images/Duskblade.png"),
+  },
+  {
+    name: "Lexi",
+    ruling:
+      "\nYou may turn a face down card face up even if it’s not a Lightning or Ice card.\n\u203B\n If you turn a card that’s Lightning and Ice you would get both effects.\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+    cardImage: require("./images/Lexi.png"),
+  },
+  {
+    name: "Oldhim",
+    ruling:
+      "\nYou cannot pitch a card if there is not a cost to be played. You cannot pitch a card for a cost if there are already sufficient resources available to you.\n\u203B\n You must pitch the card as part of the cost to pay for the ability to gain the effect. Having an Ice or Earth card in your pitch zone that you pitched for a different cost does not grant the effect.\n\u203B\n You can pitch multiple cards to this effect. If an Earth card and an Ice card is pitched this way you would get both effects. If multiple Earth cards are pitched you would still only prevent the next 2 damage.\n\u203B\n If a card pitched is both Ice and Earth you would gain both effects.\n\u203B\n You may only activate Defense Reaction during the reaction step.\n\u203B\n The prevention lasts until the end of the turn, it does not need to prevent damage during the current chain link. You may activate the ability during the reaction step even if there is no damage that would be dealt to you.\n\u203B\n This prevents all types of damage including damage from attacks, arcane damage and damage. This does not prevent loss of life.\n\u203B\n The attacking hero picks what card from their hand goes on top of their deck.\n\u203B\n Both players can respond to the ability with reactions and instants. For example, in response to the Ice part happening, the attacking player can play the last attack reaction out of their hand.",
+    cardImage: require("./images/Oldhim.png"),
+  },
+  {
+    name: "Rosetta Thorn",
+    ruling:
+      "\nThe arcane damage is a single source of damage. For example, since Rosetta Thorn does 2 arcane damage you would require arcane barrier 2 (or two arcane barrier 1) to fully prevent it.\n\u203B\n You may still attack with Rosetta Thorn even if you have not played an attack action and a ‘non-attack’ action card this turn.",
+    cardImage: require("./images/RosettaThorn.png"),
+  },
+  {
+    name: "Shiver",
+    ruling:
+      "\nYYou may activate this during your opponent’s turn.\n\u203B\n You may activate this and not put a card from your hand into your arsenal.",
+    cardImage: require("./images/Shiver.png"),
+  },
+  {
+    name: "Titan’s Fist",
+    ruling:
+      "\nTitan’s Fist checks your pitch zone constantly, not just when it attacks. If the criteria is met after the attack is made, it will get the +1{p} bonus.\n\u203B\n The cost of a card is located on the top right corner of a card.\n\u203B\n You cannot pitch a card if there is not a cost to be played. You cannot pitch a card for a cost if there are already sufficient resources available to you.\n\u203B\n You may start the game with up to two Titan’s Fist in the arena as they are 1H weapons.",
+    cardImage: require("./images/TitansFist.png"),
+  },
+  {
+    name: "Voltaire, Strike Twice",
+    ruling:
+      "\nYou may activate this during your opponent’s turn.\n\u203B\n You may activate this and not put a card from your hand into your arsenal.\n\u203B\n Twice per Turn Instant means you can use this ability up to twice per turn.",
+    cardImage: require("./images/Voltaire.png"),
+  },
+  {
+    name: "Winter’s Wail",
+    ruling:
+      "\nYou cannot pitch a card if there is not a cost to be played. You cannot pitch a card for a cost if there are already sufficient resources available to you.\n\u203B\n You must pitch an Ice card as part of the cost to pay for the attack to gain the bonus. Having an Ice card in your pitch zone that you pitched for a different cost does not grant Winter’s Wail the bonus.\n\u203B\n You do not need to pay the entire cost with Ice cards. You can use leftover resources in addition to pitching an Ice card to pay the rest of the cost.\nYou may start the game with up to two Winter’s Wail in the arena as they are 1H weapons.\n\u203B\n A Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}. At the beginning of your end phase or when you play a card or activate an ability, destroy Frostbite.“",
+    cardImage: require("./images/WintersWail.png"),
+  },
+  {
+    name: "Frostbite",
+    ruling:
+      "\nTriggered abilities and static abilities do not get affected by this.\n\u203B\n When determining resource cost you declare if an alternate cost is being paid, then apply effects that increase resource point costs (such as Frostbite) then apply effects that reduce resource point costs before paying for the cost.\n\u203B\n When you play a card or activate an ability, the trigger of frostbite being destroyed will be put as a layer on the chain. If the player with the Frostbite wants to respond by playing or activating another ability they would still have that Frostbite under their control so it would cost an additional {r}. (It is recommended to let the Frostbite being destroyed trigger resolve first before doing anything else).",
+    cardImage: require("./images/Frostbite.png"),
+  },
+  {
+    name: "Embodiment of Earth",
+    ruling:
+      "\nMultiple Embodiments of Earth stack. For example, if you control two Embodiment of Earth and you block with a base 2{d} non-attack action, it would have 4{d}.\n\u203B\n This affects all non-attack action cards you defend with, not just the first card you defend with.",
+    cardImage: require("./images/EmbodimentOfEarth.png"),
+  },
+  {
+    name: "Embodiment of Lightning",
+    ruling:
+      "\nMultiple Embodiment of Lightning will still be destroyed when you play an attack action card. You will only gain 1 action point upon resolution as multiple instances of go again do not stack.\n\u203B\n Weapon attacks do not trigger Embodiment of Lightning. If you attack with a weapon with an Embodiment of Lightning in play, it would not get destroyed or grant your attack go again.",
+    cardImage: require("./images/EmbodimentOfLightning.png"),
+  },
+  {
+    name: "Coat of Frost",
+    ruling:
+      "\nYou may target yourself with this ability.\n\u203B\n Both players can respond to the ability before the Frostbite token is created.",
+    cardImage: require("./images/CoatOfFrost.png"),
+  },
+  {
+    name: "Cracker Jax",
+    ruling:
+      "\nThe attack action card does not gain go again. Cracker Jax’s activated ability requires an action point to use and provides an action point from go again upon resolution.\n\u203B\n This does not affect weapon attacks.",
+    cardImage: require("./images/CrackerJax.png"),
+  },
+  {
+    name: "Crown of Seeds",
+    ruling:
+      "\nYou cannot activate Crown of Seeds if you do not have a face down card in your arsenal.\n\u203B\n The card in your arsenal must be face down for you to activate Crown of Seeds.\n\u203B\n This prevents all types of damage including damage from attacks, arcane damage and damage. This does not prevent loss of life.\n\u203B\n If you do not have any cards in your deck when you activate this, you would put your card in your arsenal to the bottom of your deck then draw the same card.",
+    cardImage: require("./images/CrownOfSeeds.png"),
+  },
+  {
+    name: "Deep Blue",
+    ruling:
+      "\nYou do not reveal the card you put on the bottom of your deck.\n\u203B\n Putting a card on the bottom of your deck from your hand is part of the cost.\n\u203B\n You cannot activate Deep Blue if there are no cards in your hand.",
+    cardImage: require("./images/DeepBlue.png"),
+  },
+  {
+    name: "Heart of Ice",
+    ruling:
+      "\nThis does not affect triggered or passive abilities.\n\u203B\n Defending with a card does not require an additional {r} as it is not played or activated.\n\u203B\n Defense reactions are played and therefore require an additional {r} when Heart of Ice is active.\n\u203B\n This affects all cards and activated abilities for opponents for the turn, not just the first one.",
+    cardImage: require("./images/HeartOfIce.png"),
+  },
+  {
+    name: "Honing Hood",
+    ruling:
+      "\nYou may use Honing Hood even if there are no cards in your arsenal.\n\u203B\n You must put a card from your hand face down into an empty arsenal zone. (Assuming you have at least one card in your hand).",
+    cardImage: require("./images/HoningHood.png"),
+  },
+  {
+    name: "Mark of Lightning",
+    ruling:
+      "\nThe effect is triggered during the defending window after the defending player has decided to defend with cards in hand, or during the reaction window when the defending player plays a defense reaction from hand.\n\u203B\n The damage is not arcane and cannot be defended with cards in hand or by arcane barrier. It can be stopped by prevention effects that prevent any kind of damage.",
+    cardImage: require("./images/MarkOfLightning.png"),
+  },
+  {
+    name: "New Horizon",
+    ruling:
+      "\nThe additional arsenal zone can be represented next to your current arsenal zone.\n\u203B\n An additional arsenal zone is considered empty until it has a card in it.\n\u203B\n Cards that destroy all cards in your arsenal would destroy both cards if you have two cards in the arsenal due to New Horizon.\n\u203B\n You cannot turn a card in your arsenal face-up unless a card instructs you to do so.",
+    cardImage: require("./images/NewHorizon.png"),
+  },
+  {
+    name: "Plume of Evergrowth",
+    ruling:
+      "\nAn Elemental card with Earth Fusion is not an Earth card.\n\u203B\n You must have a legal target to activate and resolve this effect.",
+    cardImage: require("./images/PlumeOfEvergrowth.png"),
+  },
+  {
+    name: "Ragamuffin’s Hat",
+    ruling:
+      "\nThere is no priority during the resolution of an ability. For example, you cannot play or activate an ability after drawing the card but before putting a card on the top or bottom.\n\u203B\n The ability still resolves even if you no longer have 1 card in hand at the time it resolves. (As long as you had 1 card in hand when you activated it.)\n\u203B\n Your opponent knows if you put the card on the top or bottom of your deck. (But not what the card is.)",
+    cardImage: require("./images/RagamuffinsHat.png"),
+  },
+  {
+    name: "Rampart of the Ram’s Head",
+    ruling:
+      "\nAn Off-hand goes in the second weapon zone. You cannot have a 2h and an Off-hand at the same time.\n\u203B\n You can defend with an equipment as long as it's in the equipment or weapon zone.\n\u203B\n Rampart of the Ram’s Head does not have Battleworn. It will not gain a -1{d} counter from defending.\n\u203B\n You pay the {r} after declaring all cards you are defending within the defending window.\n\u203B\n Rampart of the Ram’s Head gains +1{d} and lasts until end of turn. If it were to defend again in the same turn (For example if the combat chain closes) it would still have it’s {d}. (And the ability will trigger again and you may pay another {r}.)",
+    cardImage: require("./images/Rampart.png"),
+  },
+  {
+    name: "Rotten Old Buckler",
+    ruling:
+      "\nAn Off-hand goes in the second weapon zone. You cannot have a 2h and an Off-hand at the same time.\n\u203B\n Equipment goes to the graveyard when destroyed.",
+    cardImage: require("./images/RottenOldBuckler.png"),
+  },
+  {
+    name: "Runaways",
+    ruling:
+      "\nTYou cannot use this during a resolution of a card. For example if a card says “Deal 2 arcane damage. Deal 2 arcane damage.” you cannot take two then use this as a card must fully resolve first.\n\u203B\n This prevents all types of damage including damage from attacks, arcane damage and damage. This does not prevent loss of life.\n\u203B\n Loss of life is not the same as being dealt damage.",
+    cardImage: require("./images/Runaways.png"),
+  },
+  {
+    name: "Shock Charmers",
+    ruling:
+      "\nYou may activate Shock Charmers as many times as you have the resources for.\n\u203B\n Each instance of dealing 1 damage is separate. However it is still from a single source.\n\u203B\n This only cares about the next attack action you control that hits, if an attack action card is played after activating this but is fully defended, the next attack action card that hits this turn would still have this effect.\n\u203B\n If you use spellvoid 2 to prevent one arcane damage, there will be no left over prevention.\n\u203B\n Spellvoid 2 can only prevent 2 arcane damage from a single source. It cannot prevent 2 sources of 1 arcane damage.",
+    cardImage: require("./images/ShockCharmers.png"),
+  },
+  {
+    name: "Spellbound Creepers",
+    ruling:
+      "\nIf the non-attack action card played has go again, you will still gain an action point after it resolves even if it was played as though it was an instant. This would net gain you an action point. You can not gain action points on your opponents turn.\n\u203B\n Players do not have priority during the end phase.\n\u203B\n You do not need to do all the arcane damage in one go. Spellbind Creepers only cares about the total arcane damage dealt throughout the turn.",
+    cardImage: require("./images/SpellboundCreepers.png"),
+  },
+  {
+    name: "Sutcliffe's Suede Hides",
+    ruling:
+      "\nIf this is used on an attack with go again, you will only gain 1 action point upon chain link resolution as multiple instances of go again do not stack.",
+    cardImage: require("./images/SutcliffesSuedeHides.png"),
+  },
+  {
+    name: "Entwine Earth",
+    ruling:
+      "\nYou may play this card in any Elemental hero even if the hero does not have the essence of Earth as this is an Elemental card not an Earth card.",
+    cardImage: require("./images/EntwineEarth.png"),
+  },
+  {
+    name: "Entwine Ice",
+    ruling:
+      "\nYou may play this card in any Elemental hero even if the hero does not have the essence of Ice as this is an Elemental card not an Ice card.",
+    cardImage: require("./images/EntwineIce.png"),
+  },
+  {
+    name: "Entwine Lightning",
+    ruling:
+      "\nYou may play this card in any Elemental hero even if it does not have essence of Lightning as this is an Elemental card not a Lightning card.",
+    cardImage: require("./images/EntwineLightning.png"),
+  },
+  {
+    name: "Exposed to the Elements",
+    ruling:
+      "\nYou cannot defend with Exposed to the Elements as it does not have a defense value.\n\u203B\n You may play this card in any Elemental hero even if it does not have the essence of Earth and Ice.\n\u203B\n You may fuse this with just one card with a single Element, if you do you will only gain the fused effect of that one element.\n\u203B\n You may fuse this with just one Earth and Ice card, if you do you will gain both fused effects.\n\u203B\n You choose what card to destroy when this card resolves. The effects on the card resolve in order so you can put a -1[d} counter on a 1{d} equipment followed by the second ability.\n\u203B\n Your opponent decides if they want to pay {r}{r} before you select the equipment.",
+    cardImage: require("./images/ExposedToTheElements.png"),
+  },
+  {
+    name: "Fulminate",
+    ruling:
+      "\nYou may play this card in any Elemental hero even if it does not have the essence of Earth and Lightning.\n\u203B\n You may fuse this with just one card with a single Element, if you do you will only gain the fused effect of that one element.\n\u203B\n You may fuse this with just one Earth and Lightning card, if you do you will gain both fused effects.",
+    cardImage: require("./images/Fulminate.png"),
+  },
+  {
+    name: "Flashfreeze",
+    ruling:
+      "\nYou may play this card in any Elemental hero even if it does not have the essence of Ice and Lightning.\n\u203B\n You may fuse this with just one card with a single Element, if you do you will only gain the fused effect of that one element.\n\u203B\n You may fuse this with just one Ice and Lightning card, if you do you will gain both fused effects.\n\u203B\n The defending hero chooses whether they pay {r}{r} when the attack becomes a layer on the chain.",
+    cardImage: require("./images/Flashfreeze.png"),
+  },
+  {
+    name: "Invigorate",
+    ruling:
+      "\nIf the next attack is not fused, it would not grant the bonus. If you then later play an attack with fuse it would gain the bonus as it is the next attack you fuse this turn.",
+    cardImage: require("./images/Invigorate.png"),
+  },
+  {
+    name: "Rejuvenate",
+    ruling:
+      "\nYou may still play Rejuvenate as an action regardless if you have fused or not.",
+    cardImage: require("./images/Rejuvenate.png"),
+  },
+  {
+    name: "Awakening",
+    ruling:
+      "\nThe green symbol on Awakening refers to life.\n\u203B\n Difference refers to the difference in life. For example, if you are on higher life when you play Awakening, you will not gain any Seismic Surge tokens.\n\u203B\n A Seismic Surge token is a Guardian Aura with “At the beginning of your action phase, destroy Seismic Surge then the next Guardian attack action card you play this turn costs {r} less to play.”",
+    cardImage: require("./images/Awakening.png"),
+  },
+  {
+    name: "Biting Gale",
+    ruling:
+      "\nSince defense reactions can’t defend in the defending window and must be played in the reaction window, you must pay Biting Gale’s cost to play it.\n\u203B\n The attacking hero decides if they want to pay {r}{r} when biting Gale resolves (and becomes a defending card on the chain link)\n\u203B\n If you have no cards in hand, you can still elect to discard a card instead of paying {r}{r}.",
+    cardImage: require("./images/BitingGale.png"),
+  },
+  {
+    name: "Emerging Avalanche",
+    ruling:
+      "\nEmerging Avalanche must be destroyed at the beginning of your action phase, it is not optional.\n\u203B\n A Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+    cardImage: require("./images/EmergingAvalanche.png"),
+  },
+  {
+    name: "Embolden",
+    ruling:
+      "\nEmbolden must be destroyed at the beginning of your action phase, it is not optional.\n\u203B\n Embolden only affects Guardian attack actions. It does not affect weapon attacks or non-Guardian attack actions.\n\u203B\n A non-token aura is an aura that is not a token. (Tokens have T before the set-code at the middle bottom of the card.)",
+    cardImage: require("./images/Embolden.png"),
+  },
+  {
+    name: "Endless Winter",
+    ruling:
+      "\nYou may only play Endless Winter in your deck if your hero is Oldhim, Grandfather of Eternity or Oldhim (Young hero).\n\u203B\n If the defending hero defends with 2 cards (while Endless Winter is fused) they would create two Frostbites.\nDefense reactions become a defending card when they resolve. You would get a Frostbite token when the defense reaction becomes a defending card.\n\u203B\n Endless Winter’s second ability gives a Frostbite token after an ability is activated. This would not affect the cost of the ability.\n\u203B\n Playing a card is not the same as activating an ability. Playing a card while under Endless Winter’s effect would not create a Frostbite token.\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+    cardImage: require("./images/EndlessWinter.png"),
+  },
+  {
+    name: "Entangle",
+    ruling:
+      "\nThis affects all attacks including attack actions and weapon attacks.",
+    cardImage: require("./images/Entangle.png"),
+  },
+  {
+    name: "Glacial Footsteps",
+    ruling:
+      "\nPlaying a defense reaction from your hand counts towards the 1 card from your hand restriction. You cannot defend with a card in your hand then play a defense reaction from your hand. (Assuming Glacial Footsteps has dominate.)",
+    cardImage: require("./images/GlacialFootsteps.png"),
+  },
+  {
+    name: "Mulch",
+    ruling:
+      "\nIf the defending hero has multiple cards in their arsenal the attacking player chooses which one is put on the bottom of their deck.",
+    cardImage: require("./images/Mulch.png"),
+  },
+  {
+    name: "Oaken Old",
+    ruling:
+      "\nYou have to reveal both an Earth and an Ice card to fuse Oaken Old.\n\u203B\n You may pay the additional cost to fuse this by revealing a single Earth and Ice card.\n\u203B\n The hero putting the two cards in their hand on the bottom of the deck chooses the order. The order is not known to other players.",
+    cardImage: require("./images/OakenOld.png"),
+  },
+  {
+    name: "Snow Under",
+    ruling:
+      "\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+    cardImage: require("./images/SnowUnder.png"),
+  },
+  {
+    name: "Strength of Sequoia",
+    ruling:
+      "\nIf the defending hero has multiple cards in their arsenal the attacking player chooses which one is put on the bottom of their deck.",
+    cardImage: require("./images/StrengthOfSequoia.png"),
+  },
+  {
+    name: "Tear Asunder",
+    ruling:
+      "\nThis affects all Guardian attacks including Guardian weapon attacks and Guardian attack actions.\n\u203B\n The defending hero picks which 2 cards they discard.\n\u203B\n If the defending hero only has 1 card in hand, they discard their entire hand.",
+    cardImage: require("./images/TearAsunder.png"),
+  },
+  {
+    name: "Thump",
+    ruling:
+      "\nThe base power is located at the bottom left corner of a card.\n\u203B\n The defending player decides what card to discard.\n\u203B\n Thump can gain dominate during the defending window or reaction window. If cards have already defended Thump then Thump gains dominate, the defending cards would be unaffected.\n\u203B\n If Thump is defended by at least one card from hand, Thump gains dominate - the defending player would not be able to defend with any more cards from hand.",
+    cardImage: require("./images/Thump.png"),
+  },
+  {
+    name: "Turn Timber",
+    ruling:
+      "\nSince defense reactions can’t defend in the defending window and must be played in the reaction window, you must pay Turn Timber’s cost to play it.",
+    cardImage: require("./images/TurnTimber.png"),
+  },
+  {
+    name: "Bolt’n Shot",
+    ruling:
+      "\nThe base power is located at the bottom left corner of a card.\n\u203B\n You cannot reload if you have a card in your arsenal even if there is an additional empty arsenal spot.",
+    cardImage: require("./images/BoltNShot.png"),
+  },
+  {
+    name: "Blizzard Bolt",
+    ruling:
+      "\nThis affects any and all instances of damage this card deals including “deal 1 damage”\n\u203B\n Even if the attack deals 5 damage, it would still only create 1 Frostbite.\nIf an attack has multiple instances of dealing damage it would create multiple Frostbites. (E.g a card has “If this hits deal 1 damage” “If this hits deal 1 damage”.)\n\u203B\n This affects all attacks this turn and does not require this attack to be on the combat chain.\n\u203B\n A Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+    cardImage: require("./images/BlizzardBolt.png"),
+  },
+  {
+    name: "Buzz Bolt",
+    ruling:
+      "\nThis affects all attacks this turn and does not require this attack to be on the same combat chain.\n\u203B\n The attack that hits deals the 1 damage. The one damage does not cause “on-hit” to trigger but does cause “When this attack deals damage..”\n\u203B\n The damage dealt is not arcane. It cannot be defended by cards or arcane barrier. It can be prevented by cards that prevent any damage.",
+    cardImage: require("./images/BuzzBolt.png"),
+  },
+  {
+    name: "Chilling Icevein",
+    ruling:
+      "\nThis affects any and all instances of damage this card deals including “deal 1 damage”.\n\u203B\n Even if the attack deals 5 damage, it would still only trigger once.\n\u203B\n If an attack has multiple instances of dealing damage it would trigger multiple times (E.g a card has “If this hits deal 1 damage” “If this hits deal 1 damage”.\n\u203B\n This affects all attacks this turn and does not require this attack to be on the combat chain.\n\u203B\n The hero dealt damage by Chilling Icevein decides if they discard a card or pay {r} when the ability resolves.\n\u203B\n If you have no cards in your hand you may still elect to discard a card instead of paying {r}.",
+    cardImage: require("./images/ChillingIcevein.png"),
+  },
+  {
+    name: "Cold Wave",
+    ruling:
+      "\nDefense Reactions are played and therefore would require an additional {r} to play. (Assuming Cold Wave was fused)\n\u203B\n This affects all attacks this turn and does not require this attack to be on the combat chain.",
+    cardImage: require("./images/ColdWave.png"),
+  },
+  {
+    name: "Flake Out",
+    ruling:
+      "\nPlaying a defense reaction from your hand counts towards the 1 card from your hand restriction. You cannot defend with a card in your hand then play a defense reaction from your hand. (Assuming Flake Out has dominate.)",
+    cardImage: require("./images/FlakeOut.png"),
+  },
+  {
+    name: "Frazzle",
+    ruling:
+      "\nMultiple instances of “deal 1 damage” will all separately be affected by this effect.\n\u203B\n If the entire damage is defended or prevented the extra damage won’t apply. For example if Frazzle is 5 power and is defended by 5 defense, the defending player would not take any damage as Frazzle did not deal any damage.\n\u203B\n This affects all attacks this turn and does not require this attack to be on the combat chain.",
+    cardImage: require("./images/Frazzle.png"),
+  },
+  {
+    name: "Frost Lock",
+    ruling:
+      "\nDefense Reactions are played and therefore would require an additional {r} to play.\n\u203B\n You cannot pitch or play cards with cost X or XX, as X is determined to be zero until it becomes a layer on the chain.\n\u203B\n You can pitch cards with no cost (such as Heart of Fyendal) as it has no cost, not zero cost.\n\u203B\n Even if the card has an additional cost i.e from frostbites, you cannot play the card if it has cost 0.\n\u203B\n If a card has a cost of 1 and it reduced to 0 for any reason, you can still play the card as it’s base cost is not 0.\n\u203B\n Defense Reactions are played. If you are under Frost Lock’s second effect you would not be able to play defense reactions with cost 0.\n\u203B\n This affects all attacks this turn and does not require this attack to be on the combat chain.\n\u203B\n The opposing heroes can respond to Frost Lock with playing cards and activated abilities. Cards and activated abilities only cost an additional {r} once Frost Lock resolves and becomes attacking on the combat chain.",
+    cardImage: require("./images/FrostLock.png"),
+  },
+  {
+    name: "Ice Storm",
+    ruling:
+      "\nYou have to reveal both, an Ice and a Lightning card to fuse Ice Storm.\n\u203B\n You may pay the additional cost to fuse this by revealing a single Ice and Lightning card.\n\u203B\n This affects any and all instances of damage this card deals including “deal 1 damage”.\n\u203B\n If the attack deals 5 damage, they would create 5 Frostbites.\n\u203B\n A Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+    cardImage: require("./images/IceStorm.png"),
+  },
+  {
+    name: "Light it Up",
+    ruling:
+      "\nYou may only play Light it Up in your deck if your hero is Lexi, Livewire or Lexi (Young hero).\n\u203B\n Light it Up’s first ability is a single instance of damage, even if they have multiple equipment. (For example if the defending hero controls 4 equipment, Light it Up would deal 4 damage not 4 instances of 4)\n\u203B\n Equipment on the combat chain are still considered equipment they control. (Temper and Blade Break happen when the combat chain closes).\n\u203B\n Equipment only loses activated abilities, this does not include passive or triggered abilities. (This does not make equipment lose Battleworn, Blade Break or Temper.)\n\u203B\n Light it Up only checks if damage equal to or greater than the number of equipment is dealt, it does not care about damage previously dealt by Light it Up nor does it “add” the damage dealt by different instances.",
+    cardImage: require("./images/LightItUp.png"),
+  },
+  {
+    name: "OverFlex",
+    ruling:
+      "\nYou cannot reload if you have a card in your arsenal even if there is an additional empty arsenal slot.",
+    cardImage: require("./images/OverFlex.png"),
+  },
+  {
+    name: "Seek and Destroy",
+    ruling:
+      "\nThis effect happens before you elect to arsenal a card and draw back up to your intellect.\n\u203B\n Players do not have priority during the end phase and therefore players cannot respond to this ability.",
+    cardImage: require("./images/SeekAndDestroy.png"),
+  },
+  {
+    name: "Snap Shot",
+    ruling:
+      "\nYou still need to pay the resource cost of the bow when it is activated as an instant.\n\u203B\n If a bow has not been activated yet, then Snap Shot is fused, you would choose if you would be using the bow’s original action/instant use, or the additional time use granted by Snap Shot.\n\u203B\n If the bow’s activated ability is an action and has not been activated yet, then Snap Shot is fused, and you use the bow’s original action use, it would still be an action and not an instant.",
+    cardImage: require("./images/SnapShot.png"),
+  },
+  {
+    name: "Bramble Spark",
+    ruling:
+      "\nIf Bramble Spark is fused, the next attack action you play would gain both effects.\n\u203B\n Each instance of “Deal 1 arcane damage to target hero” is separate and therefore would trigger multiple instances of dealing damage e.g Briar’s ability to make Embodiments of Earth.",
+    cardImage: require("./images/BrambleSpark.png"),
+  },
+  {
+    name: "Blossoming Spellblade",
+    ruling:
+      "\nYou have to reveal both, an Earth and a Lightning card to fuse Blossoming Spellblade.\nYou may pay the additional cost to fuse this by revealing a single Earth and Lightning card.\n\u203B\n This affects any and all instances of damage this card deals including “deal 1 (arcane) damage”.\n\u203B\n Even if the attack deals 6 damage, it would still only trigger once.\n\u203B\n If an attack has multiple instances of dealing damage it would trigger multiple times (E.g a card has “If this hits deal 1 damage” “If this hits deal 1 damage”.\n\u203B\n You choose the card to banish when the ability resolves.\n\u203B\n You do not have to play the card straight away. You can play it anytime during your turn. (You do not have priority during the end of turn.)\n\u203B\n If the non-attack action card played has go again, you will still gain an action point after it resolves even if it was played as though it was an instant. This would net gain you an action point.",
+    cardImage: require("./images/BlossomingSpellblade.png"),
+  },
+  {
+    name: "Explosive Growth",
+    ruling:
+      "\nThis affects any and all instances of damage this card deals including “deal 1 (arcane) damage”.\n\u203B\n Even if the attack deals 6 damage, it would still only trigger once.\n\u203B\n If an attack has multiple instances of dealing damage it would trigger multiple times (E.g a card has “If this hits deal 1 damage” “If this hits deal 1 damage”.\n\u203B\n The attack does arcane damage, it resolves and becomes a layer on the chain so it would gain it’s +{p} before the attack does damage. (Assuming it is fused and the arcane damage deals damage.)\n\u203B\n The second ability affects the entire combat chain and includes weapon attacks.",
+    cardImage: require("./images/ExplosiveGrowth.png"),
+  },
+  {
+    name: "Flicker Wisp",
+    ruling:
+      "\nMultiple instances of arcane damage on the same source will be affected separately. For example if a card has “Deal 1 arcane damage. Deal 1 arcane damage” both would deal 2 each.\n\u203B\n If a card deals 2 arcane damage it would require arcane barrier 2 (or arcane barrier 1 x 2) to prevent as it is from a single source.\n\u203B\n This only affects action cards, this does not include other sources such as weapons that deal arcane damage or token auras that deal arcane damage.",
+    cardImage: require("./images/FlickerWisp.png"),
+  },
+  {
+    name: "Force Of Nature",
+    ruling:
+      "\nYou may only play Force of Nature in your deck if your hero is Briar, Warden of Thorns or Briar (young hero).\n\u203B\n The base power is located at the bottom left corner of the card.",
+    cardImage: require("./images/ForceOfNature.png"),
+  },
+  {
+    name: "Inspire Lightning",
+    ruling:
+      "\nYou may still play Inspire Lightning even if you do not fuse. It would not have any effect.\n\u203B\n Inspire Lighting is a single source of arcane damage. If a card deals 2 arcane damage it would require arcane barrier 2 (or two arcane barrier 1) to prevent as it is from a single source.",
+    cardImage: require("./images/InspireLightning.png"),
+  },
+  {
+    name: "Rites of Lightning",
+    ruling:
+      "\nRites of Lightning has go again as long as you’ve dealt arcane damage this turn, it does not matter if Rites of Lightning did the damage.\n\u203B\n Rites of Lightning does not require an opposing hero to be dealt arcane damage, if you have dealt arcane damage to yourself, it would gain go again.\n\u203B\n If RItes of Lightning is fused, and deals 1 arcane damage to a hero, it would gain go again from it’s second ability.",
+    cardImage: require("./images/RitesOfLightning.png"),
+  },
+  {
+    name: "Rites of Replenishment",
+    ruling:
+      "\nYou put the non-attack action card to the bottom of your deck first, then the attack action card. (Assuming both abilities are active.)",
+    cardImage: require("./images/RitesOfReplenishment.png"),
+  },
+  {
+    name: "Sigil of Suffering",
+    ruling:
+      "\nSigil of Suffering is a defense reaction and must be played during the reaction window as the defending player.\n\u203B\n Sigil of Suffering checks if you have done arcane damage this turn, it does not need to be arcane damage done by Sigil of Suffering nor does the damage need to be dealt to an opposing hero for it to gain +1{d}.",
+    cardImage: require("./images/SigilOfSuffering.png"),
+  },
+  {
+    name: "Sting of Sorcery",
+    ruling:
+      "\nThe arcane damage is dealt by the attack action card that has the triggered ability “When you attack with this, deal 1 arcane damage to target hero.”, it is not dealt by Sting of Sorcery.\n\u203B\n Arcane damage effect is triggered and dealt when the attack action card resolves and becomes attacking, not when it is played.",
+    cardImage: require("./images/StingOfSorcery.png"),
+  },
+  {
+    name: "Stir the Wildwood",
+    ruling:
+      "\nIf you have dealt arcane damage and fused Stir the of Wildwood it gains +4{p}.",
+    cardImage: require("./images/StirTheWildwood.png"),
+  },
+  {
+    name: "Vela Flash",
+    ruling:
+      "\nIf the non-attack action card played has go again, you will still gain an action point after it resolves even if it was played as though it was an instant. This would net gain you an action point.",
+    cardImage: require("./images/VelaFlash.png"),
+  },
+  {
+    name: "Amulet of Earth",
+    ruling:
+      "\nThis affects attacking cards and defending cards you control. It does not affect cards in your hand.\n\u203B\n You cannot defend with Amulet of Earth as it does not a defense value.",
+    cardImage: require("./images/AmuletOfEarth.png"),
+  },
+  {
+    name: "Break Ground",
+    ruling:
+      "\nYou cannot play Break Ground from your arsenal and put itself on the bottom of your deck.",
+    cardImage: require("./images/BreakGround.png"),
+  },
+  {
+    name: "Burgeoning",
+    ruling:
+      "\nYou may still play Burgeoning from your hand. It would not gain the +1{p}.",
+    cardImage: require("./images/Burgeoning.png"),
+  },
+  {
+    name: "Channel Mount Heroic",
+    ruling:
+      "\nThis affects both attacking and defending attack action cards you control. (Notably when they are on the combat chain.)\n\u203B\n If Channel Mount Heroic is removed before damage is dealt, while an attack action card is still on the chain, the attack would lose the +3{p} from Channel Mount Heroic.\n\u203B\n The words “you control” means cards you own (and have not lost control of), as well as tokens and effects created by cards you control, as well as cards, tokens and effects you have gained control of, and which are in any zone that makes up the arena and not “under” another card or token such as being in your hero’s soul.\n\u203B\n This does not affect attack action cards in your hand, deck, graveyard or banished zone as it is not considered “you control” as those zones are not located in the arena.\n\u203B\n Only Earth Element cards count towards Channel Earth. Elemental cards with Earth fusion do not.",
+    cardImage: require("./images/ChannelMountHeroic.png"),
+  },
+  {
+    name: "Evergreen",
+    ruling:
+      "\nEvergreen’s effect is not optional. If it is played from the arsenal it must be put on the bottom of your deck when the chain link resolves.",
+    cardImage: require("./images/Evergreen.png"),
+  },
+  {
+    name: "Sow Tomorrow",
+    ruling:
+      "\nYou must have a target to play this card. You cannot play this card if there is not a legal target in the graveyard.",
+    cardImage: require("./images/SowTommorrow.png"),
+  },
+  {
+    name: "Summerwood Shelter",
+    ruling:
+      "\nYou can only target an attack action card that is defending. Cards that defended previous chains on the combat chain are still considered to be defending cards.\n\u203B\n You can target a defending attack action card on a previous chain link. It would not reduce the damage dealt on a chain link that has already resolved.\n\u203B\n You can only play Summerwood Shelter if there is a legal target.\n\u203B\n You cannot defend with Summerwood Shelter as it does not have a defense value.",
+    cardImage: require("./images/SummerwoodShelter.png"),
+  },
+  {
+    name: "Tome of Harvests",
+    ruling:
+      "\nYou cannot play Tome of Harvest if you do not have a card in arsenal.\n\u203B\n You cannot put Tome of Harvest from your arsenal on the bottom of your deck as you play it from your arsenal.\n\u203B\n It is possible to draw the card you put on the bottom of your deck as an additional cost if there are less than 3 cards in your deck when you play Tome of Harvest.",
+    cardImage: require("./images/TomeOfHarvests.png"),
+  },
+  {
+    name: "Weave Earth",
+    ruling:
+      "\nIf the next attack is not Earth or Elemental it will not gain the bonus, if you then play a Earth or Elemental attack this turn it will then gain the bonus.",
+    cardImage: require("./images/WeaveEarth.png"),
+  },
+  {
+    name: "Amulet of Ice",
+    ruling:
+      "\nYou cannot defend with Amulet of Ice as it does not have a defense value.\n\u203B\n You may use this on your opponent’s turn as long as you have Ice fused.\n\u203B\n You may elect to discard a card even if you have no cards in your hand. You are not forced to pay the {r}{r}.",
+    cardImage: require("./images/AmuletOfIce.png"),
+  },
+  {
+    name: "Blizzard",
+    ruling:
+      "\nThe attacking player decides whether to pay {r}{r} when Blizzard resolves.\n\u203B\n You may target a weapon attack with this.\n\u203B\n You may target an attack without go again.",
+    cardImage: require("./images/Blizzard.png"),
+  },
+  {
+    name: "Channel Lake Frigid",
+    ruling:
+      "\nThis does not affect defending with cards. (Except defense reactions.)\n\u203B\n Defense reactions are played and therefore require an additional {r} when Channel Lake Frigid is in play.\n\u203B\n This does not include triggered or passive abilities.\n\u203B\n This includes weapon attacks as they are activated abilities.\n\u203B\n Only Ice Element cards count towards Channel Ice. Elemental cards with Ice fusion do not.",
+    cardImage: require("./images/ChannelLakeFrigid.png"),
+  },
+  {
+    name: "Chill to the Bone",
+    ruling:
+      "\nA weapon attack counts as long as it is an Elemental weapon attack.",
+    cardImage: require("./images/ChillToTheBone.png"),
+  },
+  {
+    name: "Frost Fang",
+    ruling:
+      "\nThey can still elect to discard a card even if they do not have any cards in hand.",
+    cardImage: require("./images/FrostFang.png"),
+  },
+  {
+    name: "Ice Quake",
+    ruling:
+      "\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.\n\u203B\n The second ability applies to all attacks this turn, not just the next attack.\n",
+    cardImage: require("./images/IceQuake.png"),
+  },
+  {
+    name: "Icy Encounter",
+    ruling:
+      "\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+    cardImage: require("./images/IcyEncounter.png"),
+  },
+  {
+    name: "Polar Blast",
+    ruling:
+      "\nThe hero decides whether to pay the resource cost at the time Polar Blast resolves not at the time of the attack.\n\u203B\n You may attack a different hero than the hero you targeted even if the card was granted dominate.",
+    cardImage: require("./images/PolarBlast.png"),
+  },
+  {
+    name: "Weave Ice",
+    ruling:
+      "\nIf the next attack is not Ice or Elemental it will not gain the bonus, if you then play a Ice or Elemental attack this turn it will then gain the bonus.",
+    cardImage: require("./images/WeaveIce.png"),
+  },
+  {
+    name: "Winter’s Bite",
+    ruling:
+      "\nIf the target hero has no cards in hand they can still elect to discard a card instead of paying {r}.",
+    cardImage: require("./images/WintersBite.png"),
+  },
+  {
+    name: "Amulet of Lightning",
+    ruling:
+      "\nYou cannot defend with Amulet of Lightning as it does not have a defense value.\n\u203B\n You can target a non-attack action card with Amulet of Lightning.\n\u203B\n You can target a card that has not been Lightning fused, as long as you have Lightning fused this turn.",
+    cardImage: require("./images/AmuletOfLightning.png"),
+  },
+  {
+    name: "Ball Lightning",
+    ruling:
+      "\nThis affects all instances of damage including if an Elemental or Lightning action card gained “deal 1 damage”.\n\u203B\n Playing a non-attack action closes the combat chain, therefore Ball Lightning’s replacement effect does not apply to non-attack action cards. This does apply non-attack actions that are played as though it was an instant when the combat chain is still open.\n\u203B\n Ball Lighting does have a defense value (0 is a value) and can defend. (This is different than if there was no defense value)",
+    cardImage: require("./images/BallLightning.png"),
+  },
+  {
+    name: "Blink",
+    ruling: "\nYou can only spend action points during your action phase.",
+    cardImage: require("./images/Blink.png"),
+  },
+  {
+    name: "Channel Thunder Steppe",
+    ruling:
+      "\nMultiple instances of go again do not stack.\n\u203B\n You can give a non-attack action go again.\n\u203B\n Only Lightning Element cards count towards Channel Lightning. Elemental cards with Lightning fusion do not.",
+    cardImage: require("./images/ChannelThunderSteppe.png"),
+  },
+  {
+    name: "Electrify",
+    ruling:
+      "\nThe attack action is the card doing the damage.\n\u203B\n The damage is not arcane damage.",
+    cardImage: require("./images/Electrify.png"),
+  },
+  {
+    name: "Flash",
+    ruling: "\nYou may give a non-attack action card go again.",
+    cardImage: require("./images/Flash.png"),
+  },
+  {
+    name: "Lightning Press",
+    ruling:
+      "\nYou can target a defending attack action card.\n\u203B\n You cannot defend with Lightning Press as it does not have a defense value.\n\u203B\n You do not have to control the target.\n\u203B\n You can target attack action cards on previous chain links.",
+    cardImage: require("./images/LightningPress.png"),
+  },
+  {
+    name: "Shock Striker",
+    ruling:
+      "\nShock Striker is the card doing the damage.\n\u203B\n The damage is not arcane damage.",
+    cardImage: require("./images/ShockStriker.png"),
+  },
+  {
+    name: "Weave Lightning",
+    ruling:
+      "\nIf the next attack is not Lightning or Elemental it will not gain the bonus, if you then play a Lightning or Elemental attack this turn it will then gain the bonus.",
+    cardImage: require("./images/WeaveLightning.png"),
+  },
+  {
+    name: "Pulse of Candlehold",
+    ruling:
+      "\nYou may only have Pulse of Candlehold in your deck if your hero has essence of Earth and essence of Lightning. You must have both.\n\u203B\n You may pick 0, 1 or 2 targets.\n\u203B\n You choose the order of the cards on top of your deck.\n\u203B\n Your opponent does not see the order they go on top. (The cards are open information just not the order)",
+    cardImage: require("./images/PulseOfCandlehold.png"),
+  },
+  {
+    name: "Pulse of Isenloft",
+    ruling:
+      "\nYou may only have Pulse of Isenloft in your deck if your hero has essence of Earth and essence of Ice. You must have both.\n\u203B\n Since defense reactions can’t defend in the defending window and must be played in the reaction window, you must pay Pulse of Isenloft’s cost to play it.\n\u203B\n Pulse of Isenloft is a Defense Reaction not an action card. It does not get +1[d} from it’s ability.",
+    cardImage: require("./images/PulseOfIsenloft.png"),
+  },
+  {
+    name: "Pulse of Volthaven",
+    ruling:
+      "\nYYou may only have Pulse of Volthaven in your deck if your hero has essence of Ice and essence of Lightning. You must have both.\n\u203B\n If the next attack is not Ice, Lightning or Elemental it will not gain the bonus, if you then play a Ice, Lightning or Elemental attack this turn it will then gain the bonus.",
+    cardImage: require("./images/PulseOfVolthaven.png"),
+  },
 ];
 
 export default cardData;
