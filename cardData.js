@@ -1356,7 +1356,7 @@ const cardData = [
   {
     name: "Find Center",
     ruling:
-      "\nThe cost of a card is located at the top right corner of a card.\n\u203B\n If a card does not have a cost, such as equipment, Find Center considers its {r} cost to be 0.\n\u203B\n Zen State is an aura with “Zen State enters the arena with 1 balance counter on it. At the beginning of your action phase, destroy Zen State unless you remove a balance counter from it.\n\u203B\n Whenever your hero would be dealt damage, prevent 1 damage that source would deal.”",
+      '\nThe cost of a card is located at the top right corner of a card.\n\u203B\n If a card does not have a cost, such as equipment, Find Center considers its {r} cost to be 0.\n\u203B\n Zen State is an aura with “Zen State enters the arena with 1 balance counter on it. At the beginning of your action phase, destroy Zen State unless you remove a balance counter from it."\n\u203B\n Whenever your hero would be dealt damage, prevent 1 damage that source would deal.”',
     cardImage: require("./images/FindCenter.png"),
   },
   {
@@ -2370,7 +2370,7 @@ const cardData = [
   {
     name: "Lexi",
     ruling:
-      "\nYou may turn a face down card face up even if it’s not a Lightning or Ice card.\n\u203B\n If you turn a card that’s Lightning and Ice you would get both effects.\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+      '\nYou may turn a face down card face up even if it’s not a Lightning or Ice card.\n\u203B\n If you turn a card that’s Lightning and Ice you would get both effects.\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}."',
     cardImage: require("./images/Lexi.png"),
   },
   {
@@ -2406,7 +2406,7 @@ const cardData = [
   {
     name: "Winter’s Wail",
     ruling:
-      "\nYou cannot pitch a card if there is not a cost to be played. You cannot pitch a card for a cost if there are already sufficient resources available to you.\n\u203B\n You must pitch an Ice card as part of the cost to pay for the attack to gain the bonus. Having an Ice card in your pitch zone that you pitched for a different cost does not grant Winter’s Wail the bonus.\n\u203B\n You do not need to pay the entire cost with Ice cards. You can use leftover resources in addition to pitching an Ice card to pay the rest of the cost.\nYou may start the game with up to two Winter’s Wail in the arena as they are 1H weapons.\n\u203B\n A Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}. At the beginning of your end phase or when you play a card or activate an ability, destroy Frostbite.“",
+      '\nYou cannot pitch a card if there is not a cost to be played. You cannot pitch a card for a cost if there are already sufficient resources available to you.\n\u203B\n You must pitch an Ice card as part of the cost to pay for the attack to gain the bonus. Having an Ice card in your pitch zone that you pitched for a different cost does not grant Winter’s Wail the bonus.\n\u203B\n You do not need to pay the entire cost with Ice cards. You can use leftover resources in addition to pitching an Ice card to pay the rest of the cost.\nYou may start the game with up to two Winter’s Wail in the arena as they are 1H weapons.\n\u203B\n A Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}. At the beginning of your end phase or when you play a card or activate an ability, destroy Frostbite."',
     cardImage: require("./images/WintersWail.png"),
   },
   {
@@ -2598,7 +2598,7 @@ const cardData = [
   {
     name: "Endless Winter",
     ruling:
-      "\nYou may only play Endless Winter in your deck if your hero is Oldhim, Grandfather of Eternity or Oldhim (Young hero).\n\u203B\n If the defending hero defends with 2 cards (while Endless Winter is fused) they would create two Frostbites.\nDefense reactions become a defending card when they resolve. You would get a Frostbite token when the defense reaction becomes a defending card.\n\u203B\n Endless Winter’s second ability gives a Frostbite token after an ability is activated. This would not affect the cost of the ability.\n\u203B\n Playing a card is not the same as activating an ability. Playing a card while under Endless Winter’s effect would not create a Frostbite token.\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+      '\nYou may only play Endless Winter in your deck if your hero is Oldhim, Grandfather of Eternity or Oldhim (Young hero).\n\u203B\n If the defending hero defends with 2 cards (while Endless Winter is fused) they would create two Frostbites.\nDefense reactions become a defending card when they resolve. You would get a Frostbite token when the defense reaction becomes a defending card.\n\u203B\n Endless Winter’s second ability gives a Frostbite token after an ability is activated. This would not affect the cost of the ability.\n\u203B\n Playing a card is not the same as activating an ability. Playing a card while under Endless Winter’s effect would not create a Frostbite token.\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}."',
     cardImage: require("./images/EndlessWinter.png"),
   },
   {
@@ -2628,7 +2628,7 @@ const cardData = [
   {
     name: "Snow Under",
     ruling:
-      "\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+      '\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}."',
     cardImage: require("./images/SnowUnder.png"),
   },
   {
@@ -2664,7 +2664,7 @@ const cardData = [
   {
     name: "Blizzard Bolt",
     ruling:
-      "\nThis affects any and all instances of damage this card deals including “deal 1 damage”\n\u203B\n Even if the attack deals 5 damage, it would still only create 1 Frostbite.\nIf an attack has multiple instances of dealing damage it would create multiple Frostbites. (E.g a card has “If this hits deal 1 damage” “If this hits deal 1 damage”.)\n\u203B\n This affects all attacks this turn and does not require this attack to be on the combat chain.\n\u203B\n A Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+      '\nThis affects any and all instances of damage this card deals including “deal 1 damage”\n\u203B\n Even if the attack deals 5 damage, it would still only create 1 Frostbite.\nIf an attack has multiple instances of dealing damage it would create multiple Frostbites. (E.g a card has “If this hits deal 1 damage” “If this hits deal 1 damage”.)\n\u203B\n This affects all attacks this turn and does not require this attack to be on the combat chain.\n\u203B\n A Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}."',
     cardImage: require("./images/BlizzardBolt.png"),
   },
   {
@@ -2706,7 +2706,7 @@ const cardData = [
   {
     name: "Ice Storm",
     ruling:
-      "\nYou have to reveal both, an Ice and a Lightning card to fuse Ice Storm.\n\u203B\n You may pay the additional cost to fuse this by revealing a single Ice and Lightning card.\n\u203B\n This affects any and all instances of damage this card deals including “deal 1 damage”.\n\u203B\n If the attack deals 5 damage, they would create 5 Frostbites.\n\u203B\n A Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.",
+      '\nYou have to reveal both, an Ice and a Lightning card to fuse Ice Storm.\n\u203B\n You may pay the additional cost to fuse this by revealing a single Ice and Lightning card.\n\u203B\n This affects any and all instances of damage this card deals including “deal 1 damage”.\n\u203B\n If the attack deals 5 damage, they would create 5 Frostbites.\n\u203B\n A Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}."',
     cardImage: require("./images/IceStorm.png"),
   },
   {
@@ -2892,7 +2892,7 @@ const cardData = [
   {
     name: "Ice Quake",
     ruling:
-      "\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}.\n\u203B\n The second ability applies to all attacks this turn, not just the next attack.\n",
+      '\nA Frostbite token is an Elemental Aura with “Cards and activated abilities you control cost an additional {r}."\n\u203B\n The second ability applies to all attacks this turn, not just the next attack.\n',
     cardImage: require("./images/IceQuake.png"),
   },
   {
@@ -2986,7 +2986,7 @@ const cardData = [
   {
     name: "Pulse of Volthaven",
     ruling:
-      "\nYYou may only have Pulse of Volthaven in your deck if your hero has essence of Ice and essence of Lightning. You must have both.\n\u203B\n If the next attack is not Ice, Lightning or Elemental it will not gain the bonus, if you then play a Ice, Lightning or Elemental attack this turn it will then gain the bonus.",
+      "\nYou may only have Pulse of Volthaven in your deck if your hero has essence of Ice and essence of Lightning. You must have both.\n\u203B\n If the next attack is not Ice, Lightning or Elemental it will not gain the bonus, if you then play a Ice, Lightning or Elemental attack this turn it will then gain the bonus.",
     cardImage: require("./images/PulseOfVolthaven.png"),
   },
 ];
