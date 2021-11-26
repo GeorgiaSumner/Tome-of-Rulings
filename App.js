@@ -64,6 +64,7 @@ export default function App() {
       <ImageBackground
         source={require("./images/cruBackground.png")}
         style={styles.background}
+        resizeMode="cover"
       >
         <Image
           source={require("./images/titleText.png")}
