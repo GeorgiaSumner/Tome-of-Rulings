@@ -109,6 +109,10 @@ const styles = StyleSheet.create({
     height: d.height,
     position: "absolute",
     flex: 1,
+    left: 0,
+    top: 0,
+    width: Dimensions.get("window").width,
+    height: Dimensions.get("window").height,
   },
   coverImage: {
     width: 350,
