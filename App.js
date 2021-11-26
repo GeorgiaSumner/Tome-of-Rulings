@@ -13,6 +13,7 @@ import cardData from "./cardData.js";
 export default function App() {
   const [cards, setCards] = useState([]);
   const [searchTerm, setSearch] = useState("");
+  const d = Dimensions.get("window");
 
   useEffect(() => {
     let limit = searchTerm ? 10 : 0;
@@ -104,9 +105,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   background: {
-    width: "100%",
-    height: "100%",
+    width: d.width,
+    height: d.height,
     position: "absolute",
+    flex: 1,
   },
   coverImage: {
     width: 350,

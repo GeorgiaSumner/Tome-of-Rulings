@@ -19,7 +19,7 @@
       "bundleIdentifier": "com.xenoliner.TomeOfRulings"
     },
     "android": {
-      "versionCode": 4,
+      "versionCode": 5,
       "package": "com.xenoliner.TomeOfRulings",
       "permissions": []
     },
