@@ -2,7 +2,7 @@
   "expo": {
     "name": "Tome Of Rulings",
     "slug": "TomeOfRulings",
-    "version": "1.1.1",
+    "version": "1.2.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -19,7 +19,7 @@
       "bundleIdentifier": "com.xenoliner.TomeOfRulings"
     },
     "android": {
-      "versionCode": 9,
+      "versionCode": 10,
       "package": "com.xenoliner.TomeOfRulings"
     },
     "web": {

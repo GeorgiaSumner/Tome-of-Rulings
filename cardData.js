@@ -3065,7 +3065,7 @@ const cardData = [
     name: "Earthlore Bounty",
     ruling:
       "\nIf you draw multiple cards you would create multiple Seismic Surge tokens. e.g. draw 2 cards means you would create 2 Seismic Surge tokens.\n\u203B\n This effect triggers if you draw a card from the effect of an action card played by your opponent.",
-    cardImage: require("./images/EathloreBounty.png"),
+    cardImage: require("./images/EarthloreBounty.png"),
   },
   {
     name: "Pulverize",
