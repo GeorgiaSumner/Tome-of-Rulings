@@ -19,9 +19,8 @@
       "bundleIdentifier": "com.xenoliner.TomeOfRulings"
     },
     "android": {
-      "versionCode": 5,
-      "package": "com.xenoliner.TomeOfRulings",
-      "permissions": []
+      "versionCode": 9,
+      "package": "com.xenoliner.TomeOfRulings"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -7,13 +7,13 @@ import {
   Image,
   TextInput,
   ImageBackground,
+  Dimensions,
 } from "react-native";
 import cardData from "./cardData.js";
 
 export default function App() {
   const [cards, setCards] = useState([]);
   const [searchTerm, setSearch] = useState("");
-  const d = Dimensions.get("window");
 
   useEffect(() => {
     let limit = searchTerm ? 10 : 0;
@@ -105,8 +105,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   background: {
-    width: d.width,
-    height: d.height,
     position: "absolute",
     flex: 1,
     left: 0,

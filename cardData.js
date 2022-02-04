@@ -632,7 +632,7 @@ const cardData = [
     name: "Life for a Life",
     ruling:
       "\nThe green symbol on Life for a Life is your hero's life.\n\u203B\n Life for a Life checks if you have less life than your opponent at the time you play it.\n\u203B\n Changes to a hero's life after the card has been played does not cause Life for a Life to gain nor lose go again.",
-    cardImage: require("./images/WarriorsValor.png"),
+    cardImage: require("./images/LifeForALife.png"),
   },
   {
     name: "Moon Wish",
@@ -2988,6 +2988,665 @@ const cardData = [
     ruling:
       "\nYou may only have Pulse of Volthaven in your deck if your hero has essence of Ice and essence of Lightning. You must have both.\n\u203B\n If the next attack is not Ice, Lightning or Elemental it will not gain the bonus, if you then play a Ice, Lightning or Elemental attack this turn it will then gain the bonus.",
     cardImage: require("./images/PulseOfVolthaven.png"),
+  },
+  {
+    name: "Grandeur of Valahai",
+    ruling:
+      "\nA Seismic Surge is a Guardian Token - Aura with “At the beginning of your action phase, destroy Seismic Surge then the next Guardian attack action card you play this turn costs {r} less to play.”\n\u203B\n You cannot defend with Grandeur of Valahai as it has no defense property. (This is different than if it had a defense value of 0.)\n\u203B\n When you pitch Grandeur of Valahai to pay the costs for playing a card or activating an ability, the trigger it creates will resolve before that card or ability.",
+    cardImage: require("./images/GrandeurOfValahai.png"),
+  },
+  {
+    name: "Skull Crushers",
+    ruling:
+      "\nBoth triggered effects on Skull Crushers can trigger more than once per turn. If you have rolled a 5 or a 6 multiple times in a turn, the ability triggers that many times.\n\u203B\n The triggered effects both trigger on the result of a roll. If a die is rerolled (i.e. Gambler’s Gloves), only the final value is used; or if it is ignored (i.e. Ready to Roll), any ignored values are not used.\n\u203B\n If multiple dice are rolled, the triggered effects are triggered by each die rolled this way (excluding ignored rolls).\n\u203B\n The first triggered effect generates a +1{p} continuous effect that lasts until end of turn. Destroying Skull Crushers does not remove the continuous effects generated this way.\n\u203B\n Brute attacks include Brute attack action cards, Brute weapons, Brute Ally activated attacks.\n\u203B\n You cannot roll a die unless an effect instructs you to.",
+    cardImage: require("./images/SkullCrushers.png"),
+  },
+  {
+    name: "Swing Big",
+    ruling:
+      "\nAn attack is considered to have hit if it deals damage to the defending hero during the damage step of combat. Otherwise it is not considered to have hit.\n\u203B\n If Swing Big attacks a non-hero target, then the effect does not trigger and the controller of the target would not create a Quicken token.\n\u203B\n If Swing Big is not on the combat chain when the combat chain closes, the effect does not trigger.",
+    cardImage: require("./images/SwingBig.png"),
+  },
+  {
+    name: "Ready to Roll",
+    ruling:
+      "\nIf an effect would make you roll 2 dice at the same time, then you would roll 3 dice then ignore 1 result.\n\u203B\n Ready to Roll generates a replacement effect. If you have multiple replacement effects you control you choose which one to apply first. If there are multiple replacement effects from different players the turn player decides which players replacement effects apply first.\n\u203B\n Playing two Ready to Roll would result in rolling 2 additional dice and then ignoring the 2 lowest results.\n\u203B\n If there are 2 or more equal lowest results, only one of those results is ignored for each Ready to Roll.",
+    cardImage: require("./images/ReadyToRoll.png"),
+  },
+  {
+    name: "Rolling Thunder",
+    ruling:
+      "\nBrute attacks include Brute attack action cards, Brute weapons, Brute Ally activated attacks.",
+    cardImage: require("./images/RollingThunder.png"),
+  },
+  {
+    name: "High Roller",
+    ruling:
+      "\nHigh Roller does not have an effect that rolls any dice itself.\n\u203B\n The die must have been rolled due to a roll effect in the game. You cannot roll a die unless an effect requires it.\n\u203B\n If you have rolled multiple times, you can still only get the additional intimidate once.\n\u203B\n High Roller has two instances of Intimidate if the second criteria is met. No player can respond between these intimidates as no one has priority during the resolution of a card.",
+    cardImage: require("./images/HighRoller.png"),
+  },
+  {
+    name: "Bare Fangs",
+    ruling:
+      "\nYou cannot play cards or activate abilities after drawing the card but before discarding.\n\u203B\n You cannot defend with Bare Fang as it has no defense property. (This is different than if it had a defense value of 0.)",
+    cardImage: require("./images/BareFangs.png"),
+  },
+  {
+    name: "Wild Ride",
+    ruling:
+      "\nYou cannot play cards or activate abilities after drawing the card but before discarding.\n\u203B\n You cannot defend with Wild Ride as it has no defense property. (This is different than if it had a defense value of 0.)",
+    cardImage: require("./images/WildRide.png"),
+  },
+  {
+    name: "Bad Beats",
+    ruling:
+      "\nThe number must be rolled from Bad Beats, it does not count dice that have been rolled for other effects.",
+    cardImage: require("./images/BadBeats.png"),
+  },
+  {
+    name: "Bravo, Star of the Show",
+    ruling:
+      "\nYou cannot reveal cards if you cannot fulfill the entire reveal effect. For example you cannot reveal just an Ice card with nothing else.\n\u203B\n You may reveal a card to fulfill more than one criteria for example revealing a Lightning/Ice card as well as an Earth card.\n\u203B\n Bravo, Star of the Show is an Elemental Guardian with Earth, Ice and Lightning Essence. If your hero is Bravo, Star of the Show, you can have in your deck: Elemental cards, Earth Cards, Ice Cards, Lightning Cards, Elemental Guardian cards, Guardian cards and Generic cards.\n\u203B\n If an attack gains dominate, you can still defend with equipment and defense reactions played from arsenal in addition to up to 1 card from hand.\n\u203B\n If an attack gains dominate, playing a defense reaction from your hand counts towards the 1 card from your hand restriction. You cannot defend with a card in your hand then play a defense reaction from your hand.",
+    cardImage: require("./images/BravoStarOfTheShow.png"),
+  },
+  {
+    name: "Stalagmite, Bastion of Isenloft",
+    ruling:
+      "\nAn Off-hand permanent may start in one of your weapon zones. You cannot control a 2h and an Off-hand permanent at the same time. You can not control two Off-hand permanents at the same time.\n\u203B\n Equipment goes to the graveyard when destroyed.\n\u203B\n The Frostbite token is created during the defend step of combat.",
+    cardImage: require("./images/Stalagmite.png"),
+  },
+  {
+    name: "Valda Brightaxe",
+    ruling:
+      "\nValda’s hero ability triggers during any action phase, not just your own.\n\u203B\n If an attack gains dominate, you can still defend with equipment and defense reactions played from arsenal in addition to up to 1 card from hand.\n\u203B\n If an attack gains dominate, playing a defense reaction from your hand counts towards the 1 card from your hand restriction. You cannot defend with a card in your hand then play a defense reaction from your hand.",
+    cardImage: require("./images/ValdaBrightaxe.png"),
+  },
+  {
+    name: "Earthlore Bounty",
+    ruling:
+      "\nIf you draw multiple cards you would create multiple Seismic Surge tokens. e.g. draw 2 cards means you would create 2 Seismic Surge tokens.\n\u203B\n This effect triggers if you draw a card from the effect of an action card played by your opponent.",
+    cardImage: require("./images/EathloreBounty.png"),
+  },
+  {
+    name: "Pulverize",
+    ruling:
+      "\nYou cannot trigger heave from the arsenal. Heave can only be triggered from hand.\n\u203B\n While Pulverize does create a triggered layer in the end phase, players do not have a priority window during the end phase to respond to the trigger.",
+    cardImage: require("./images/Pulverize.png"),
+  },
+  {
+    name: "Imposing Visage",
+    ruling:
+      "\nThe value of X is selected before applying cost increases and then reductions.\n\u203B\n X can be 0.\n\u203B\n The cost of the card is the total of X plus 3. E.g if I wanted to search for Emerging Power (cost of 2) with Imposing Visage, X equal 2. I would need to play Imposing Visage for a total cost of 5 resources (2+3 = 5).\n\u203B\n When an aura enters the arena from the effect of Imposing Visage, effects of that aura that trigger on entering the arena are triggered. (i.e. “When Nerves of Steel enters the arena, […]”)",
+    cardImage: require("./images/ImposingVisage.png"),
+  },
+  {
+    name: "Nerves of Steel",
+    ruling:
+      "\nThe equipment subtype “Chest” is found on the bottom center of the card.\n\u203B\n Nerves of Steel is destroyed after taking any type of damage including physical damage {p} damage, arcane damage and untyped damage. This does not include loss of life.\n\u203B\n If you defend an attack with 2 or less power with an equipment, and then the attack increases to 3 or more power, Nerves of Steel will not prevent Battleworn and Temper from triggering when the combat chain closes.\n\u203B\n If you defend an attack with 3 or more power with an equipment, and then the attack decreases to 2 or lower power, Nerves of Steel will prevent Battleworn and Temper from triggering when the combat chain closes.",
+    cardImage: require("./images/NervesOfSteel.png"),
+  },
+  {
+    name: "Thunder Quake",
+    ruling:
+      "\nYou cannot trigger heave from the arsenal. Heave can only be triggered from hand.\n\u203B\n While Thunder Quake does create a triggered layer in the end phase, players do not have a priority window during the end phase to respond to the trigger.",
+    cardImage: require("./images/ThunderQuake.png"),
+  },
+  {
+    name: "Macho Grande",
+    ruling:
+      "\nYou can still defend with equipment and defense reactions played from arsenal in addition to up to 1 card from hand.\n\u203B\n Playing a defense reaction from your hand counts towards the 1 card from your hand restriction. You cannot defend with a card in your hand then play a defense reaction from your hand.",
+    cardImage: require("./images/MachoGrande.png"),
+  },
+  {
+    name: "Seismic Stir",
+    ruling:
+      "\nA Seismic Surge is a Guardian Token - Aura with “At the beginning of your action phase, destroy Seismic Surge then the next Guardian attack action card you play this turn costs {r} less to play.”",
+    cardImage: require("./images/SeismicStir.png"),
+  },
+  {
+    name: "Steadfast",
+    ruling:
+      "\nYou may not defend with Steadfast as it does not have a defense value.\n\u203B\n The source can be any object currently in the game, typically cards or tokens, and is chosen at the time Steadfast resolves.\n\u203B\n If the chosen source deals more than one event of damage (or type of damage), the prevention effect of Steadfast applies to each of those instances. E.g. If the opponent plays Sting of Sorcery, and then attacks with Singeing Steelblade (chosen source), Steadfast will apply to both events of arcane damage AND the event of physical damage from the attack.\n\u203B\n If the chosen source has an ability that attacks (such as a weapon), Steadfast can prevent damage dealt by that source on separate chain links. E.g. If the source is Dawnblade, Steadfast can prevent a total of 6 damage across one or more attacks from the Dawnblade chosen.\n\u203B\n The effect of Steadfast prevents the incoming damage from the chosen source, and cannot be saved for a future source of damage once Steadfast resolves.\n\u203B\n Steadfast is an instant. You may play it anytime you have priority, including during an opponent’s turn, and during the reaction window of either player’s turn.\n\u203B\n Once Steadfast has prevented a total of 6/5/4 damage from the chosen source, it will no longer prevent any additional damage from that source.\n\u203B\n Loss of life is not being dealt damage and would not be prevented by Steadfast.",
+    cardImage: require("./images/Steadfast.png"),
+  },
+  {
+    name: "Mask of the Pouncing Lynx",
+    ruling:
+      "\nBase power {p} is determined by the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n An attack is considered to have hit if it deals damage during the damage step of combat.\n\u203B\n If the banished card is not played during the turn, it is still banished and will remain banished indefinitely.",
+    cardImage: require("./images/MaskOfThePouncingLynx.png"),
+  },
+  {
+    name: "Break Tide",
+    ruling:
+      "\nYou still may only play the banished card when it is legal to do so, up until the end of your next turn.\n\u203B\n If the banished card is not played, it is still banished and will remain banished indefinitely.\n\u203B\n If Break Tide has dominate, you can still defend with equipment and defense reactions played from arsenal in addition to up to 1 card from hand.\n\u203B\n Playing a defense reaction from your hand counts towards the 1 card from your hand restriction of dominate. You cannot defend with a card in your hand then play a defense reaction from your hand.",
+    cardImage: require("./images/BreakTide.png"),
+  },
+  {
+    name: "Spring Tidings",
+    ruling:
+      "\nBase power {p} is determined by the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n Spring Tidings does not count itself towards its own effect. If you control no other attack action cards on the combat chain, Spring tidings will not draw any cards.\n\u203B\n Spring Tidings does not require you to have hit with the other attack actions on the combat chain.",
+    cardImage: require("./images/SpringTidings.png"),
+  },
+  {
+    name: "Winds of Eternity",
+    ruling:
+      "\nThis triggered effect is not optional. If Hundred Winds hits you must shuffle all cards named Hundred Winds you control on this combat chain into your deck.",
+    cardImage: require("./images/WindsOfEternity.png"),
+  },
+  {
+    name: "Hundred Winds",
+    ruling:
+      "\nIt does not matter what the pitch or power of the other ‘Hundred Winds’ are on this combat chain. This card only cares about the card name of other cards on the combat chain.",
+    cardImage: require("./images/HundredWinds.png"),
+  },
+  {
+    name: "Ride the Tailwind",
+    ruling:
+      "\nBase power {p} is determined by the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n A card with “go again” can not gain another instance of “go again”, and will only grant 1 action point when it resolves.\n\u203B\n If the combat chain is closed after Ride the Tailwind is played and before another attack action card is played. The effect will not carry over to the next combat chain.",
+    cardImage: require("./images/RideTheTailwind.png"),
+  },
+  {
+    name: "Twin Twisters",
+    ruling: "\nYou must choose a mode for Twin Twisters.",
+    cardImage: require("./images/TwinTwisters.png"),
+  },
+  {
+    name: "Wax On",
+    ruling:
+      "\nThe cost of a card is located in the top left-hand corner of the card.",
+    cardImage: require("./images/WaxOn.png"),
+  },
+  {
+    name: "Helm of Sharp Eye",
+    ruling:
+      "\nBase power {p} is determined by the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n Helm of Sharp Eye’s activated ability is an attack reaction. You may only activate it during the reaction window when you are the attacking hero.\n\u203B\n You can only activate this ability if a weapon you control has MORE than twice its base power. E.g If you can control a Dawnblade (that has a base power of 3) then in the reaction window play and resolve Razor Reflex, you are still unable to active Helm of Sharp Eye’s ability as Dawnblade currently only has a total power of 6. However, increasing the power to 2 Razor Reflex's (total power of 9) will allow you to to active Helm of Sharp Eye’s ability.\n\u203B\n Non-attack actions can only be played on an empty stack when the combat chain is closed. You cannot play non-attack actions with Helm of Sharp Eye, unless they can specifically be played as an instant.\n\u203B\n If the base power of a weapon is 0, any increase is considered greater than twice its base power.",
+    cardImage: require("./images/HelmOfSharpEye.png"),
+  },
+  {
+    name: "Shatter",
+    ruling:
+      "\n2H refers to ‘two-handed’. A weapons ‘hand’ requirement is located at the bottom-middle of your weapons cards.\n\u203B\n Shatter refers to the modified defense, not the base defense of an equipment.\n\u203B\n Shatter creates a replacement effect during damage calculation. Players can not respond to replacement effects by playing cards or activating abilities.\n\u203B\n A card that is destroyed is put into the owner’s graveyard. This includes destroyed Equipment.",
+    cardImage: require("./images/Shatter.png"),
+  },
+  {
+    name: "Blood on Her Hands",
+    ruling:
+      "\nYou may only play Blood on Her Hands in your deck if your hero is ‘Kassai’.\n1H refers to ‘one-handed’. A weapons ‘hand’ requirement is located at the bottom-middle of your weapons cards.\n\u203B\n A card with “go again” can not gain another instance of “go again”, and will only grant 1 action point when it resolves.\n\u203B\n If you choose to destroy more than 6 copper tokens to pay the additional costs for Blood on Her Hands you will not receive any additional effects.\n\u203B\n You can choose each mode zero, one or twice.\n\u203B\n If you can choose to destroy copper tokens, you MUST select that many modes (up to 6).\n\u203B\n You can choose to destroy zero copper when you play Blood on Her Hands. (You would not be able to choose any modes)\n\u203B\n If the same target 1H weapon is declared for the third mode (may attack twice this turn) it can still only attack twice that turn, it does not change it to being able to attack thrice.\n\u203B\n If target 1H weapon may attack twice this turn, and there is an effect that allows you to attack an additional time with a weapon, you may attack thrice with that weapon.",
+    cardImage: require("./images/BloodOnHerHands.png"),
+  },
+  {
+    name: "Oath of Steel",
+    ruling:
+      "\nAll +1{p} counters are removed during the end phase even ones that were not created by Oath of Steel.",
+    cardImage: require("./images/OathOfSteel.png"),
+  },
+  {
+    name: "Slice and Dice",
+    ruling:
+      "\nThis does not affect weapons that are not swords or daggers.\n\u203B\n sIf you attack with a non-sword, non-dagger weapon before you attack with a sword or dagger weapon, you do not gain the first effect. If you attack twice with a non-sword, non-dagger weapon, then you can not gain either effect this turn.",
+    cardImage: require("./images/SliceAndDice.png"),
+  },
+  {
+    name: "Blade Runner",
+    ruling:
+      "\nA card with “go again” can not gain another instance of “go again”, and will only grant 1 action point when it resolves.\n\u203B\n 1H refers to ‘one-handed’. A weapons ‘hand’ requirement is located at the bottom-middle of your weapons cards.\n\u203B\n The target weapon attack does not gain the +{p} effect. Only the subsequent weapon attack this turn can gain the +{p} effect.",
+    cardImage: require("./images/BladeRunner.png"),
+  },
+  {
+    name: "In the Swing",
+    ruling:
+      "\nYou cannot play In the Swing if you have not attacked 2 or more times with weapons this turn.",
+    cardImage: require("./images/InTheSwing.png"),
+  },
+  {
+    name: "Outland Skirmish",
+    ruling:
+      "\n1H refers to ‘one-handed’. A weapons ‘hand’ requirement is located at the bottom-middle of your weapons cards.\n\u203B\n The second criteria does not care if the weapon is 1H or 2H.",
+    cardImage: require("./images/OutlandSkirmish.png"),
+  },
+  {
+    name: "Dissolution Sphere",
+    ruling:
+      "\nYou cannot defend with Dissolution Sphere as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n If you would take 2 or more damage from an event, Dissolution Sphere would not prevent that damage and you would take the 2 damage. Dissolution sphere only prevents events that deal 1 damage.\n\u203B\n If you would take mixed damage from an event, and the total damage is greater than 2, Dissolution Sphere’s prevention effect does not apply.\n\u203B\n If you would take 2 or more damage from an event and another replacement effect reduces the damage to be dealt to 1, the Dissolution Sphere’s prevention effect does apply and prevents 1 damage.",
+    cardImage: require("./images/DissolutionSphere.png"),
+  },
+  {
+    name: "Micro-processor",
+    ruling:
+      "\nYou cannot defend with Micro-processor as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n You can use each activated ability once per turn.\n\u203B\n Activating each ability requires an action point and can only be activated on an empty combat chain. You can close the combat chain after an attack has fully resolved.",
+    cardImage: require("./images/MicroProcessor.png"),
+  },
+  {
+    name: "Signal Jammer",
+    ruling:
+      "\nYou cannot defend with Signal Jammer as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n This affects all players, including the player that controls Signal jammer.",
+    cardImage: require("./images/SignalJammer.png"),
+  },
+  {
+    name: "Teklo Pounder",
+    ruling:
+      "\nIt does not matter if the boost is successful or not. If you've boosted this combat chain the defending hero must defend T-Bone with an equipment they control.\n\u203B\n T-Bone counts itself towards its effect if it was boosted when it was played.\n\u203B\n You cannot defend with equipment that is already defending on the combat chain.\n\u203B\n You can still defend with equipment with 0 defense. You cannot however defend with equipment with no defense value.",
+    cardImage: require("./images/TekloPounder.png"),
+  },
+  {
+    name: "T-Bone",
+    ruling:
+      "\nYou cannot defend with Signal Jammer as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n This affects all players, including the player that controls Signal jammer.",
+    cardImage: require("./images/TBone.png"),
+  },
+  {
+    name: "Payload",
+    ruling:
+      "\nIt does not matter if the boost is successful or not.If you've boosted this combat chain, Payload gains dominate.\n\u203B\n If Payload gains dominate, you can still defend with equipment and defense reactions played from arsenal in addition to up to 1 card from hand.\n\u203B\n If Payload gains dominate, playing a defense reaction from your hand counts towards the 1 card from your hand restriction. You cannot defend with a card in your hand then play a defense reaction from your hand.",
+    cardImage: require("./images/Payload.png"),
+  },
+  {
+    name: "Zoom In",
+    ruling:
+      "\nIt does not matter if the boost were successful or not you still gain the ‘Opt X’ effect.\n\u203B\n Zoom In counts itself towards its effect if it was boosted when it was played.",
+    cardImage: require("./images/ZoomIn.png"),
+  },
+  {
+    name: "Rotary Ram",
+    ruling:
+      "\nIt does not matter if the boost is successful or not. If you've boosted this turn, you must put Rotary Ram on the bottom of your deck.\n\u203B\n Rotary Ram is put to the bottom of the deck at the time its effect resolves. It does not stay in the arena.",
+    cardImage: require("./images/RotaryRam.png"),
+  },
+  {
+    name: "Genis Wotchuneed",
+    ruling:
+      "\nEach player is affected in clockwise-order starting from the turn player. Once a player has put a card from their hand on the bottom of their deck (and drawn a card), or not, the next player in clockwise-order makes their decision.\n\u203B\n Opposing players only draw from the effect if they decide to put a card from their hand on the bottom of their deck. The effect is optional and players can decide not to put a card from their hand on the bottom of their deck.",
+    cardImage: require("./images/GenisWotchuneed.png"),
+  },
+  {
+    name: "Silver Palms",
+    ruling:
+      "\nThe effect is optional, and the other player can choose not to draw a card if they have less {h} than you.",
+    cardImage: require("./images/SilverPalms.png"),
+  },
+  {
+    name: "Dreadbore",
+    ruling:
+      "\nYou cannot attack with this weapon as it does not have an attack value or an attack ability that can be activated to attack.\n\u203B\n You may use this ability even when you have a card in all your arsenal zones, however you cannot put an arrow card from your hand into your arsenal.\n\u203B\n An arrow card has the subtype “arrow” and is located at the bottom middle of the card.\n\u203B\n An arrow can be played from arsenal even if it wasn’t a bow that placed it in the arsenal.\n\u203B\n This does not give the arrow go again. (The action on Dreadbore has go again.)\n\u203B\n Defense reactions can still be played from the arsenal or other zones that are not from the hand.",
+    cardImage: require("./images/Dreadbore.png"),
+  },
+  {
+    name: "Battering Bolt",
+    ruling:
+      "\nThe green symbol on Battering Bolt is life.\n\u203B\n Action cards are not discarded. All other card types are discarded including by not limited to: Attack Reactions, Defense Reactions, Instants, Mentors etc.",
+    cardImage: require("./images/BatteringBolt.png"),
+  },
+  {
+    name: "Tri-shot",
+    ruling:
+      "\nYou still need to pay the activation costs required to activate the bow.\n\u203B\n This ability bypasses the “Once per Turn Action” (Or Twice per turn) on bows and allows 2 additional activations.",
+    cardImage: require("./images/TriShot.png"),
+  },
+  {
+    name: "Rain Razors",
+    ruling:
+      "\nYou cannot defend with Rain Razors as it has no defense value. (This is different than if the defense value was 0.)",
+    cardImage: require("./images/RainRazors.png"),
+  },
+  {
+    name: "Release the Tension",
+    ruling:
+      "\nDefense reactions can still be played from hand, or any other zone other than the arsenal.\n\u203B\n This only affects the chain link, not the entire combat chain.",
+    cardImage: require("./images/ReleaseTheTension.png"),
+  },
+  {
+    name: "Fatigue Shot",
+    ruling:
+      "\nBase power {p} is determined by the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n Modifications to the base power of a card are applied before any other non-base modifications.",
+    cardImage: require("./images/FatigueShot.png"),
+  },
+  {
+    name: "Timidity Point",
+    ruling:
+      "\nThis only stops attacks with the keyword dominate. It does not stop other keywords or effects that have similar effects to dominate but not have dominate.",
+    cardImage: require("./images/TimidityPoint.png"),
+  },
+  {
+    name: "Vexing Quillhand",
+    ruling:
+      "\nYou can only prevent one arcane damage per Arcane Barrier 1 per damage event.\n\u203B\n Players cannot respond to the prevention as it is a replacement effect.\n\u203B\n To fully prevent a card dealing 3 arcane damage, you would require three Arcane Barrier 1 and three resources to prevent it. To fully prevent 3 Runechant tokens (3 instances of 1 damage from different sources). You would require one Arcane Barrier 1 and three resources to prevent it.",
+    cardImage: require("./images/VexingQuillhand.png"),
+  },
+  {
+    name: "Runic Reclamation",
+    ruling:
+      "\nThe target aura is selected at the time the triggered effect is triggered and put onto the stack.\n\u203B\n If there is no aura that can be targeted, or the target aura is destroyed before the triggered layer resolves, you do not create a Runechant token.\n\u203B\n You cannot respond to the creation of the Runechant after the aura is destroyed as it is part of the resolution of the ability.",
+    cardImage: require("./images/RunicReclamation.png"),
+  },
+  {
+    name: "Swarming Gloomveil",
+    ruling:
+      "\nSwarming Gloomveil is continuously checking. If you create an aura while Swarming Gloomveil is attacking, it would still gain the relevant effect.\n\u203B\n If you’ve played or created 3 or more auras during the turn you attack with Swarming Gloomveil it will gain all 3 effects.\n\u203B\n Runechant tokens that are triggered and resolve before Swarming Gloomveil hits (with the 3rd effect triggered), do not gain the benefit that prevents the hero from preventing arcane damage from sources you control.\n\u203B\n Prevention effects that include the destruction of the source object, still destroy the source object but do not reduce the damage of the arcane damage event (that can’t be prevented). Prevention effects apply one at a time until there is no more damage to be prevented. E.g. If you control 3 Spectral Shields and there is 1 arcane damage that can not be prevented, all Spectral Shields will be destroyed trying and failing to prevent the arcane damage.",
+    cardImage: require("./images/SwarmingGloomveil.png"),
+  },
+  {
+    name: "Revel in Runeblood",
+    ruling:
+      "\nYou cannot respond to the destruction effect of Revel in Runeblood as neither player gains priority during the end phase.\n\u203B\n You can play Revel in Runeblood without playing an attack action card and/or another ‘non-attack’ action card this turn, however you will create no Runechants from its effect.",
+    cardImage: require("./images/RevelInRuneblood.png"),
+  },
+  {
+    name: "Runeblood Incantation",
+    ruling:
+      "\nYou are able to respond to Runeblood Incantations Runechant token generation effect as it triggers and resolves during the start of your action phase, not the start of your turn.",
+    cardImage: require("./images/RunebloodIncantation.png"),
+  },
+  {
+    name: "Drowning Dire",
+    ruling:
+      "\nDrowning Dire is continuously checking. If you create an aura while Drowning Dire is attacking, it would still gain dominate.\n\u203B\n If Drowning Dire has dominate, you can still defend with equipment and defense reactions played from arsenal in addition to up to 1 card from hand.\n\u203B\n If Drowning Dire has dominate, playing a defense reaction from your hand counts towards the 1 card from your hand restriction. You cannot defend with a card in your hand then play a defense reaction from your hand.",
+    cardImage: require("./images/DrowningDire.png"),
+  },
+  {
+    name: "Reek of Corruption",
+    ruling:
+      "\nReek of Corruption is continuously checking. If you create an aura while Reek of Corruption is attacking, it would still gain ‘ If this hits a hero, they discard a card.’\n\u203B\n The defending player can respond to the hit trigger during chain link resolution.",
+    cardImage: require("./images/ReekOfCorruption.png"),
+  },
+  {
+    name: "Shrill of Skullform",
+    ruling:
+      "\nShrill of Skullform is continuously checking, If you create an aura while Shrill of Skullform is attacking, it would still gain +3{p}",
+    cardImage: require("./images/ShrillOfSkullform.png"),
+  },
+  {
+    name: "Iyslander",
+    ruling:
+      "\nA blue color strip is a card that has a base pitch value of 3. The color strip is located at the top center of the card.\n\u203B\n 'Non-attack' action cards played as an instant are still considered 'non-attack' action cards for the purposes of effects.\n\u203B\n You cannot gain an action point on an opponent's turn.\n\u203B\n Frostbite tokens affect cards before they are played. If you create a Frostbite in response to a player playing a card, Frostbite will not affect that card.\n\u203B\n Iyslander’s effect that creates a Frostbite token is a triggered effect that can be responded to.",
+    cardImage: require("./images/Iyslander.png"),
+  },
+  {
+    name: "Kraken's Aethervein",
+    ruling:
+      "\nYou cannot attack with this weapon as it does not have an attack value or an action that allows it to attack.\n\u203B\n Effects that modify action cards that deal arcane damage would not affect Kraken’s Aethervein as it is not an action card.",
+    cardImage: require("./images/KrakensAethervein.png"),
+  },
+  {
+    name: "Sigil of Parapets",
+    ruling:
+      "\nIf you play multiple wizard cards it would gain +2{d} multiple times.\n\u203B\n Any wizard card that is played would affect this, including wizard action cards, wizard instant cards and wizard defense reaction cards.",
+    cardImage: require("./images/SigilOfParapets.png"),
+  },
+  {
+    name: "Aether Wildfire",
+    ruling:
+      "\nThis card is an action and therefore cannot be played except for on your action phase unless another way allows you to (For example playing it as though it was an instant)\n\u203B\n This affects all action cards, not just your own. If your opponent does arcane damage to you on the same turn you have dealt damage from Aether Wildfire, their card would gain the effect too.",
+    cardImage: require("./images/AetherWildfire.png"),
+  },
+  {
+    name: "Scour",
+    ruling:
+      "\nBase cost is the printed cost value on a card. (Located at the top right corner of a card.)\n\u203B\n You cannot defend with Scour as it has no defense property. (This is different than if it had a defense value of 0.)\n\u203B\n Destroyed cards go to their owner’s graveyard. If a token is destroyed (leaves the arena), it ceases to exist.\n\u203B\n The value of X is determined at the time the card is declared to be played so that X targets can be declared and X resources can be paid.\n\u203B\n You must have a target to play Scour for any X>0. E.g. You cannot play Scour with X=4 if there are not at least 4 legal targets.",
+    cardImage: require("./images/Scour.png"),
+  },
+  {
+    name: "Emeritus Scolding",
+    ruling:
+      "\nThis card is an action and therefore cannot be played except for on your action phase unless another way allows you to (For example playing it as though it was an instant)",
+    cardImage: require("./images/EmeritusScolding.png"),
+  },
+  {
+    name: "Pry",
+    ruling:
+      "\nThis card is an action and therefore cannot be played except for on your action phase unless another way allows you to (For example playing it as though it was an instant)",
+    cardImage: require("./images/Pry.png"),
+  },
+  {
+    name: "Pyroglyphic Protection",
+    ruling:
+      "\nThis only prevents arcane damage, it does not prevent any other types of damage, including physical and untyped damage.\n\u203B\n The prevention effect applies once per damage event and only prevents damage from the arcane potion of that event. If there are multiple events of damage, Pyroglyphic Protection prevents the full 1/2/3 arcane damage from each event.",
+    cardImage: require("./images/PyroglyphicProtection.png"),
+  },
+  {
+    name: "Timekeeper's Whim",
+    ruling:
+      "\nThis card is an action and therefore cannot be played except for on your action phase unless another way allows you to (For example playing it as though it was an instant)\n\u203B\n This affects all action cards, not just your own. If your opponent does arcane damage to you on the same turn you have dealt damage from Aether Wildfire, their card would gain the effect too.",
+    cardImage: require("./images/TimekeepersWhim.png"),
+  },
+  {
+    name: "Crown of Reflection",
+    ruling:
+      "\nYou can only prevent one arcane damage per Arcane Barrier 1 per damage event.\n\u203B\n Players cannot respond to the prevention as it is a replacement effect.\n\u203B\n To fully prevent a card dealing 3 arcane damage, you would require three Arcane Barrier 1 and three resources to prevent it. To fully prevent 3 Runechant tokens (3 instances of 1 damage from different sources). You would require one Arcane Barrier 1 and three resources to prevent it.\n\u203B\n If a token Aura is destroyed by Crown of Reflection, you may put an Illusionist aura from your hand into the arena with a cost of 0. In this way tokens are assumed to have a cost of 0 because the effect assumes and requires the cost to be defined, instead being conditional on it.\n\u203B\n If the aura destroyed has a triggered effect that triggers on its own destruction (e.g. Haze Bending), that effect will trigger. If the illusionist aura you put into the arena has a triggered effect that triggers on other aura’s destruction, that effect will not trigger because it was not in the arena at the time the previous aura was destroyed.\n\u203B\n If the Aura is destroyed before the activated layer resolves as a layer on the stack, the layer fails to resolve and you do not gain the benefit of putting an aura into the arena.",
+    cardImage: require("./images/CrownOfReflection.png"),
+  },
+  {
+    name: "Fractal Replication",
+    ruling:
+      "\nIllusionist attack action cards on the combat chain include previous attacks you control and defending cards controlled by the opponent.\n\u203B\n If there are no Illusionist attack action cards on the combat chain, Fractal Replication has 0 power and 0 defense. It can still attack and defend for 0 as it does have the power and defense property.\n\u203B\n Base power {p} is determined by the printed {p} value on a card. (Located at the bottom left corner of a card.)\n\u203B\n Effects that check on play will not check for their conditions to be met.\n\u203B\n Abilities with effects that state the name of the card that the effect it is on (the source), now refer to Fractal Replication after the ability is copied (the new source).\n\u203B\n Abilities with “when you play” triggered effects are still copied by Fractal Replication, however they will not trigger as Fractal Replication is already considered to have been played.\n\u203B\n Abilities with “when you attack” triggered effects copied by Fractal Replication will trigger as they are gained before Fractal Replication becomes an attacking card.\n\u203B\n A card with “go again” can not gain another instance of “go again”, and will only grant 1 action point when it resolves.\n\u203B\n The controller of Fractal Replication gets to choose the order of its effects when they are triggered. E.g If Fractal Replication gains multiple effects that state ‘when this hits...’ the controlling player gets to choose the order in which these effects resolve.\n\u203B\n Fractal Replciation’s triggered effect is dependent on the Illusionist type. It is applied after types of objects have been determined, and gains the base abilities of an Illusionist attack action cards.\n\u203B\n Defending cards retain their abilities, but they are not considered functional. Therefore Fractal Replication still gains any defending Illusionist attack action card’s base abilities.\n\u203B\n Illusionist attack action cards that are no longer on the combat chain (such as when they are put into Soul, or back into the deck) are not considered for Fractal Replciation’s effects. Last Known Information is not applied in this case.",
+    cardImage: require("./images/FractalReplication.png"),
+  },
+  {
+    name: "Miraging Metamorph",
+    ruling:
+      "\nAuras stay in the arena until they are destroyed.\n\u203B\n The token can be represented by a small object such as a card sleeve, coin, dice or anything that is clear to your opponent.\n\u203B\n An attack action card that is put into the graveyard from the combat chain is not considered to be destroyed.\n\u203B\n A copy has the same parameters, and copyable (printed) properties, as that object it is a copy of. It does not copy any counters on, or effects specific to, the copied object.",
+    cardImage: require("./images/MiragingMetamorph.png"),
+  },
+  {
+    name: "Shimmers of Silver",
+    ruling:
+      "\nAuras stay in the arena until they are destroyed.\n\u203B\nThis effect is not a ‘may’ effect. The first illusionist aura weapon you attack with will receive a +1{p} counter on it.",
+    cardImage: require("./images/ShimmersOfSilver.png"),
+  },
+  {
+    name: "Haze Bending",
+    ruling:
+      "\nAuras stay in the arena until they are destroyed.\n\u203B\n This effect is not a ‘may’ effect. The first illusionist attack action card you attack with will lose and can't gain phantasm.\n\u203B\n If Passing Mirage enters the arena after you play the first illusionist attack action card this turn, the losing Phantasm does not apply to the second illusionist attack action card this turn.\n\u203B\n If Passing Mirage is destroyed the attack would regain Phantasm (if it had it originally).",
+    cardImage: require("./images/HazeBending.png"),
+  },
+  {
+    name: "Passing Mirage",
+    ruling:
+      "\nAuras stay in the arena until they are destroyed.\n\u203B\n The token can be represented by a small object such as a card sleeve, coin, dice or anything that is clear to your opponent.\n\u203B\n An attack action card that is put into the graveyard from the combat chain is not considered to be destroyed.\n\u203B\n A copy has the same parameters, and copyable (printed) properties, as that object it is a copy of. It does not copy any counters on, or effects specific to, the copied object.",
+    cardImage: require("./images/PassingMirage.png"),
+  },
+  {
+    name: "Pierce Reality",
+    ruling:
+      "\nAuras stay in the arena until they are destroyed.\n\u203B\n This effect is not a ‘may’ effect. The first illusionist attack action card you play will have +2{p}.\n\u203B\n If Piercing Reality enters the arena after you play the first illusionist attack action card this turn, the +2{p} does not apply to the second illusionist attack action card this turn.\n\u203B\n If Piercing Reality is destroyed the attack would no longer have +2{p}.",
+    cardImage: require("./images/PierceReality.png"),
+  },
+  {
+    name: "Coalescence Mirage",
+    ruling:
+      "\nAn attack action card that is cleared from the combat chain or a rule or effect other than “destroy” is not considered to be destroyed.\n\u203B\n If Coalescence Mirage is not in the arena when it is destroyed, its effect does not trigger because it was not functional at the time the card was destroyed.",
+    cardImage: require("./images/CoalescenceMirage.png"),
+  },
+  {
+    name: "Phantasmal Haze",
+    ruling:
+      "\nAn attack action card that is cleared from the combat chain or a rule or effect other than “destroy” is not considered to be destroyed.\n\u203B\n If Phantasmal Haze is not in the arena when it is destroyed, its effect does not trigger because it was not functional at the time the card was destroyed.",
+    cardImage: require("./images/PhantasmalHaze.png"),
+  },
+  {
+    name: "Veiled Intentions",
+    ruling:
+      "\nAn attack action card that is cleared from the combat chain or a rule or effect other than “destroy” is not considered to be destroyed.\n\u203B\n If the attack is not in the arena when it is destroyed (such as when it is on the stack), its effect does not trigger because it was not functional at the time the card was destroyed.",
+    cardImage: require("./images/VeiledIntentions.png"),
+  },
+  {
+    name: "Arcane Lantern",
+    ruling:
+      "\nYou can only prevent one arcane damage per Arcane Barrier 1 per damage event.\n\u203B\n Players cannot respond to the prevention as it is a replacement effect.\n\u203B\n To fully prevent a card dealing 3 arcane damage, you would require three Arcane Barrier 1 and three resources to prevent it. To fully prevent 3 Runechant tokens (3 instances of 1 damage from different sources). You would require one Arcane Barrier 1 and three resources to prevent it.",
+    cardImage: require("./images/ArcaneLantern.png"),
+  },
+  {
+    name: "Bingo",
+    ruling:
+      "\nIf the card revealed is not an attack action card or a ‘non attack’ action card, Bingo does not gain either ability i.e if the defending player reveals an ‘instant’ nothing would happen.\n\u203B\nIf the defending hero has no cards in hand when this hits, they will be unable to reveal a card from hand, Bingo does not gain either effect.\n\u203B\n The controller of Bingo draws the card if a non-attack action card is revealed this way, not the one who revealed the card.\n\u203B\n Bingo, Bango, Bongo!",
+    cardImage: require("./images/Bingo.png"),
+  },
+  {
+    name: "Firebreathing",
+    ruling:
+      "\nThis effect can only be activated while it is attacking. When you are defending with Fire Breathing you cannot activate its ability as it does not specify you can.\n\u203B\n You may activate Firebreathing any number of times provided you can pay the cost for it’s activation each time.",
+    cardImage: require("./images/Firebreathing.png"),
+  },
+  {
+    name: "Cash Out",
+    ruling:
+      '\nA Silver token is a generic token item with "Action- {r}{r}{r}, destroy Silver: Draw a card. Go again"\n\u203B\n You can choose to destroy no weapons, equipment and/or non-token items you control when you play Cash Out, however you will create no Silver tokens.\n\u203B\n Token permanents can be destroyed (except items), including tokens that have gained the weapon and/or equipment type. This means Illusionist auras that gain the weapon type from the effect of Iris of Reality, are legal subjects of the effect.',
+    cardImage: require("./images/CashOut.png"),
+  },
+  {
+    name: "Knick Knack Bric-a-brac",
+    ruling:
+      "\nYou may play Knick Knack without paying it’s additional cost. If you do, you only go through the process once, without any further repetitions.\n\u203B\n You may destroy any increments of Copper, Silver and Gold. However you only repeat this process for each 4/2/1. For example you could destroy 6 Copper and 3 Silver but you only get to repeat the process twice.\n\u203B\n Repeating the process means searching your deck for a card. You do not need to search for the same card nor do you need to pay Knick Knack’s resource cost again.\n\u203B\n When instructed to repeat the process X times, first resolve the process once, then repeat the process X more times, resulting in the process being completed X+1 times.\n\u203B\n In practical play, you can skip shuffling the deck between searching for cards. The only exception is when a replacement effect interacts meaningfully with any effect of the process, in which case shuffling should be performed between searches to ensure that the correct outcome is achieved.",
+    cardImage: require("./images/KnickKnack.png"),
+  },
+  {
+    name: "This Round's on Me",
+    ruling:
+      "\nThis Round’s on me affects all attacks, including attack action cards and weapon attacks.",
+    cardImage: require("./images/ThisRoundsOnMe.png"),
+  },
+  {
+    name: "Life of the Party",
+    ruling:
+      "\nLife of the Party has an optional alternative cost that you can pay by discarding Crazy Brew from your hand, or by destroying a Crazy Brew you control, not both.\n\u203B\n Effects that increase the resource cost to play Life of the Party must still be paid. The alternative cost first reduces the resource cost to 0, which is then increased by the effects.",
+    cardImage: require("./images/LifeOfTheParty.png"),
+  },
+  {
+    name: "High Striker",
+    ruling:
+      "\nThis affects all attacks including attack action cards, ally attacks, and weapon attacks.\n\u203B\n This will only affect the next attack that hits. If an attack doesn’t hit, it does not use up this effect and a later attack that hits this turn will trigger the effect.",
+    cardImage: require("./images/HighStriker.png"),
+  },
+  {
+    name: "Pick a Card, Any Card",
+    ruling:
+      '\nA Silver token is a generic token item with "Action- {r}{r}{r}, destroy Silver: Draw a card. Go again"\n\u203B\n An example of an acceptable method of randomisation would be rolling a die.\n\u203B\n You cannot record information after looking at a player\'s hand.\n\u203B\n Thrice means three more times.\n\u203B\n The player who controls Pick a Card, Any Card is the player who is instructed to do the revealing of the cards and thus triggers effects such as that on Korshem.\n\u203B\n When instructed to repeat the process X times, first resolve the process once, then repeat the process X more times, resulting in the process being completed X+1 times.',
+    cardImage: require("./images/PickACard.png"),
+  },
+  {
+    name: "Smashing Good Time",
+    ruling:
+      "\nThe cost of an item is located at the top right corner of the card.\n\u203B\n You choose the item you want to destroy at the time the trigger resolves. There is no window of priority between choosing the item and it being destroyed.\n\u203B\n This will only affect the next attack that hits. If an attack doesn’t hit, it does not use up this effect and a later attack that hits this turn will trigger the effect.",
+    cardImage: require("./images/SmashingGoodTime.png"),
+  },
+  {
+    name: "Even Bigger Than That",
+    ruling:
+      "\nPhysical damage ({p} damage) is any damage done by an attack such as a weapon attack or attack action during the damage step of combat. Loss of life, arcane damage and untyped damage do not count as {p} damage.\n\u203B\n The “damage dealt this turn” is the total damage of all types dealt this turn including arcane damage, {p} damage, and untyped damage, but does not include loss of life effects.",
+    cardImage: require("./images/EvenBiggerThanThat.png"),
+  },
+  {
+    name: "Amulet of Assertiveness",
+    ruling:
+      "\nAmulet of Assertiveness’ activated ability is an attack reaction. You may activate it during the reaction window when you are the attacking hero.\n\u203B\n An attack is considered to have hit if it deals damage during the damage step of combat.\n\u203B\n You cannot defend with Amulet of Assertiveness as it has no defense property. (This is different than if it had a defense value of 0.)\n\u203B\n If the banished card is not played during the turn it is still banished and will remain banished indefinitely.\n\u203B\n The ability will still resolve even if you have less than 4 cards in your hand on resolution of the activated layer.",
+    cardImage: require("./images/AmuletOfAssertiveness.png"),
+  },
+  {
+    name: "Amulet of Echoes",
+    ruling:
+      "\nAmulet of Echoes checks only for the same name. Cards with different color strips still count as cards with the same name.\n\u203B\n The targeted hero can respond to the activation of Amulet of Echoes and play cards from their hand before they must discard.\n\u203B\n You cannot defend with Amulet of Echoes as it has no defense property. (This is different than if it had a defense value of 0.)\n\u203B\n You can target any player, including yourself.",
+    cardImage: require("./images/AmuletOfEchoes.png"),
+  },
+  {
+    name: "Amulet of Havencall",
+    ruling:
+      "\nAmulet of Havencall’s activated ability is a defence reaction. You can only activate Amulet of Havencall during the reaction window when you are the defending hero.\n\u203B\n You cannot defend with Amulet of Havencall as it has no defense property. (This is different than if it had a defense value of 0.)\n\u203B\n You can fail to find Rally the Rearguard in your deck. Even if your deck does not contain a Rally the Rearguard, or it contains a Rally the Rearguard but you fail to find it, you must still shuffle your deck.\n\u203B\n Adding Rally the Rearguard as a defending card to the chain link is considered defending.\n\u203B\n “This chain link” refers to the current chain link of the combat chain.",
+    cardImage: require("./images/AmuletOfHavencall.png"),
+  },
+  {
+    name: "Amulet of Ignition",
+    ruling:
+      "\nAmulet of Ignition affects the next activation once. The same ability used again will not have the same cost reduction from Amulet of Ignition.\n\u203B\n You cannot defend with Amulet of Ignition as it has no defense property. (This is different than if it had a defense value of 0.)",
+    cardImage: require("./images/AmuletOfIgnition.png"),
+  },
+  {
+    name: "Amulet of Intervention",
+    ruling:
+      "\nYou cannot defend with Amulet of Intervention as it has no defense property. (This is different than if it had a defense value of 0.)\n\u203B\n This prevents all types of damage including damage from attacks, arcane damage and damage. This does not prevent loss of life.\n\u203B\n If your {h} were to increase after the activation of Amulet of Intervention the activated layer and its effect would still resolve.\n\u203B\n An attack or action card is considered to have ‘targeted’ your hero when the card is played, and ability is activated, or a triggered layer is added to the stack, announcing the target.\n\u203B\n The source would deal damage to you if the resolution of that source as a layer on the stack would produce an effect that deals damage to your hero; or if the current chain link would deal damage, during the damage step of combat (taking into account the current defending cards), to your hero. Replacement effects, including prevention effects, are not considered for this condition to be met.",
+    cardImage: require("./images/AmuletOfIntervention.png"),
+  },
+  {
+    name: "Amulet of Oblation",
+    ruling:
+      "\nYou cannot defend with Amulet of Oblation as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n You can target attack action cards that have been added as defending cards on the combat chain.\n\u203B\n You can target cards you do not own or control.",
+    cardImage: require("./images/AmuletOfOblation.png"),
+  },
+  {
+    name: "Clarity Potion",
+    ruling:
+      "\nYou cannot defend with Clarity Potion as it has no defense value. (This is different than if the defense value was 0.)",
+    cardImage: require("./images/ClarityPotion.png"),
+  },
+  {
+    name: "Healing Potion",
+    ruling:
+      "\nYou cannot defend with Healing Potion as it has no defense value. (This is different than if the defense value was 0.)",
+    cardImage: require("./images/HealingPotion.png"),
+  },
+  {
+    name: "Potion of Seeing",
+    ruling:
+      "\nYou cannot defend with Potion of Seeing as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n Looking at cards is not revealing those cards for the purposes of triggered effects.\n\u203B\n You may target yourself, in which case the effect essentially does nothing.",
+    cardImage: require("./images/PotionOfSeeing.png"),
+  },
+  {
+    name: "Potion of Déjà Vu",
+    ruling:
+      "\nYou cannot defend with Potion of Déjà Vu as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n You can choose the order the cards are put on the top of your deck.\n\u203B\n The order of the cards are not known to your opponents. (The actual cards are, just not the order)\n\u203B\n The effect is mandatory. You must put all cards in your pitch zone if you activate this ability.",
+    cardImage: require("./images/PotionOfDejaVu.png"),
+  },
+  {
+    name: "Potion of Ironhide",
+    ruling:
+      "\nYou cannot defend with Potion of Ironhide as it has no defense value. (This is different than if the defense value was 0.)",
+    cardImage: require("./images/PotionOfIronhide.png"),
+  },
+  {
+    name: "Potion of Luck",
+    ruling:
+      "\nou cannot defend with Potion of Luck as it has no defense value. (This is different than if the defense value was 0.)",
+    cardImage: require("./images/PotionOfLuck.png"),
+  },
+  {
+    name: "Talisman of Balance",
+    ruling:
+      "\nYou cannot defend with Talisman of Balance as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n This is not a “may“ effect. If you have less cards in your arsenal than an opposing hero, you must destroy Talisman of Balance and resolve its ability.",
+    cardImage: require("./images/TalismanOfBalance.png"),
+  },
+  {
+    name: "Talisman of Cremation",
+    ruling:
+      "\nYou cannot defend with Talisman of Cremation as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n This is not a “may“ effect. When you play a card from your banished zone, you must destroy Talisman of Cremation and choose a card name.",
+    cardImage: require("./images/TalismanOfCremation.png"),
+  },
+  {
+    name: "Talisman of Featherfoot",
+    ruling:
+      "\nYou cannot defend with Talisman of Featherfoot as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n This is not a “may“ effect. When an attack you control gains +1{p}, you must destroy Talisman of Featherwing.\n\u203B\n An object is considered to have gained +1{p} if it’s power increases by 1, from one game state to another.",
+    cardImage: require("./images/TalismanOfFeatherfoot.png"),
+  },
+  {
+    name: "Talisman of Recompense",
+    ruling:
+      "\nYou cannot defend with Talisman of Recompense as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n This is not a “may“ effect. If you would gain exactly one {r}, you must destroy Talisman of Recompense.",
+    cardImage: require("./images/TalismanOfRecompense.png"),
+  },
+  {
+    name: "Talisman of Tithes",
+    ruling:
+      "\nYou cannot defend with Talisman of Tithes as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n This is not a “may“ effect. If an opponent would draw 1 or more cards during your action phase, you must destroy Talisman of Tithes.\n\u203B\n If an opponent would draw 0 cards due to the replacement effect, the draw event does not occur and effects that trigger when a player draws a card do not trigger.",
+    cardImage: require("./images/TalismanOfTithes.png"),
+  },
+  {
+    name: "Talisman of Warfare",
+    ruling:
+      "\nYou cannot defend with Talisman of Warfare as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n This is not a “may“ effect. If you have dealt exactly 2 damage to an opposing hero, you must destroy Talisman of Warfare and all cards in all arsenal zones.",
+    cardImage: require("./images/TalismanOfWarfare.png"),
+  },
+  {
+    name: "Silver",
+    ruling:
+      "\nSilver is a token and is not part of your deck.\n\u203B\n Silver stays in the arena as a permanent until destroyed.\nDestroying Silver is part of it’s cost.\n\u203B\n A Silver token may be represented by a small object such as a card sleeve or coin if a Silver token card is not available.",
+    cardImage: require("./images/Silver.png"),
   },
 ];
 
