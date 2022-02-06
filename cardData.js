@@ -3225,13 +3225,13 @@ const cardData = [
   {
     name: "Teklo Pounder",
     ruling:
-      "\nIt does not matter if the boost is successful or not. If you've boosted this combat chain the defending hero must defend T-Bone with an equipment they control.\n\u203B\n T-Bone counts itself towards its effect if it was boosted when it was played.\n\u203B\n You cannot defend with equipment that is already defending on the combat chain.\n\u203B\n You can still defend with equipment with 0 defense. You cannot however defend with equipment with no defense value.",
+      "\nYou cannot defend with Teklo Pounder as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n The boost does not need to be successful. You will still remove a steam counter and gain +2(p) when you boost a card.\n\u203B\n The effect is not optional, you MUST remove a steam counter and gain +2(p).",
     cardImage: require("./images/TekloPounder.png"),
   },
   {
     name: "T-Bone",
     ruling:
-      "\nYou cannot defend with Signal Jammer as it has no defense value. (This is different than if the defense value was 0.)\n\u203B\n This affects all players, including the player that controls Signal jammer.",
+      "\nIt does not matter if the boost is successful or not. If you've boosted this combat chain the defending hero must defend T-Bone with an equipment they control.\n\u203B\n T-Bone counts itself towards its effect if it was boosted when it was played.\n\u203B\n You cannot defend with equipment that is already defending on the combat chain.\n\u203B\n You can still defend with equipment with 0 defense. You cannot however defend with equipment with no defense value.",
     cardImage: require("./images/TBone.png"),
   },
   {
