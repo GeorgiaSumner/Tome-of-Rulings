@@ -4,6 +4,7 @@ const cardData = [
     ruling:
       "\nYou cannot activate Fyendal’s Spring Tunic during the start of the turn phase (in response to the trigger), because players do not get priority during the start of turn phase.\n\u203B\n You must have at least 3 energy counters on Fyendal’s Spring Tunic to use it’s activated ability.\n\u203B\n Fyendal’s Spring Tunic’s activated ability is an instant. You may activate it any time you have priority, including during an opponent’s turn, and during the reaction window of either player’s turn.",
     cardImage: require("./images/FyendalsSpringTunic.png"),
+    set: "WTR",
   },
   {
     name: "Goliath Gauntlet",
