@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { Text, View, FlatList, Image, ImageBackground } from "react-native";
 import Search from "./components/SearchBar.js";
-import styles from "./styles";
-import cardData from "./cardData.js";
 import Footer from "./components/Footer.js";
+import Dropdown from "./components/Dropdown.js";
+import cardData from "./cardData.js";
+import styles from "./styles";
+
 export default function App() {
   const [cards, setCards] = useState([]);
   const [searchTerm, setSearch] = useState("");
+  const [booster, setBooster] = useState("All");
 
   useEffect(() => {
     let limit = searchTerm ? 10 : 0;
-
     const results = cardData.filter((card) =>
       card.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
@@ -31,6 +33,7 @@ export default function App() {
           style={styles.title}
         />
         <Search setSearch={setSearch} />
+        <Dropdown setBooster={setBooster} booster={booster} />
         <FlatList
           data={cards}
           renderItem={({ item }) => (
@@ -42,6 +45,7 @@ export default function App() {
               </View>
             </View>
           )}
+          keyExtractor={(item, index) => index.toString()}
           ListFooterComponent={<Footer cards={cards} />}
         />
       </ImageBackground>
