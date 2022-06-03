@@ -13,11 +13,18 @@ export default function App() {
 
   useEffect(() => {
     let limit = searchTerm ? 10 : 0;
+
     const results = cardData.filter((card) =>
       card.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
-    const limitedArray = results.slice(0, limit);
+    let filteredResults =
+      booster === "All"
+        ? results
+        : results.filter((card) => card.set === booster);
+
+    const limitedArray = filteredResults.slice(0, limit);
+
     setCards(limitedArray);
   }, [searchTerm]);
 

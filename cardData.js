@@ -11,90 +11,105 @@ const cardData = [
     ruling:
       "\nThe attack action card does not gain go again. Goliath Gauntlet’s activated ability requires an action point to use and provides an action point from go again upon resolution.",
     cardImage: require("./images/GoliathGauntlet.png"),
+    set: "WTR",
   },
   {
     name: "Heartened Cross Strap",
     ruling:
       "\nThe attack action card does not again go again. Heartened Cross Strap’s activated ability requires an action point to use and provides an action point from go again upon resolution.\n\u203B\n The reduction does not carry over to any additional attack actions outside of the first attack action card you play after activating Heartened Cross Strap.",
     cardImage: require("./images/HeartenedCrossStrap.png"),
+    set: "WTR",
   },
   {
     name: "Hope Merchant’s Hood",
     ruling:
       "\nThe cards must be selected and shuffled in at the same time.\n\u203B\n Hope Merchant’s Hood’s activated ability is an instant. You may activate it any time you have priority, including during an opponent’s turn, and during the reaction window of either player’s turn.",
     cardImage: require("./images/HopeMerchantsHood.png"),
+    set: "WTR",
   },
   {
     name: "Snapdragon Scalers",
     ruling:
       "\nIf this is used on an attack with go again, you will only gain 1 action point upon resolution as multiple instances of go again do not stack.\n\u203B\n Snapdragon Scaler’s activated ability is an attack reaction. You may activate it during the reaction window when you are the attacking hero.",
     cardImage: require("./images/SnapdragonScalers.png"),
+    set: "WTR",
   },
   {
     name: "Barraging Brawnhide",
     ruling:
       "\nDefense reactions played from arsenal and/or hand count as defending cards.",
     cardImage: require("./images/BarragingBrawnhide.png"),
+    set: "WTR",
   },
   {
     name: "Crazy Brew",
     ruling:
       "\nYou cannot defend with Crazy Brew as it has no defense value.\n\u203B\n The ability must resolve completely. There is no window to react between letting the ability resolve and seeing which effect is applied.",
     cardImage: require("./images/CrazyBrew.png"),
+    set: "WTR",
   },
   {
     name: "Demolition Crew",
     ruling:
       "\nYou must have at least one card in your hand with cost {r}{r} or greater for the additional cost at the time you play Demolition Crew.\n\u203B\n You may not reveal the same Demolition Crew to itself to pay for the additional cost.\n\u203B\n You can not reveal a card for the additional cost, and then pitch that same card to pay the resource of Demolition Crew. Paying resource costs happens before paying additional costs.",
     cardImage: require("./images/DemolitionCrew.png"),
+    set: "WTR",
   },
   {
     name: "Drone of Brutality",
     ruling:
       "\nAnywhere includes all possible zones, such as from hand, or deck. This is not limited to being put into the graveyard from the combat chain.",
     cardImage: require("./images/DroneOfBrutality.png"),
+    set: "WTR",
   },
   {
     name: "Energy Potion",
     ruling:
       "\nEnergy Potion requires an action point to play as it is an action.\n\u203B\n Energy Potion has sub-type Item, which means it stays in the arena until it is destroyed.\n\u203B\n You may not defend with Energy Potion as it does not have a defense value.\n\u203B\n You may use Energy Potion’s ability even when you are not spending any of the resources gained by it.\n\u203B\n Energy Potion’s activated ability is an instant. You may activate it any time you have priority, including during an opponent’s turn, and during the reaction window of either player’s turn.",
     cardImage: require("./images/EnergyPotion.png"),
+    set: "WTR",
   },
   {
     name: "Enlightened Strike",
     ruling:
       "\nYou must have at least one other card in your hand to pay for the additional cost at the time you play Enlightened Strike.\n\u203B\n You choose the mode at the time you play Enlightened Strike.",
     cardImage: require("./images/EnlightenedStrike.png"),
+    set: "WTR",
   },
   {
     name: "Flock of the Feather Walkers",
     ruling:
       "\nYou must have at least one other card in your hand with cost {r} or less to pay for the additional cost of Flock of the Feather Walkers.\n\u203B\n You may not reveal the same Flock of the Feather Walkers to itself to pay for the additional cost.\n\u203B\n The Quicken aura token remains in play until destroyed.\n\u203B\n A Quicken aura token may be represented by a small object such as a card sleeve or coin if a Quicken aura token card is not available.\n\u203B\n You can not reveal a card for the additional cost, and then pitch that same card to pay the resource of Flock of the Feather Walkers. Paying resource costs happens before paying additional costs.",
     cardImage: require("./images/FlockOfTheFeatherWalkers.png"),
+    set: "WTR",
   },
   {
     name: "Heart of Fyendal",
     ruling:
       "\nThe green symbol on Heart of Fyendal is life.\n\u203B\n You may only have 1 Heart of Fyendal in your deck including cards in your registered 80-card pool in constructed tournaments and only 1 Heart of Fyendal in your deck in limited tournaments.\n\u203B\n You may not defend with Heart of Fyendal as it does not have a defense value.\n\u203B\n Heart of Fyendal does not have a cost value. (It is not zero.)",
     cardImage: require("./images/HeartOfFyendal.png"),
+    set: "WTR",
   },
   {
     name: "Last Ditch Effort",
     ruling:
       "\nLast Ditch Effort checks how many cards are in your deck at the time you play it. If after you play it your deck’s size changes, the stats and go again applied to Last Ditch Effort would still remain.",
     cardImage: require("./images/LastDitchEffort.png"),
+    set: "WTR",
   },
   {
     name: "Nimble Strike",
     ruling:
       "\nYou must decide if you are banishing a card name Nimblism at the time you play Nimble Strike.\n\u203B\n Non-attack action cards go to the graveyard after they resolve, therefore you may banish a Nimblism you played this turn.",
     cardImage: require("./images/NimbleStrike.png"),
+    set: "WTR",
   },
   {
     name: "Nimblism",
     ruling:
       "\nThe attack action does not gain go again. Nimblism requires an action point to use and provides an action point from go again upon resolution.",
     cardImage: require("./images/Nimblism.png"),
+    set: "WTR",
   },
   {
     name: "Potion of Strength",

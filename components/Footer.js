@@ -2,7 +2,7 @@ import React from "react";
 import { Text, View, Image } from "react-native";
 import styles from "../styles.js";
 
-const Footer = (cards) => {
+const Footer = ({ cards }) => {
   if (cards.length > 0) {
     return (
       <View style={styles.footer}>

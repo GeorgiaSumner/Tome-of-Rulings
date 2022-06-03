@@ -1,14 +1,14 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View } from "react-native";
 import { Picker } from "@react-native-picker/picker";
 
 const Dropdown = ({ setBooster, booster }) => {
   return (
     <View>
       <Picker
-        onValueChange={(value, index) => setBooster(value)}
+        onValueChange={(value) => setBooster(value)}
         selectedValue={booster}
-        mode="dropdown" // Android only
+        mode="dropdown"
       >
         <Picker.Item label="All Sets" value="All" />
         <Picker.Item label="Welcome to Rathe" value="WTR" />
