@@ -52,7 +52,10 @@ export default function App() {
           renderItem={({ item }) => (
             <View style={styles.list}>
               <View style={styles.listItem}>
-                <Image source={item.cardImage} style={styles.cards} />
+                <Image
+                  source={item.cardImage}
+                  style={item.cardImage ? styles.cards : ""}
+                />
                 <Text style={styles.listItemTitle}>{item.name}</Text>
                 <Text style={styles.description}>{item.ruling}</Text>
               </View>

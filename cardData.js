@@ -5006,6 +5006,180 @@ const cardData = [
     cardImage: require("./images/OasisRespite.png"),
     set: "UPR",
   },
+  {
+    name: "Battleworn",
+    ruling:
+      "\nWhen you defend with a card it remains on the combat chain until the chain closes, therefore you cannot defend with an equipment multiple times on the same combat chain.\n\u203B\n A -1{d} counter stays on the card until the card is destroyed or the game ends.\n\u203B\n If the defense of a card that is defending is below zero, calculate as if its defense is zero.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Bladebreak",
+    ruling:
+      "\nWhen you defend with a card it remains on the combat chain until the chain closes, therefore you cannot defend with an equipment multiple times on the same combat chain.\n\u203B\n When this card is destroyed, it is sent to your graveyard.\n\u203B\n The ability goes on the stack when the combat chain closes.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Combo",
+    ruling:
+      "\nThe last attack does not have to have hit.\n\u203B\n Only the name of the last attack matters, other variables such as the pitch cost does not matter.\n\u203B\n You may still play the attack even if combo isn’t active.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Crush",
+    ruling:
+      "\nCrush only checks the amount of damage dealt to the hero. Prevented damage does not count.\n\u203B\n Crush is not optional, if the card does 4 or more damage, the effect will apply.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Dominate",
+    ruling:
+      "\nYou can still block with equipment and defense reactions played from arsenal in addition to up to 1 card from hand.\n\u203B\n Playing a defense reaction from your hand counts towards the 1 card from your hand restriction. You cannot defend with a card in your hand then play a defense reaction from your hand.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Go again",
+    ruling:
+      "\nWhen an action with go again resolves, its controller gains 1 action point.\n\u203B\n Multiple instances of go again on the same card or activated ability do not stack. If a card or activated ability has multiple instances of go again when it resolves its controller gains 1 action point only.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Intimidate",
+    ruling:
+      "\nThe player who owns the banished card may look at it.\n\u203B\n The card banished from intimidate is returned to hand at the beginning of the end phase. This is before players draw up to hand size.\n\u203B\n You may target yourself with this ability. However you will receive the card back into your hand before drawing up to your hand size.\n\u203B\n You may target a hero with no cards in hand.\n\u203B\n If there are other banished cards that aren’t from intimidate, it is encouraged to keep intimidated cards seperate from these cards.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Reprise",
+    ruling:
+      "\nReprise cares about the current chain link not the whole combat chain. If a previous attack was defended by a card in hand, it will have no effect on reprise for the current chain link.\n\u203B\n Reprise is checked at the time you play the card. If a card with reprise is played then a defense reaction is played from hand, the effect will not apply retroactively.\n\u203B\n Equipment and cards from arsenal that defend an attack do not turn on reprise.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Arcane Barrier",
+    ruling:
+      "\nYou can have multiple instances of arcane barrier, for example Nullrune Hood, Nullrune Cloak, and Nullrune Gloves.\n\u203B\n Arcane barrier can be used every time you would be dealt arcane damage. It's not limited to once per turn.\n\u203B\n Each instance of arcane barrier you control can be used 1 time only, each time a source would deal arcane damage to you. For example if a source would deal 5 arcane damage to you, and you control two cards with arcane barrier 1, you will in total be able to prevent 2 arcane damage this source would deal to you.\n\u203B\n To fully prevent a card dealing 3 arcane damage, you would require 3 arcane barrier and 3 resources to prevent it. To fully prevent the arcane damage from 3 Runechant tokens (3 instances of 1 damage), you would require 1 arcane barrier and 3 resources to prevent it.\n\u203B\n A equipment with arcane barrier does not move to the chain when arcane barrier is used.\n\u203B\n You can prevent arcane damage you would deal to yourself.\n\u203B\n Players cannot respond to the prevention. Arcane barrier is a replacement effect, not an activated or triggered ability.\n\u203B\n To fully prevent a card dealing 3 arcane damage, you would require 3 arcane barrier and 3 resources to prevent it. To fully prevent 3 runechant tokens (3 instances of 1 damage from difference sources). You would require 1 arcane barrier and 3 resources to prevent it.\n\u203B\n Preventing arcane damage does not destroy the equipment with arcane barrier (unless otherwise specified).",
+    set: "KEYWORD",
+  },
+  {
+    name: "Opt",
+    ruling:
+      "\nThe number of cards you place on top and bottom of your deck is known to your opponent, the order of the cards are not.\n\u203B\n You may put all of the cards on the top or all of the cards on the bottom if you wish.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Boost",
+    ruling:
+      "\nBoost is an additional cost. You choose if you want to boost or not at the time you play the card.\n\u203B\n You may only boost once per instance of boost.\n\u203B\n You are considered to have boosted regardless of whether the boost was successful or not.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Reload",
+    ruling:
+      "\nYou may choose to put no cards from your hand to your arsenal.\n\u203B\n Your arsenal must be empty to put a card into your arsenal.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Negate",
+    ruling:
+      "\nNegating an instant will prevent the card from resolving. The card will go to its owner’s graveyard and the effects of the card do not happen.\n\u203B\n You can only target a card on a layer of the chain.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Temper",
+    ruling:
+      "\nIf the equipment gains a -1{d} in a different way other than defending, it would not be destroyed even if it has 0{d}.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Spectra",
+    ruling:
+      "\nAttacks that target a card with spectra do not resolve. Any hit triggers or effects that card has such as go again do not resolve.\n\u203B\n An attack targeting a spectra card does not resolve. It will open a combat chain and become a chain link but is destroyed when the spectra becomes a target\n\u203B\n Additional costs and resource cards still need to be paid.\n\u203B\n Attacking a spectra is not considered attacking a hero.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Phantasm",
+    ruling:
+      "\nIf an attack action is destroyed, it does not resolve. Hit triggers and effects that require the action resolving such as go again do not resolve.\n\u203B\n Both players have priority during the defending step. Note: This is a new rule introduced with the release of Monarch.\n\u203B\n When an attack with phantasm is defended by a 6{p}+ non-Illusionist attack action, a trigger to destroy the attack is put on the chain. Players can respond to this. When it resolves it checks if the attack action still fulfills the requirements to destroy the attack.\n\u203B\n Phantasm only triggers when the game state changes from false to true. It does not trigger from true to true. (For example: if a defending card goes from 5{p} to 6{p} it will create a trigger, but a card going from 6{p} to 7{p} will not create another trigger.)",
+    set: "KEYWORD",
+  },
+  {
+    name: "Charge",
+    ruling:
+      "\nCharging is optional. You may play the card without charging.\n\u203B\n You may only charge up to one card unless otherwise specified.\n\u203B\n A card may not charge itself. (You cannot put the card you are playing, into your hero’s soul as a part of its own cost)\n\u203B\n The charged card is put face up under your hero.\n\u203B\n You are only considered to have charged if a card goes into your hero’s soul from a card with charge. Having a card go into your hero’s soul from another method is not the same.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Blood Debt",
+    ruling:
+      "\nYou only lose life at the end phase. Players do not have priority during the end phase.\n\u203B\n If you have multiple cards with blood debt, you lose 1{h} for each instance of blood debt at the end of turn.\n\u203B\n Only face-up cards banished with blood debt counts and will lose you {h}. Face-down banished cards have no effects or stats.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Spellvoid",
+    ruling:
+      "\nSpellvoid does not go on the chain as it is not a trigger. It is a replacement effect. There is no opportunity to respond after the decision to destroy the card and prevent that damage.\n\u203B\n Spellvoid is optional. You choose whether to use spellvoid or not at the time the arcane damage resolves.\n\u203B\n If a card has Spellvoid 2 but only prevents 1 arcane damage, there will not be a leftover prevention shield. Note: It can only defend arcane damage from a single source, Spellvoid 2 cannot prevent one arcane damage each from two different sources.\n\u203B\n If a card dealing arcane damage is fully prevented by spellvoid (Or in conjunction with other preventions) it would not be considered to have dealt arcane damage and would not trigger effects that rely on arcane damage being dealt.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Fusion",
+    ruling:
+      "\nYou cannot reveal a card you are using to pitch to play the card. You pay resource costs before additional costs.\n\u203B\n You may still play the card without paying the additional cost of Fusion.\n\u203B\n You cannot reveal multiple cards to Fusion unless the card states you can (i.e a card with dual Fusion).\n\u203B\n You cannot reveal a card that does not fit the criteria i.e you cannot reveal an Ice card to a Lightning Fusion card.\n\u203B\n An Elemental card with Lightning Fusion is not a Lightning card/Element card. E.g you cannot fuse an Entwine Lightning with Entwine Lightning.\n\u203B\n Defending with a card is not the same as playing and therefore you cannot fuse while defending with a card with fusion. Note, defense reactions are played in order to defend, paying their cost to do so. You can fuse a defense reaction card that has Fusion.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Channel",
+    ruling:
+      "\nCards with the keyword ‘Fusion’ are not classified as their respective element. E.g a card with Lightning Fusion is not considered to be a Lightning card. Therefore cannot be used to pay the cost of ‘Channel’.\n\u203B\n You choose the order of the cards you put on the bottom of your deck. The cards that are put to the bottom are open information to your opponent while the order of the cards are hidden information from your opponent.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Essence",
+    ruling:
+      "\nAn Elemental Runeblade with essence of Earth and essence of Lightning can play with Generic cards, Elemental cards, Runeblade cards, Earth cards, Lightning cards and Elemental Runeblade cards. (Note: You cannot play with any card with the supertype Ice, as you do not have the supertype Ice or essence of Ice on your hero)\n\u203B\n Your hero must have the essence of Earth for you to play Earth cards but any Elemental hero can play Elemental cards with Earth Fusion. (You wouldn’t have any Earth cards to fuse it though)",
+    set: "KEYWORD",
+  },
+  {
+    name: "Heave",
+    ruling:
+      "\nHeave is a hidden triggered ability. The card must be be shown when the triggered effect is triggered for its effect to resolve.\n\u203B\n Heave triggers during the end phase of a turn. There is no priority in the phase to respond to Heave’s triggered layer.\n\u203B\n You cannot use heave from arsenal. Heave can only be used from hand.\n\u203B\n You do not need to play the card you heaved the following turn.\n\u203B\n If you decide to pay the cost, both the costs must be paid in full. You must pay the resource cost AND put the source card face up into an empty arsenal zone; you can not pay just one or the other.\n\u203B\n You cannot heave if you don’t have an empty arsenal zone.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Affliction",
+    ruling:
+      "\nIf an object with subtype affliction enters the arena, it enters the arena under the control of an opposing hero to the player that owns the card.\n\u203B\n When the control of an object changes, it does not change the owner of an object.\n\u203B\n When an object would be sent to the graveyard, it is sent to the owner’s graveyard regardless of the current controller.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Invocation",
+    ruling:
+      "\nIf a card with the subtype invocation resolves as a layer on the stack, it enters the arena flipped.\n\u203B\n The card face with the subtype invocation is considered the front-face for a double-faced card (DFC).\n\u203B\n When a DFC invocation is put into a zone other than the stack or the arena, it becomes a new object, and resets to using the front-face to determine its properties (e.g. when it is sent to the graveyard, a DFC will revert to being an invocation again)",
+    set: "KEYWORD",
+  },
+  {
+    name: "Quell",
+    ruling:
+      "\nQuell is a static ability that generates a fixed-prevention effect.\n\u203B\n The prevention effect is optional. When the effect is applied, the controller chooses whether to pay the amount. If they do, the prevention effect reduces the damage, and creates a delayed triggered-effect that destroys the source object at the beginning of the End Phase.\n\u203B\n If another prevention effect reduces a damage event to 0, the replacement condition is no longer met (damage would not be dealt), so Quell would not apply.\n\u203B\n The prevention amount applies to a single damage event. The leftover prevention amount does not apply to any future damage that would be dealt to your hero.\n\u203B\n If the damage prevention can not be applied due to an effect, the delayed triggered effect is still created as part of the replacement effect application and will still destroy the source at the beginning of the End Phase.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Ward",
+    ruling:
+      "\nWard is a static ability that generates a fixed-prevention effect.\n\u203B\n The prevention effect is not optional. It applies whenever damage would be dealt to your hero.\n\u203B\n If another prevention effect reduces a damage event to 0, the replacement condition is no longer met (damage would not be dealt), so Ward would not apply.\n\u203B\n The prevention amount applies to a single damage event. The leftover prevention amount does not apply to any future damage that would be dealt to your hero.\n\u203B\n If the damage prevention can not be applied due to an effect, the object with Ward on it is still destroyed as part of the replacement effect application.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Transform",
+    ruling:
+      "\nTransform is a discrete effect.\n\u203B\n To transform subject objects into a specified object, first create the specified object in the arena if it does not yet exist, then put the subjects under it.\n\u203B\n To transform objects into a token that does not exist yet, first create the token, then put the objects underneath it.\n\u203B\n To transform objects into an existing permanent, just put the objects underneath it.\n\u203B\n When used in conjunction with cards that flip (e.g. Invocations), the card is first flipped and becomes a permanent in the arena, then the transform will refer to that permanent as the specified object to transform into (the permanent to put cards under).\n\u203B\n The transform fails if there are no transform subjects, or if they can not be put under the specified object for whatever reason.",
+    set: "KEYWORD",
+  },
+  {
+    name: "Freeze",
+    ruling:
+      "\nFreeze is a continuous effect.\n\u203B\n An object under the effect of “freeze” is considered frozen.\n\u203B\n A frozen object can not be played and its activated abilities can not be activated until it is no longer frozen.\n\u203B\n It is recommended that frozen objects should be physically indicated by the use of a counter or token on the object, or by orienting the object in a way that clearly communicates that it is frozen.\n\u203B\n If the effect “unfreeze” applies to an object, that object is no longer frozen and the freeze effect ends.",
+    set: "KEYWORD",
+  },
 ];
 
 export default cardData;
