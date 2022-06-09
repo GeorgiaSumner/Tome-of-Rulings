@@ -2,8 +2,8 @@ import React from "react";
 import { Text, View, Image } from "react-native";
 import styles from "../styles.js";
 
-const Footer = ({ cards }) => {
-  if (cards.length > 0) {
+const Footer = ({ cards, booster }) => {
+  if (cards.length > 0 || booster !== "All") {
     return (
       <View style={styles.footer}>
         <View style={styles.footerCredits}>
