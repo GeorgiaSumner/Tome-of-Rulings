@@ -1,17 +1,18 @@
 import React from "react";
 import { View } from "react-native";
 import { Picker } from "@react-native-picker/picker";
+import styles from "../styles.js";
 
 const Dropdown = ({ setBooster, booster }) => {
   return (
-    <View>
+    <View style={styles.header}>
       <Picker
         onValueChange={(value) => setBooster(value)}
         selectedValue={booster}
         mode="dropdown"
       >
-        <Picker.Item label="All Sets" value="All" />
-        <Picker.Item label="KeyWords" value="KEYWORD" />
+        <Picker.Item label="All Cards" value="All" />
+        <Picker.Item label="Key Words" value="KEYWORD" />
         <Picker.Item label="Welcome to Rathe" value="WTR" />
         <Picker.Item label="Arcane Rising" value="ARC" />
         <Picker.Item label="Crucible of War" value="CRU" />

@@ -13,7 +13,7 @@ const SearchBar = ({ setSearch }) => {
         autoCorrect={false}
         clearButtonMode="always"
         onChangeText={handleSearch}
-        placeholder="Search"
+        placeholder="Search..."
         style={{ backgroundColor: "#fff", paddingHorizontal: 20 }}
       />
     </View>

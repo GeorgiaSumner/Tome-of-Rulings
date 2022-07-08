@@ -9,7 +9,7 @@ const Footer = ({ cards, booster }) => {
         <View style={styles.footerCredits}>
           <Text style={styles.footerText}>Proudly tested by</Text>
           <Image
-            source={require("../images/srtcglogo.png")}
+            source={require("../images/srtcglogo.webp")}
             style={styles.logo}
           />
         </View>
@@ -19,7 +19,7 @@ const Footer = ({ cards, booster }) => {
   return (
     <View style={styles.homePage}>
       <Image
-        source={require("../images/KanoCover.png")}
+        source={require("../images/KanoCover.webp")}
         style={styles.coverImage}
       />
       <View style={styles.disclaimerContainer}>

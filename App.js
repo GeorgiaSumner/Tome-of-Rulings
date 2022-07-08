@@ -1,72 +1,29 @@
-import React, { useState, useEffect } from "react";
-import { Text, View, FlatList, Image, ImageBackground } from "react-native";
+import React, { useState } from "react";
+import { View, Image, ImageBackground } from "react-native";
 import Search from "./components/SearchBar.js";
-import Footer from "./components/Footer.js";
-//import Dropdown from "./components/Dropdown.js";
-import cardData from "./cardData.js";
+import Dropdown from "./components/Dropdown.js";
+import CardDisplay from "./components/CardDisplay.js";
 import styles from "./styles";
 
 export default function App() {
-  const [cards, setCards] = useState([]);
   const [searchTerm, setSearch] = useState("");
   const [booster, setBooster] = useState("All");
-
-  //Filters
-
-  useEffect(() => {
-    let limit =
-      booster !== "All" || searchTerm.length > 2
-        ? Infinity
-        : searchTerm
-        ? 10
-        : 0;
-    const results = cardData.filter((card) =>
-      card.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-
-    let filteredResults =
-      booster === "All"
-        ? results
-        : results.filter((card) => card.set === booster);
-
-    const limitedArray = filteredResults.slice(0, limit);
-
-    setCards(limitedArray);
-  }, [searchTerm]);
 
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require("./images/cruBackground.png")}
+        source={require("./images/cruBackground.webp")}
         style={styles.background}
         resizeMode="cover"
       >
         <Image
-          source={require("./images/titleText.png")}
+          source={require("./images/titleText.webp")}
           style={styles.title}
         />
         <Search setSearch={setSearch} />
-
-        <FlatList
-          data={cards}
-          renderItem={({ item }) => (
-            <View style={styles.list}>
-              <View style={styles.listItem}>
-                <Image
-                  source={item.cardImage}
-                  style={item.cardImage ? styles.cards : ""}
-                />
-                <Text style={styles.listItemTitle}>{item.name}</Text>
-                <Text style={styles.description}>{item.ruling}</Text>
-              </View>
-            </View>
-          )}
-          keyExtractor={(item, index) => index.toString()}
-          ListFooterComponent={<Footer cards={cards} booster={booster} />}
-        />
+        <Dropdown setBooster={setBooster} booster={booster} />;
+        <CardDisplay searchTerm={searchTerm} booster={booster} />
       </ImageBackground>
     </View>
   );
 }
-
-//<Dropdown setBooster={setBooster} booster={booster} />
