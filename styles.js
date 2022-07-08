@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     flex: 1,
     left: 0,
-    top: 0,
+    top: 35,
     width: Dimensions.get("window").width,
     height: Dimensions.get("window").height,
   },
@@ -21,22 +21,23 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   list: {
-    padding: 25,
-    margin: -5,
+    padding: 10,
+    margin: 5,
   },
   title: {
     marginLeft: 40,
     width: 300,
     height: 50,
-    marginTop: 60,
+    marginTop: 40,
     marginBottom: 25,
   },
   header: {
     backgroundColor: "#fff",
-    padding: 10,
+    padding: 5,
     borderRadius: 20,
     marginHorizontal: 25,
-    marginBottom: 30,
+    marginBottom: 20,
+    justifyContent: "center",
   },
   listItem: {
     padding: 30,
@@ -93,6 +94,8 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(0, 0, 0, 0.7)",
     padding: 10,
   },
+
+  dropdown: { height: 30 },
 });
 
 export default styles;

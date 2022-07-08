@@ -10,6 +10,7 @@ const Dropdown = ({ setBooster, booster }) => {
         onValueChange={(value) => setBooster(value)}
         selectedValue={booster}
         mode="dropdown"
+        style={styles.dropdown}
       >
         <Picker.Item label="All Cards" value="All" />
         <Picker.Item label="Key Words" value="KEYWORD" />

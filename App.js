@@ -21,7 +21,7 @@ export default function App() {
           style={styles.title}
         />
         <Search setSearch={setSearch} />
-        <Dropdown setBooster={setBooster} booster={booster} />;
+        <Dropdown setBooster={setBooster} booster={booster} />
         <CardDisplay searchTerm={searchTerm} booster={booster} />
       </ImageBackground>
     </View>

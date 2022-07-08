@@ -8,16 +8,12 @@ const CardDisplay = ({ searchTerm, booster }) => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
-    console.log(searchTerm.length);
     let limit =
       booster !== "All" || searchTerm.length > 2
         ? Infinity
         : searchTerm
         ? 10
         : 0;
-
-    console.log(limit);
-    console.log(searchTerm);
     const results = cardData.filter((card) =>
       card.name.toLowerCase().includes(searchTerm.toLowerCase())
     );

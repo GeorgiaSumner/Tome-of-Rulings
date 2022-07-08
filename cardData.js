@@ -4261,7 +4261,7 @@ const cardData = [
     name: "Blood of the Dracai",
     ruling:
       "\nThe cost reduction does not apply to the card it is being pitched to pay for, as its triggered effect only resolves after that card is played, not during it being played.\n\u203B\n The cost reduction does not apply to activated abilities, such as those on Draconic weapons or equipment.\n\u203B\n You can not play or defend with Blood of the Dracai because it does not have a cost or defense property.",
-    //==cardImage: require("./images/BloodOfTheDracai.webp"),
+    cardImage: require("./images/BloodOfTheDracai.webp"),
     set: "UPR",
   },
   {
@@ -4387,21 +4387,21 @@ const cardData = [
     name: "Dunebreaker Cenipai",
     ruling:
       "\nDunebreaker Cenipai must be on the stack or in the arena (not as a defending card) for its effect to trigger from being destroyed. If it is anywhere else when it is destroyed (such as the arsenal) its effect does not trigger.",
-    //cardImage: require("./images/DunebreakerCenipai.webp"),
+    cardImage: require("./images/DunebreakerCenipai.webp"),
     set: "UPR",
   },
   {
     name: "Dustup",
     ruling:
       "\nThe transform effect is not targeted. You do not need ash at the time you play Dustup, only once the effect of Dustup resolves. This means you can create an ash between hitting with Dustup and its effect resolving, and then turn that ash into an Aether Ashwing.\n\u203B\n The transform effect is optional. You may choose to transform 0 ash you control.",
-    //cardImage: require("./images/Dustup.webp"),
+    cardImage: require("./images/Dustup.webp"),
     set: "UPR",
   },
   {
     name: "Embermaw Cenipai",
     ruling:
       "\nEmbermaw Cenipai must be on the stack or in the arena (not as a defending card) for its effect to trigger from being destroyed. If it is anywhere else when it is destroyed (such as the arsenal) its effect does not trigger.",
-    //cardImage: require("./images/EmbermawCenipai.webp"),
+    cardImage: require("./images/EmbermawCenipai.webp"),
     set: "UPR",
   },
   {
@@ -4464,7 +4464,7 @@ const cardData = [
     name: "Combustion Point",
     ruling:
       "\nYou choose the non-equipment defending card when Combustion Point resolves, not when it is played.\n\u203B\n Banishing a non-equipment defending card is optional.\n\u203B\n If a non-equipment defending card is banished, it no longer contributes its defense value to the total defense for damage calculation.",
-    //cardImage: require("./images/CombustionPoint.webp"),
+    cardImage: require("./images/CombustionPoint.webp"),
     set: "UPR",
   },
   {
@@ -4492,7 +4492,7 @@ const cardData = [
     name: "Brand with Cinderclaw",
     ruling:
       "\nAttacks include both attack action cards and activated attacks.\n\u203B\n The effect only applies to the next attack on the current combat chain. If the combat chain closes, the effect will not apply to any attack.",
-    //cardImage: require("./images/BrandWithCinderclaw.webp"),
+    cardImage: require("./images/BrandWithCinderclaw.webp"),
     set: "UPR",
   },
   {
@@ -4517,24 +4517,24 @@ const cardData = [
     set: "UPR",
   },
   {
-    name: "Soaring Strike",
+    name: "Searing Strike",
     ruling:
       "\nBanishing a card with cost less than the number of Draconic chain links you control is optional.\n\u203B\n If you banish a card and do not play it this turn, it remains banished.\n\u203B\n A draconic chain link you control is a chain link on the combat chain created by you playing an attack action card or activating an attack ability with the talent “draconic”.\n\u203B\n Soaring Strike is considered a draconic chain link you control for the purposes of its own effect.\n\u203B\n You are still considered to control a (draconic) chain link, even if the attack is no longer on the combat chain. Last Information is used to determine the type of a chain link.",
-    //cardImage: require("./images/SoaringStrike.webp"),
+    cardImage: require("./images/SearingStrike.webp"),
     set: "UPR",
   },
   {
     name: "Flamescale Furnace",
     ruling:
       "\nA red card is a card with a red color bar (usually at the top of the card).\n\u203B\n If you pitch a red card to activate Flamescale Furnace, it will be considered as a red card in the pitch when the activated ability resolves.",
-    //cardImage: require("./images/FlamescaleFurnace.webp"),
+    cardImage: require("./images/FlamescaleFurnace.webp"),
     set: "UPR",
   },
   {
     name: "Sash of Sandikai",
     ruling:
       "\nA red card is a card with a red color bar (usually at the top of the card).\n\u203B\n You can not activate this card to pay for the first red card you play this turn. The card has to be considered played (and paid for) before Sash of Sandikai is activated.",
-    //cardImage: require("./images/SashOfSandikai.webp"),
+    cardImage: require("./images/SashOfSandikai.webp"),
     set: "UPR",
   },
   {
@@ -4583,14 +4583,14 @@ const cardData = [
     name: "Blaze Headlong",
     ruling:
       "\nA red card is a card with a red color bar (usually at the top of the card).\n\u203B\n As long as you play a red card before the link step of combat, Blaze Headlong will have go again and grant you an action point.",
-    //cardImage: require("./images/BlazeHeadlong.webp"),
+    cardImage: require("./images/BlazeHeadlong.webp"),
     set: "UPR",
   },
   {
     name: "Breaking Point",
     ruling:
       "\nTo play Breaking Point as chain link 4 or higher, there must already be 3 chain links on the combat chain before you play this.",
-    //cardImage: require("./images/BreakingPoint.webp"),
+    cardImage: require("./images/BreakingPoint.webp"),
     set: "UPR",
   },
   {
@@ -4632,7 +4632,7 @@ const cardData = [
     name: "Searing Touch",
     ruling:
       "\nTo play Searing Touch as chain link 4 or higher, there must already be 3 chain links on the combat chain before you play this.\n\u203B\n You may select any target that can be dealt damage as the target of the damage, including both allies and heroes.",
-    //cardImage: require("./images/SearingTouch.webp"),
+    cardImage: require("./images/SearingTouch.webp"),
     set: "UPR",
   },
   {
@@ -4667,14 +4667,14 @@ const cardData = [
     name: "Freezing Point",
     ruling:
       "\nYou can only target heroes as the target for the arcane damage.\n\u203B\n The value of X is determined at the time Freezing Point resolves as a card on the stack.\n\u203B\n A frozen card in arsenal is not controlled by a hero and does not count towards the value of X.",
-    //cardImage: require("./images/FreezingPoint.webp"),
+    cardImage: require("./images/FreezingPoint.webp"),
     set: "UPR",
   },
   {
     name: "Sigil of Permafrost",
     ruling:
       "\nThis is a triggered effect that triggers the next time you deal arcane damage (including a weapon activated ability), not whether the next card you play deals arcane damage.",
-    //cardImage: require("./images/SigilOfPermafrost.webp"),
+    cardImage: require("./images/SigilOfPermafrost.webp"),
     set: "UPR",
   },
   {
@@ -4688,21 +4688,21 @@ const cardData = [
     name: "Succumb to Winter",
     ruling:
       "\nYou may select any target that can be dealt damage as the target of the arcane damage, including both allies and heroes.\n\u203B\n The conditional effect of Succumb to Winter is not dependent on damage. If it is fused, it destroys a frozen arsenal/ally even if it doesn’t deal damage.\n\u203B\n If Succumb to Winter is fused and targets a frozen ally, it deals damage to that ally before the effect attempts to destroy it.",
-    //cardImage: require("./images/SuccumbToWinter.webp"),
+    cardImage: require("./images/SuccumbToWinter.webp"),
     set: "UPR",
   },
   {
     name: "Aether Icevein",
     ruling:
       "\nYou may select any target that can be dealt damage as the target of the arcane damage, including both allies and heroes.\n\u203B\n If a player has no cards in hand but resources available, they can still choose to discard a card instead of paying resources.",
-    //cardImage: require("./images/AetherIcevein.webp"),
+    cardImage: require("./images/AetherIcevein.webp"),
     set: "UPR",
   },
   {
     name: "Brain Freeze",
     ruling:
       "\nThe fuse effect of Brain Freeze is not optional. You must select a card if possible.\n\u203B\n Action cards include any card with the type “Action”.\n\u203B\n The opponent can not respond between revealing their hand and you selecting a card to put on top of their deck.",
-    //cardImage: require("./images/BrainFreeze.webp"),
+    cardImage: require("./images/BrainFreeze.webp"),
     set: "UPR",
   },
   {
@@ -4716,14 +4716,14 @@ const cardData = [
     name: "Polar Cap",
     ruling:
       "\nYou may select any target that can be dealt damage as the target of the arcane damage, including both allies and heroes.",
-    //cardImage: require("./images/PolarCap.webp"),
+    cardImage: require("./images/PolarCap.webp"),
     set: "UPR",
   },
   {
     name: "Conduit of Frostburn",
     ruling:
       "\nThis effect does not apply to activated abilities that deal arcane damage (such as Waning Moon)\n\u203B\n If there are multiple frozen cards in their arsenal, you choose which one to destroy. Players may not shuffle or change the positioning of facedown arsenal cards. Players must be able to tell which one was more recent if there are multiple face-down arsenal cards.\n\u203B\n Conduit of Frostburn’s ability can be activated on the same turn Quell is used, as Quell will not destroy Conduit of Frostburn until the end of the turn.",
-    //cardImage: require("./images/ConduitOfFrostburn.webp"),
+    cardImage: require("./images/ConduitOfFrostburn.webp"),
     set: "UPR",
   },
   {
@@ -4737,14 +4737,14 @@ const cardData = [
     name: "Aether Hail",
     ruling:
       "\nYou may select any target that can be dealt damage as the target of the arcane damage, including both allies and heroes.",
-    //cardImage: require("./images/AetherHail.webp"),
+    cardImage: require("./images/AetherHail.webp"),
     set: "UPR",
   },
   {
     name: "Frosting",
     ruling:
       "\nYou may select any target that can be dealt damage as the target of the arcane damage, including both allies and heroes.",
-    //cardImage: require("./images/Frosting.webp"),
+    cardImage: require("./images/Frosting.webp"),
     set: "UPR",
   },
   {
@@ -4758,14 +4758,14 @@ const cardData = [
     name: "Coronet Peak",
     ruling:
       "\nThe activated ability does not have go again and requires an action point to be activated.\n\u203B\n If the target hero has no cards in hand they can still elect to discard a card instead of paying {r}.",
-    //cardImage: require("./images/CoronetPeak.webp"),
+    cardImage: require("./images/CoronetPeak.webp"),
     set: "UPR",
   },
   {
     name: "Glacial Horns",
     ruling:
       "\nThe hero, the card in their arsenal, and the ally they control are chosen on the resolution of the activated ability.\n\u203B\n The freeze effect is optional. You may choose to freeze 0 cards and/or allies of the chosen hero.",
-    //cardImage: require("./images/GlacialHorns.webp"),
+    cardImage: require("./images/GlacialHorns.webp"),
     set: "UPR",
   },
   {
@@ -4786,14 +4786,14 @@ const cardData = [
     name: "Insidious Chill",
     ruling:
       "\nThe triggered effect of Insidious Chill resolves before the card with Ice fusion resolves.\n\u203B\n If the target hero has no cards in hand they can still elect to discard a card instead of paying {r}{r}.\n\u203B\n This is not a optional effect. Insidious Chill triggers each time you Ice fuse.\n\u203B\n This is not a once per turn effect. Insidious Chill triggers each time you Ice fuse, even in a single turn.\n\u203B\n Insidious Chill is destroyed as soon as it does not have any frost counters on it. You cannot respond to your own Ice Fuse with another Ice Fuse to gain the Insidious Chill effect if it does not have any frost counters left.",
-    //cardImage: require("./images/InsidiousChill.webp"),
+    cardImage: require("./images/InsidiousChill.webp"),
     set: "UPR",
   },
   {
     name: "Isenhowl Weathervane",
     ruling:
       "\nThe triggered effect of Isenhowl Weathervane resolves before the card with Ice fusion resolves.",
-    //cardImage: require("./images/IsenhowlWeathervane.webp"),
+    cardImage: require("./images/IsenhowlWeathervane.webp"),
     set: "UPR",
   },
   {
@@ -4814,7 +4814,7 @@ const cardData = [
     name: "Silent Stilettos",
     ruling:
       "\nIf an attacking ally is removed from the arena by its life total being reduced to zero or an effect that destroys it, it counts as dying.\n\u203B\n An ally is considered to be attacking when its attack ability resolves as a layer on the stack and you move from the layer step of combat to the attack step of combat.",
-    //cardImage: require("./images/SilentStilettos.webp"),
+    cardImage: require("./images/SilentStilettos.webp"),
     set: "UPR",
   },
   {
@@ -4828,7 +4828,7 @@ const cardData = [
     name: "Semblance",
     ruling:
       "\nIf phantasm has already been triggered, the triggered-layers it has put onto the stack cease to exist. After Semblance has resolved, the attack can not be destroyed by its own phantasm effect.\n\u203B\n Semblance can target any Illusionist attack including allies, weapon attacks, attack action cards and even Illusionist attacks that do not have phantasm.",
-    //cardImage: require("./images/Semblance.webp"),
+    cardImage: require("./images/Semblance.webp"),
     set: "UPR",
   },
   {
@@ -4842,14 +4842,14 @@ const cardData = [
     name: "Tiger Stripe Shuko",
     ruling:
       "\nIf a prevention effect tries to prevent damage while Tiger Stripe Shuko would stop damage from being prevented, each replacement effect will still try to do everything else other than preventing that damage. E.g. a card with Ward would still be destroyed.\n\u203B\n Players can still attempt to prevent damage (apply optional prevention effects) even when the damage cannot be prevented.\n\u203B\n An ongoing-prevention effect does not have its prevention amount reduced when the effect does not actually prevent any amount of damage.\n\u203B\n The base power of a card is determined by the printed power which is typically located at the bottom left of the card.\n\u203B\n Tiger Stripe Shuko counts the attacks played in a turn and not number of chain links. If the combat chain has been broken, but a 2 base {p} attack action card has been played, the second one will still gain the effect from Tiget Stripe Shuko.",
-    //cardImage: require("./images/TigerStripeShuko.webp"),
+    cardImage: require("./images/TigerStripeShuko.webp"),
     set: "UPR",
   },
   {
     name: "Tide Flippers",
     ruling:
       "\nThe base power of a card is determined by the printed power which is typically located at the bottom left of the card.",
-    //cardImage: require("./images/TideFlippers.webp"),
+    cardImage: require("./images/TideFlippers.webp"),
     set: "UPR",
   },
   {
@@ -4884,7 +4884,7 @@ const cardData = [
     name: "Tome of Duplicity",
     ruling:
       "\nThe base {p} of a card is typically determined by the printed {p} on the bottom left of a card. This effect overrides and sets the base power of a card, before any other modifications to the base power apply.\n\u203B\n The attack action card affected retains it’s other supertyes (classes and talents)",
-    //cardImage: require("./images/TomeOfDuplicity.webp"),
+    cardImage: require("./images/TomeOfDuplicity.webp"),
     set: "UPR",
   },
   {
@@ -4898,28 +4898,28 @@ const cardData = [
     name: "Dampen",
     ruling:
       "\nYou may select any target that can be dealt damage as the target of the arcane damage, including both allies and heroes.\n\u203B\n Dampen’s prevention effect is an ongoing-prevention effect, where any remaining prevention amount will apply to the next arcane damage event that turn.",
-    //cardImage: require("./images/Dampen.webp"),
+    cardImage: require("./images/Dampen.webp"),
     set: "UPR",
   },
   {
     name: "Aether Dart",
     ruling:
       "\nYou may select any target that can be dealt damage as the target of the arcane damage, including both allies and heroes.",
-    //cardImage: require("./images/AetherDart.webp"),
+    cardImage: require("./images/AetherDart.webp"),
     set: "UPR",
   },
   {
     name: "Read the Ripples",
     ruling:
       "\nThe “opt 1” is performed in its entirety before the next effect. You must look at the top card, then put it to the top or bottom before you repeat the process for the next opt 1 effect.\n\u203B\n You draw the card at the beginning of the end phase. This is before you arsenal a card and draw up to your intellect. You may arsenal the card you draw if you do not already have a card in arsenal.",
-    //cardImage: require("./images/ReadTheRipples.webp"),
+    cardImage: require("./images/ReadTheRipples.webp"),
     set: "UPR",
   },
   {
     name: "Singe",
     ruling:
       "\nEffects that modify arcane damage (e.g. Crucible of Aetherweave) modifies the damage dealt to all targets by Singe.\n\u203B\n The ally targets are optional. You may choose to deal damage to 0 allies the hero controls.",
-    //cardImage: require("./images/Singe.webp"),
+    cardImage: require("./images/Singe.webp"),
     set: "UPR",
   },
   {
@@ -4947,7 +4947,7 @@ const cardData = [
     name: "Vipox",
     ruling:
       "\nThe number of cards is determined at the time the triggered effect resolves.\n\u203B\n The loss of life cannot be prevented by prevention effects.",
-    //cardImage: require("./images/Vipox.webp"),
+    cardImage: require("./images/Vipox.webp"),
     set: "UPR",
   },
   {
@@ -4961,48 +4961,48 @@ const cardData = [
     name: "Fog Down",
     ruling:
       "\nFog Down affects all heroes, not just opposing heroes.\n\u203B\n If Fog of War gained go again, it would lose go again from its own effect.\n\u203B\n Fog Down retroactively affects ‘non-attack’ action cards that have already gained go again.",
-    //cardImage: require("./images/FogDown.webp"),
+    cardImage: require("./images/FogDown.webp"),
     set: "UPR",
   },
   {
     name: "Flex",
     ruling:
       "\nIf Flex defends a phantasm card and it’s {p} is increased to 6 or more, it will destroy the phantasm attack.",
-    //cardImage: require("./images/Flex.webp"),
+    cardImage: require("./images/Flex.webp"),
     set: "UPR",
   },
   {
     name: "Fyendal's Fighting Spirit",
     ruling:
       "\nFyendal's Fighting Spirit checks if you are lower life at the time you defend, you have not taken damage from the attack yet as damage calculation comes after.",
-    //cardImage: require("./images/FyendalsFightingSpirit.webp"),
+    cardImage: require("./images/FyendalsFightingSpirit.webp"),
     set: "UPR",
   },
   {
     name: "Sift",
     ruling:
       "\nThis effect is optional. You may choose to put 0 cards to the bottom of your deck. If you don’t draw any cards.",
-    //cardImage: require("./images/Sift.webp"),
+    cardImage: require("./images/Sift.webp"),
     set: "UPR",
   },
   {
     name: "Strategic Planning",
     ruling:
       "\nYou draw the card at the beginning of the end phase. This is before you arsenal a card and draw up to your intellect. You may arsenal the card you draw if you do not already have a card in arsenal.\n\u203B\n You can choose an opponent’s card in their graveyard.",
-    //cardImage: require("./images/StrategicPlanning.webp"),
+    cardImage: require("./images/StrategicPlanning.webp"),
     set: "UPR",
   },
   {
     name: "Trade In",
     ruling:
       "\nThe discard effect is optional. You may choose not to do it. If you don’t you do not draw a card.",
-    //cardImage: require("./images/TradeIn.webp"),
+    cardImage: require("./images/TradeIn.webp"),
     set: "UPR",
   },
   {
     name: "Oasis Respite",
     ruling:
-      "\nOasis Respite’s prevention effect is an ongoing-prevention effect, where any remaining prevention amount will apply to the next arcane damage event that turn.\n\u203B\n You do not have to target your own hero.\n\u203B\n The life gain is optional.",
+      "\nOasis Respite’s prevention effect is an ongoing-prevention effect, where any remaining prevention amount will apply to the next damage event that turn.\n\u203B\n You do not have to target your own hero.\n\u203B\n The life gain is optional.",
     cardImage: require("./images/OasisRespite.webp"),
     set: "UPR",
   },
