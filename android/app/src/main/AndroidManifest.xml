@@ -29,6 +29,6 @@
         <data android:scheme="com.xenoliner.TomeOfRulings"/>
       </intent-filter>
     </activity>
-    <activity android:name="Tome of Rulings" android:windowSoftInputMode="adjustPan"/>
+    <activity android:name="Tome_of_Rulings" android:windowSoftInputMode="adjustPan"/>
   </application>
 </manifest>
